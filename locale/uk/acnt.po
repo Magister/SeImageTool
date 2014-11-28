@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-01-13 15:41\n"
+"PO-Revision-Date: 2008-01-13 15:41\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+
+msgid "&Abort"
+msgstr "&Аварійне завершення"
+
+msgid "&All"
+msgstr "&Всі"
+
+msgid "&Gradient builder..."
+msgstr "&Побудовник градієнту..."
+
+msgid "&Help"
+msgstr "&Допомога"
+
+msgid "&Hot gradient builder..."
+msgstr "&Побудовник <активного> градієнту..."
+
+msgid "&Ignore"
+msgstr "&Ігнорувати"
+
+msgid "&No"
+msgstr "&Ні"
+
+msgid "&Panels..."
+msgstr "&Панелі..."
+
+msgid "&Retry"
+msgstr "&Повторити"
+
+msgid "&Yes"
+msgstr "&Так"
+
+msgid "(internal)"
+msgstr "(внутрішня)"
+
+msgid "Add to custom colors set"
+msgstr "Додати в свій набір"
+
+msgid "Additional colors :"
+msgstr "Додатковий набір кольорів :"
+
+msgid "Arrow length"
+msgstr "Довжина указ."
+
+msgid "Available skins"
+msgstr "Доступні оболонки"
+
+msgid "Background"
+msgstr "Фон"
+
+msgid "Bevel width"
+msgstr "Ширина краю"
+
+msgid "Blue :"
+msgstr "Синій :"
+
+msgid "Blur"
+msgstr "Розмиття"
+
+msgid "Bottom border"
+msgstr "Нижній край"
+
+msgid "Calculator"
+msgstr "Калькулятор"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "Close"
+msgstr "Закрити"
+
+msgid "Color"
+msgstr "Колір"
+
+msgid "Confirm"
+msgstr "Підтвердження"
+
+msgid "Corners radius"
+msgstr "Заокруглення"
+
+msgid "Create"
+msgstr "Створити"
+
+msgid "Decimal - "
+msgstr "Десяткове - "
+
+msgid "Define colors"
+msgstr "Визначити кольори"
+
+msgid "Details"
+msgstr "Таблиця"
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid "Error setting %s.Count"
+msgstr "Error setting %s.Count"
+
+msgid "File name"
+msgstr "Назва файлу:"
+
+msgid "File open"
+msgstr "Відкриття файлу"
+
+msgid "File type"
+msgstr "Тип файлів:"
+
+msgid "Folder"
+msgstr "Тека:"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Gradient"
+msgstr "Градієнт"
+
+msgid "Green :"
+msgstr "Зелений :"
+
+msgid "Help"
+msgstr "Допомога"
+
+msgid "Hex - "
+msgstr "Шістнадцяткове - "
+
+msgid "Hint Designer Form"
+msgstr "Дизайнер підказок"
+
+msgid "Horiz. margin"
+msgstr "Гориз. відступ"
+
+msgid "Icons"
+msgstr "Значки"
+
+msgid "Information"
+msgstr "Інформація"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Listbox (%s) style must be virtual in order to set Count"
+msgstr "Listbox (%s) style must be virtual in order to set Count"
+
+msgid "Load from file"
+msgstr "Завантажити файл"
+
+msgid "Main palette :"
+msgstr "Основна палітра :"
+
+msgid "Max width"
+msgstr "Макс. шир."
+
+msgid "Maximize"
+msgstr "Розгорнути"
+
+msgid "Minimize"
+msgstr "Згорнути"
+
+msgid "Move"
+msgstr "Перемістити"
+
+msgid "N&o to All"
+msgstr "Н&і для всіх"
+
+msgid "No help available"
+msgstr "Допомога відсутня"
+
+msgid "No picture available"
+msgstr "Немає доступного зображення"
+
+msgid "OK"
+msgstr "Гаразд"
+
+msgid "Offset"
+msgstr "Зміщення"
+
+msgid "Open"
+msgstr "Відкрити"
+
+msgid "Pause hide (ms)"
+msgstr "Затримка (ms)"
+
+msgid "Percent"
+msgstr "Відсоток"
+
+msgid "Preserved settings :"
+msgstr "Стд. налаштування:"
+
+msgid "Preview of the future hint window"
+msgstr "Вікно попереднього перегляду"
+
+msgid "Read only"
+msgstr "Тільки читання"
+
+msgid "Red :"
+msgstr "Червоний :"
+
+msgid "Restore"
+msgstr "Відновити"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Save to file as..."
+msgstr "Зберегти..."
+
+msgid "Select directory"
+msgstr "Вибрати теку"
+
+msgid "Shadow"
+msgstr "Тінь"
+
+msgid "Size"
+msgstr "Змінити розмір"
+
+msgid "Small icons"
+msgstr "Маленькі значки"
+
+msgid "Style :"
+msgstr "Стиль :"
+
+msgid "Texture"
+msgstr "Текстура"
+
+msgid "Top border"
+msgstr "Верхн. край"
+
+msgid "Transparency"
+msgstr "Прозорість"
+
+msgid "TsFrameAdapter adapter must be placed on the handled frame"
+msgstr "Компонент TsFrameAdapter повинен знаходитись на відповідному TFrame"
+
+msgid "Vert. margin"
+msgstr "Верт. відступ"
+
+msgid "Warning"
+msgstr "Увага"
+
+msgid "Yes to &All"
+msgstr "Так д&ля всіх"

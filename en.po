@@ -1,0 +1,4252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-01-13 00:12\n"
+"PO-Revision-Date: 2008-01-13 15:40\n"
+"Last-Translator: Magister <misha.cn.ua@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+
+#. fmMain..Caption
+#: uMain.dfm:6
+msgid "SE db2020 Image Tool"
+msgstr ""
+
+#. fmMain..Font.Name
+#: uMain.dfm:13
+#. fmMain..sPanel1..sLabel1..Font.Name
+#: uMain.dfm:77
+#. fmMain..sPanel1..sLabel2..Font.Name
+#: uMain.dfm:90
+#. fmMain..sPanel1..sLabel4..Font.Name
+#: uMain.dfm:104
+#. fmMain..sPanel1..sLabel3..Font.Name
+#: uMain.dfm:117
+#. fmMain..sPanel1..sLabel5..Font.Name
+#: uMain.dfm:157
+#. fmMain..sPanel1..seThumbHeight..Font.Name
+#: uMain.dfm:628
+#. fmMain..sPanel1..seThumbHeight..BoundLabel.Font.Name
+#: uMain.dfm:639
+#. fmMain..sPanel1..cbSkins..BoundLabel.Font.Name
+#: uMain.dfm:683
+#. fmMain..sPanel1..cbSkins..Font.Name
+#: uMain.dfm:695
+#. fmMain..sPanel1..seLoadFrom..Font.Name
+#: uMain.dfm:712
+#. fmMain..sPanel1..seLoadFrom..BoundLabel.Font.Name
+#: uMain.dfm:722
+#. fmMain..sPanel1..seLoadTo..Font.Name
+#: uMain.dfm:740
+#. fmMain..sPanel1..seLoadTo..BoundLabel.Font.Name
+#: uMain.dfm:750
+#. fmMain..sPanel1..cbLanguage..BoundLabel.Font.Name
+#: uMain.dfm:769
+#. fmMain..sPanel1..cbLanguage..Font.Name
+#: uMain.dfm:781
+#. fmMain..sPanel2..lbImages..BoundLabel.Font.Name
+#: uMain.dfm:820
+#. fmMain..sPanel2..lbImages..Font.Name
+#: uMain.dfm:834
+#. fmMain..sPanel2..sPanel3..pnAbout..lbAbout..Font.Name
+#: uMain.dfm:976
+#. fmMain..sSkinManager1..MenuSupport.ExtraLineFont.Name
+#: uMain.dfm:22822
+#. fmWait..sLabelFX1..Font.Name
+#: uWaitForm.dfm:37
+msgid "Tahoma"
+msgstr ""
+
+#. fmMain..sbStatus......Text
+#: uMain.dfm:32
+#: uMain.pas:794
+#: uMain.pas:1115
+msgid "Очікування"
+msgstr "Waiting"
+
+#. fmMain..sbStatus..SkinData.SkinSection
+#: uMain.dfm:39
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2039
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4145
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4162
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9027
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15623
+msgid "STATUSBAR"
+msgstr ""
+
+#. fmMain..sbStatus..pbProgress..SkinData.SkinSection
+#: uMain.dfm:52
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1756
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3873
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3890
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3907
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9706
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13114
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14826
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16789
+msgid "GAUGE"
+msgstr ""
+
+#. fmMain..sPanel1..SkinData.SkinSection
+#: uMain.dfm:63
+#. fmMain..sPanel2..SkinData.SkinSection
+#: uMain.dfm:802
+#. fmMain..sPanel2..sPanel3..SkinData.SkinSection
+#: uMain.dfm:848
+#. fmMain..sPanel2..sPanel3..pnAbout..SkinData.SkinSection
+#: uMain.dfm:952
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2791
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8686
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16160
+#. fmMain..sSkinManager1..MenuSupport.IcoLineSkin
+#: uMain.dfm:22818
+msgid "ICOLINE"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel1..Caption
+#: uMain.dfm:72
+msgid "Розмір ескізів:"
+msgstr "Thumnail size:"
+
+#. fmMain..sPanel1..sLabel2..Caption
+#: uMain.dfm:85
+msgid "Діапазон обробки зображень"
+msgstr "Scan images between"
+
+#. fmMain..sPanel1..sLabel4..Caption
+#: uMain.dfm:99
+msgid "Зовнішній вигляд:"
+msgstr "Look&&feel:"
+
+#. fmMain..sPanel1..sLabel3..Caption
+#: uMain.dfm:112
+msgid "—"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel5..Caption
+#: uMain.dfm:152
+msgid "Мова:"
+msgstr "Language:"
+
+#. fmMain..sPanel1..btOpenFw..Hint
+#: uMain.dfm:165
+#: uMain.pas:1112
+msgid "Відкрити RAW-файл"
+msgstr "Open RAW file"
+
+#. fmMain..sPanel1..btOpenFw..Caption
+#: uMain.dfm:166
+#. fmMain.Enabled:=true;
+#: uMain.pas:1111
+msgid "Відкрити"
+msgstr "Open"
+
+#. fmMain..sPanel1..btOpenFw..SkinData.SkinSection
+#: uMain.dfm:268
+#. fmMain..sPanel1..btReplaceImg..SkinData.SkinSection
+#: uMain.dfm:380
+#. fmMain..sPanel1..btSaveImg..SkinData.SkinSection
+#: uMain.dfm:492
+#. fmMain..sPanel1..btSaveFw..SkinData.SkinSection
+#: uMain.dfm:505
+#. fmMain..sPanel1..btMakeVKP..SkinData.SkinSection
+#: uMain.dfm:616
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
+#: uMain.dfm:1150
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2512
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4723
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9421
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:12944
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14562
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:16032
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16414
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:19539
+msgid "BUTTON"
+msgstr ""
+
+#. fmMain..sPanel1..btReplaceImg..Hint
+#: uMain.dfm:276
+msgid "Замінити вибране зображення іншим"
+msgstr "Replace selected image"
+
+#. fmMain..sPanel1..btReplaceImg..Caption
+#: uMain.dfm:277
+msgid "Замінити"
+msgstr "Replace"
+
+#. fmMain..sPanel1..btSaveImg..Hint
+#: uMain.dfm:388
+msgid "Зберегти вибране зображення на диск"
+msgstr "Save selected image to disk"
+
+#. fmMain..sPanel1..btSaveImg..Caption
+#: uMain.dfm:389
+msgid "Зберегти на диск"
+msgstr "Save to disk"
+
+#. fmMain..sPanel1..btSaveFw..Caption
+#: uMain.dfm:501
+msgid "Записати файл"
+msgstr "Write file"
+
+#. fmMain..sPanel1..btMakeVKP..Hint
+#: uMain.dfm:512
+msgid "Зробити патч формату .vkp для заміни "
+"зображення"
+msgstr "Make .vkp patch"
+
+#. fmMain..sPanel1..btMakeVKP..Caption
+#: uMain.dfm:513
+msgid "Зробити .vkp"
+msgstr "Make .vkp"
+
+#. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
+#: uMain.dfm:634
+#. fmMain..sPanel1..seLoadFrom..SkinData.SkinSection
+#: uMain.dfm:717
+#. fmMain..sPanel1..seLoadTo..SkinData.SkinSection
+#: uMain.dfm:745
+#. fmMain..sPanel2..lbImages..SkinData.SkinSection
+#: uMain.dfm:825
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1377
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1662
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3635
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8562
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10840
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14893
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15592
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17231
+msgid "EDIT"
+msgstr ""
+
+#. fmMain..sPanel1..cbStretchPreview..Caption
+#: uMain.dfm:653
+msgid "Розтягнути перегляд"
+msgstr "Stretch preview"
+
+#. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
+#: uMain.dfm:656
+#. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
+#: uMain.dfm:669
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3169
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9487
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15936
+msgid "CHECKBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbFixColors..Caption
+#: uMain.dfm:665
+msgid "Виправити кольори та оптимізувати зображення"
+msgstr "Fix colors and optimize image"
+
+#. fmMain..sPanel1..cbSkins..SkinData.SkinSection
+#: uMain.dfm:688
+#. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
+#: uMain.dfm:774
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1661
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3822
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9223
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11078
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11095
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14892
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16806
+msgid "COMBOBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage..Text
+#: uMain.dfm:787
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:790
+msgid "English"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:791
+msgid "Українська"
+msgstr ""
+
+#. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
+#: uMain.dfm:808
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1221
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3499
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10315
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13437
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14726
+msgid "SPLITTER"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
+#: uMain.dfm:942
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2293
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4366
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4383
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4400
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8500
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10806
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15843
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17469
+msgid "BARPANEL"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnAbout..lbAbout....Caption
+#: uMain.dfm:969
+msgid "Ви можете розповсюджувати та використовувати програму безкоштовно, "
+"але НЕ МАЄТЕ права вносити зміни, В ТОМУ ЧИСЛІ перекладати її іншими "
+"мовами.\n"
+"Якщо програма вам сподобалася, підтримайте автора переказавши "
+"будь-яку суму на один з гаманців WebMoney:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 або EGold: "
+"4952803\n"
+"Про всі знайдені помилки, а також побажання щодо розвитку програми "
+"пишіть: misha.cn.ua@gmail.com\n"
+"Автор висловлює свою подяку ego та Hussein за інформацію щодо способу "
+"збереження зображень в телефонах.\n"
+" "
+msgstr "You can use and distribute software for free, but you SHOULD NOT \n"
+"modify it If you like this software, support author by sending some "
+"money to one of WebMoney wallets:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 or EGold: "
+"4952803\n"
+"If you find some bug, or have ideas on program development write me: "
+"misha.cn.ua@gmail.com\n"
+"A big THANKS to ego and Hussein for providing information on phone "
+"image format and location.\n"
+" "
+
+#. fmMain..sPanel2..sPanel3..Button1..Caption
+#: uMain.dfm:988
+#. Form1..Button1..Caption
+#: LZMA_Test/uMain.dfm:21
+msgid "Button1"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..Button2..Caption
+#: uMain.dfm:998
+msgid "Button2"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
+#: uMain.dfm:1011
+#. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
+#: uMain.dfm:1030
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1693
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3839
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8655
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10874
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16253
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17622
+msgid "GROUPBOX"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..Hint
+#: uMain.dfm:1046
+msgid "Відновити ориґінальне зображення"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..Caption
+#: uMain.dfm:1047
+msgid "Відновити"
+msgstr ""
+
+#. fmMain..OpenDialog1..Filter
+#: uMain.dfm:1156
+#. fmMain..SaveDialog1..Filter
+#: uMain.dfm:1161
+#: uMain.pas:884
+msgid "Файли RAW (*.raw)|*.raw|Всі файли (*.*)|*.*"
+msgstr "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+
+#. fmMain..OpenPictureDialog1..Filter
+#: uMain.dfm:1166
+#. fmMain..SavePictureDialog1..Filter
+#: uMain.dfm:1171
+msgid "Portable Network Graphics (*.png)|*.png"
+msgstr ""
+
+#. fmMain..sSkinManager1......Name
+#: uMain.dfm:1187
+#. fmMain..sSkinManager1..SkinName
+#: uMain.dfm:22825
+msgid "BlueGauze"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1190
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3227
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3244
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3261
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3278
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3295
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3312
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3329
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3346
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3363
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3380
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3397
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3414
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3431
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3448
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3465
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3482
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8469
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10534
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10551
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10568
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10585
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10602
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10619
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10636
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10653
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10670
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10687
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10704
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10721
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10738
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10755
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10772
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10789
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14530
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16534
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16551
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16568
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16585
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16602
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16619
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16636
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16653
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16670
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16687
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16704
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16721
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16738
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16755
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16772
+msgid "GLOBALINFO"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1200
+msgid "5391682 8484210 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1201
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1233
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1264
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1294
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1295
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1325
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1326
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1357
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1387
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1388
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1420
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1450
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1451
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1483
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1515
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1547
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1579
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1610
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1640
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1641
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1672
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1673
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1704
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1736
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1766
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1767
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1797
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1798
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1829
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1859
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1860
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1925
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1926
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1956
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1957
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1987
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1988
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2018
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2019
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2049
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2050
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2080
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2081
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2111
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2112
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2142
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2143
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2208
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2209
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2242
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2273
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2303
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2304
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2334
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2335
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2365
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2366
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2396
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2397
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2427
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2428
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2458
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2459
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2523
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2554
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2585
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2616
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2647
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2678
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2739
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2740
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2771
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2801
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2802
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2832
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2833
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2863
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2864
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2894
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2895
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2926
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2957
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2988
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:3019
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:3049
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:3050
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:3080
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:3081
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:3111
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:3112
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:3144
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:3145
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:3180
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8480
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8510
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8511
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8541
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8542
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8604
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8634
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8635
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8666
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8696
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8697
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8727
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8728
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8758
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8759
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8852
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8883
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8913
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8914
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8944
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8945
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8975
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8976
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9006
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9007
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9038
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9133
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9163
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9164
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9198
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9199
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9297
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9298
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9332
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9333
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9368
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9399
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9685
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9686
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9716
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9717
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10424
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10425
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10455
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10456
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10486
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10487
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14541
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14572
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14573
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14603
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14604
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14635
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14636
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14669
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14670
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14703
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14704
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14737
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14738
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14769
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14770
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14803
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14804
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14836
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14837
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14867
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14903
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14904
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14934
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14935
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14966
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14967
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14997
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14998
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15029
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15030
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15061
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15062
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15093
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15094
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15125
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15126
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15157
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15158
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15188
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15189
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15220
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15221
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15251
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15282
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15283
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15314
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15315
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15347
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15348
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15414
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15415
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15446
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15447
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15477
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15478
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15508
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15509
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15540
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15541
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15571
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15572
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15602
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15603
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15633
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15634
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15666
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15667
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15697
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15698
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15728
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15729
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15760
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15761
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15791
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15792
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15822
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15823
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15853
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15854
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15884
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15885
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15915
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15916
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15946
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15947
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15977
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15978
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16008
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16009
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16042
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16043
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16073
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16074
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16104
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16105
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16137
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16138
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16170
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16171
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16232
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16233
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16263
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16264
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16294
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16295
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16325
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16326
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16356
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16357
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16391
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16392
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16424
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16425
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16455
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16456
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16486
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16487
+msgid "0 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1204
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1215
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1267
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1278
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1298
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1309
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1329
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1340
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1391
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1402
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1454
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1613
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1624
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1676
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1687
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1707
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1718
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1801
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1812
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1843
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2053
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2225
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2245
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2287
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2307
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2318
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2338
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2349
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2473
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2588
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2681
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2692
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2712
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2723
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2743
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2754
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2816
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2847
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2867
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2878
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2898
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2909
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:3053
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:3064
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:3084
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:3095
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:3183
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:3194
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8483
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8494
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8525
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8545
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8556
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8576
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8587
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8607
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8618
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8649
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8669
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8680
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8711
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8731
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8742
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8762
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8773
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8793
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8804
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8824
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8835
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8855
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8866
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8886
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8897
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8917
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8928
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8948
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8959
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8979
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:8990
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9010
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9021
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9054
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9074
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9085
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9105
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9136
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9147
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9237
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9248
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9371
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9382
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9415
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9470
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9501
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9512
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9532
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9543
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9563
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9596
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9607
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9627
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9638
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9658
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9669
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9689
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9700
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9720
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9731
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9784
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9795
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9815
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9826
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9846
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9857
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9947
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10015
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10026
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10046
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10057
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10077
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10088
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10108
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10119
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10139
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10150
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10170
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10181
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10201
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10212
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10232
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10243
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10263
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10274
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10329
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10362
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10408
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10428
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10439
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10459
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10470
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:10490
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:10501
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14544
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14555
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14576
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14587
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14607
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14618
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14652
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14686
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14720
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14741
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14752
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14786
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14820
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14840
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14851
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14907
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14918
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14938
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14949
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:14970
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:14981
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15001
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15012
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15033
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15044
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15065
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15076
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15097
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15108
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15129
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15140
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15161
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15172
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15192
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15203
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15235
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15255
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15286
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15297
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15331
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15362
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15418
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15429
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15450
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15461
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15481
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15492
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15512
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15523
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15555
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15606
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15617
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15650
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15795
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15806
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15837
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15868
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15919
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15930
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15950
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15961
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15981
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15992
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16046
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16057
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16077
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16088
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16121
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16154
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16174
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16185
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16205
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16216
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16236
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16247
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16267
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16278
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16309
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16329
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16340
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16428
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16439
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16459
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16470
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16490
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16501
+msgid " "
+msgstr ""
+
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1222
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2605
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4774
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9933
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13233
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14727
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15050
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16891
+msgid "SPEEDBUTTON_SMALL"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1232
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1263
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1356
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1419
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1482
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1514
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1546
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1578
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1609
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1703
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1735
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1828
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2241
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2489
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2522
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2553
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2584
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2615
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2646
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2677
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2770
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2925
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2956
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2987
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:3018
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:3179
+msgid "5391682 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1236
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1360
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1371
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1434
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1465
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1497
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1529
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1561
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1593
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1750
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1770
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1781
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1874
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2619
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2650
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2785
+msgid "N/A"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1247
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1655
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1929
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1960
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1991
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2256
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2276
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2537
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2568
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2599
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2630
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2661
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2940
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2971
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:3002
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:3033
+msgid "14732489;11509661;100;0;0;11509661;11509661;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1253
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8810
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14857
+msgid "MENULINE"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1284
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3516
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3533
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3550
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8748
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10908
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16127
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17571
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:20302
+msgid "MAINMENU"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1315
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3567
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8531
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10823
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15272
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17061
+msgid "DIVIDER"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1346
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3584
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3601
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3618
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9832
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13182
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15749
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17299
+msgid "DIALOG"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1408
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10125
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13335
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14792
+msgid "TABCONTROLBOTTOM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1409
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1535
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3703
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10001
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13267
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14624
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14793
+msgid "PAGECONTROLBOTTOM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1423
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1518
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1550
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1582
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2774
+msgid "16777215;15332341;99;0;0;15332341;15332341;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1440
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3652
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3669
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3686
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9801
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13165
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15209
+msgid "TABCONTROL"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1471
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10249
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13403
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15303
+msgid "TABCONTROLLEFT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1472
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1724
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3856
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10063
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13301
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14658
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15304
+msgid "PAGECONTROLLEFT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1486
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1739
+msgid "16777215;15332341;99;1;0;15332341;15332341;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1503
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10156
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13352
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14758
+msgid "TABCONTROLRIGHT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1504
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1567
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3720
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10094
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13318
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14692
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14759
+msgid "PAGECONTROLRIGHT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1536
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1568
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:1725
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2760
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4893
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4910
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4927
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9770
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13148
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14625
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14659
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14693
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15210
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16094
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17554
+msgid "PAGECONTROL"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1599
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3737
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3754
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3771
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8841
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10925
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15337
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17078
+msgid "PANEL"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1630
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3788
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3805
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9863
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13199
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16476
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:19573
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:19590
+msgid "ALPHACOMBOBOX"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1644
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1863
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2369
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2380
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2400
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2411
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2493
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2526
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2557
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2929
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2960
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2991
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:3022
+msgid "15132390;13027014;100;0;0;13027014;13027014;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1787
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3924
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9898
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13216
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16445
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:19556
+msgid "ALPHAEDIT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1818
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3941
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3958
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8872
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10942
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15874
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17486
+msgid "PANEL_LOW"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:1832
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2462
+msgid "11971498;14144981;100;0;0;14144981;14144981;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1849
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3975
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3992
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4009
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10381
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13471
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15529
+msgid "TOOLBAR"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1880
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4026
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9091
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11044
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15368
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17095
+msgid "FORMTITLE"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:1890
+msgid "15461355 -1 -1 8079147 8079147"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:1891
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2490
+msgid "16777215 -1 -1 5780255 5780255"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:1896
+msgid "14934497;9406856;33;0;0;9406856;8747639;4;0;0;8747639;11050135;64;0;0;"
+"11050135;11050135;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:1909
+msgid "14998746;9404282;36;0;0;9404282;7692893;4;0;0;7692893;11112584;61;0;0;"
+"11112584;11112584;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1915
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4043
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10414
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13488
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15403
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17112
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17129
+msgid "SCROLLSLIDERH"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1940
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:1971
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2002
+msgid "15916250;13416888;100;0;0;13416888;13416888;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1946
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4060
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4077
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8934
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10976
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15146
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16976
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16993
+msgid "SCROLLBTNLEFT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:1977
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4094
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4111
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8965
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10993
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15082
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16908
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16925
+msgid "SCROLLBTNRIGHT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2008
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4128
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9153
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14987
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15019
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16857
+msgid "SCROLLBAR1V"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2022
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2033
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2431
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2442
+msgid "15132390;13027014;100;1;0;13027014;13027014;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2064
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2095
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2126
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:2157
+msgid "15916250;13416888;100;1;0;13416888;13416888;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2070
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4179
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9675
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13097
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15435
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17146
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17163
+msgid "SCROLLSLIDERV"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2084
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2115
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2146
+msgid "14732489;11509661;100;1;0;11509661;11509661;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2101
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4196
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4213
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8996
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11010
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15114
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16942
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16959
+msgid "SCROLLBTNTOP"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2132
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4230
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4247
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8903
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10959
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15083
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15115
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15147
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15178
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15404
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15436
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17010
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17027
+msgid "SCROLLBTNBOTTOM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2163
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4264
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4281
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10445
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13505
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15498
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17197
+msgid "PROGRESSH"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2173
+msgid "16777215 -1 -1 16777215 16777215"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2174
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8790
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8821
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9102
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9234
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9265
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9432
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9467
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9498
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9529
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9560
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9593
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9655
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9748
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9781
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9812
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9944
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9977
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10012
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10043
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10074
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10105
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10136
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10167
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10198
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10229
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10260
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10291
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10326
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10359
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:10392
+msgid "16777215 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:2179
+msgid "14998746;9404282;34;0;0;9404282;7692893;5;0;0;7692893;11112584;62;0;0;"
+"11112584;11112584;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:2192
+msgid "14998746;9404282;31;0;0;9404282;7692893;4;0;0;7692893;11112584;65;0;0;"
+"11112584;11112584;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2198
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4298
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4315
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10476
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13522
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15467
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17180
+msgid "PROGRESSV"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:2214
+msgid "14998746;9404282;31;1;0;9404282;7692893;4;1;0;7692893;11112584;65;1;0;"
+"11112584;11112584;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2231
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4332
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8779
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15241
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17044
+msgid "MENUITEM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2262
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4349
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9388
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:12927
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14561
+msgid "DRAGBAR"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2272
+msgid "5780255 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2324
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4417
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4434
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4451
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4468
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4485
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4502
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4519
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4536
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4553
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4570
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9060
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11027
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15750
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15781
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17316
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17333
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17350
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17367
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17384
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17401
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17418
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17435
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:19608
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:20297
+#. fmMain..sSkinProvider1..SkinData.SkinSection
+#: uMain.dfm:22832
+#. fmWait..sSkinProvider1..SkinData.SkinSection
+#: uWaitForm.dfm:42
+msgid "FORM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2355
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4587
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9188
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14924
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:14956
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16823
+msgid "SCROLLBAR1H"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2386
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4604
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9322
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14955
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16840
+msgid "SCROLLBAR2H"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2417
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4621
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9287
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15018
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16874
+msgid "SCROLLBAR2V"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2448
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4638
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4655
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9122
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11061
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15812
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17452
+msgid "BAR"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2479
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4672
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4689
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4706
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9456
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:12961
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15998
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17503
+msgid "BARTITLE"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:2506
+msgid "14998746;9404282;35;0;0;9404282;7692893;4;0;0;7692893;11112584;61;0;0;"
+"11112584;11112584;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2543
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4740
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9644
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13080
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16381
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:19522
+msgid "BUTTON_BIG"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2574
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4757
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9549
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:12978
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15051
+#. fmMain..sSkinManager1..........ParentClass
+#: uMain.dfm:15530
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16031
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17520
+msgid "SPEEDBUTTON"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2636
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4791
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10348
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13454
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16063
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17537
+msgid "TOOLBUTTON"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2667
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9518
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15967
+msgid "RADIOBUTTON"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2698
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9613
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15905
+msgid "WEBBUTTON"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:2708
+msgid "7887963 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:2709
+msgid "16711680 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2729
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4808
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4825
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4842
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4859
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4876
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9582
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:12995
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13012
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13029
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13046
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13063
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16315
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17656
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17673
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17690
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17707
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17724
+msgid "TRACKBAR"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2805
+msgid "16777215;15066597;97;1;0;15066597;15066597;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2822
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8593
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16191
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17588
+msgid "EXTRALINE"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:2836
+msgid "16777215;12364713;97;0;0;12364713;12364713;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2853
+msgid "GRIPV"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2884
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4944
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8624
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10857
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16222
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17605
+msgid "GRIPH"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2915
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4961
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4978
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:4995
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10032
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13284
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15561
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17214
+msgid "TABBOTTOM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2946
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5012
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5029
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5046
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10218
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13386
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15687
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17265
+msgid "TABLEFT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:2977
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5063
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5080
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5097
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10187
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13369
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15718
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17282
+msgid "TABRIGHT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3008
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5114
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5131
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5148
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9737
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13131
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:15656
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17248
+msgid "TABTOP"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3039
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5165
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:8717
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10891
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16284
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17639
+#. fmMain..sHintManager1..SkinSection
+#: uMain.dfm:22973
+msgid "HINT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3070
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5182
+msgid "MDIAREA"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3101
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:5199
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9357
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11129
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:12910
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:16346
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:17741
+msgid "BUTTON_HUGE"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:3115
+msgid "13947087;16777215;97;0;0;16777215;16777215;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:3128
+msgid "16119285;12496810;57;0;0;12496810;16767701;40;0;0;16767701;16767701;0;"
+"0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:3134
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:6980
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9966
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13250
+msgid "COLHEADER"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:3150
+msgid "15066597;15066597;79;0;0;15066597;13420743;19;0;0;13420743;13420743;0;"
+"0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:3163
+msgid "16777215;15066597;79;0;0;15066597;13420743;18;0;0;13420743;13420743;0;"
+"0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3228
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10586
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16535
+msgid "BOXCHECKED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3245
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10603
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16552
+msgid "BOXUNCHECKED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3262
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10756
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16569
+msgid "RADIOCHECKED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3279
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10739
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16586
+msgid "RADIOUNCHECKED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3296
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10688
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16739
+msgid "SMALLCHECKED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3313
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10705
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16756
+msgid "SMALLUNCHECKED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3330
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4418
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10790
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16620
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17317
+msgid "GRIPIMAGE"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3347
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4435
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10535
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16637
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17334
+msgid "BICONCLOSE"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3364
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4452
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10671
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16654
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17351
+msgid "BICONHELP"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3381
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4469
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10569
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16671
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17368
+msgid "BICONMAX"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3398
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4486
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10552
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16688
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17385
+msgid "BICONMIN"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3415
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4503
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10637
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16705
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17402
+msgid "BICONNORM"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3432
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4520
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10654
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16722
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17419
+msgid "TITLEBUTTON"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3449
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10620
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16603
+msgid "BOXGRAYED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3466
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10722
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16773
+msgid "SMALLGRAYED"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3483
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10773
+msgid "CHECK"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3500
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3551
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3568
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3619
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3636
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3653
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3704
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3721
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3738
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3806
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3840
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3857
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3874
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3925
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3942
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3976
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4027
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4044
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4061
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4095
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4129
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4163
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4180
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4197
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4231
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4265
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4299
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4333
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4350
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4367
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4537
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4588
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4605
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4622
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4639
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4673
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4724
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4741
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4758
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4775
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4792
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4894
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4962
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5013
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5064
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5115
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5166
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5183
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:6964
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:6981
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10807
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10824
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10841
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10875
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10892
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10909
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10926
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10943
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11028
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11045
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11062
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11079
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11113
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12894
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12928
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12945
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12962
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12979
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13081
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13098
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13115
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13132
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13149
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13166
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13183
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13200
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13217
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13234
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13251
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13268
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13285
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13302
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13319
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13336
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13353
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13370
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13387
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13404
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13421
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13438
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13455
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13472
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13489
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13506
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13523
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16790
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16824
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16841
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16858
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16875
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16892
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16909
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16943
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16977
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17011
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17045
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17062
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17079
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17096
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17113
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17147
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17181
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17198
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17215
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17232
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17249
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17266
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17283
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17300
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17436
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17453
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17470
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17487
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17504
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17521
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17538
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17555
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17572
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17589
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17623
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17640
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:19506
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:19523
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:19540
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:19557
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:19591
+msgid "BORDERSMASK"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3517
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3585
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3670
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3755
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3891
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3959
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3993
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4282
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4316
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4384
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4554
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4656
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4690
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4911
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4945
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4979
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5030
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5081
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5132
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10858
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17606
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:20299
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:20304
+msgid "PATTERN"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3534
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3602
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3687
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3772
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3908
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4010
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4401
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4571
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4707
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4928
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4996
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5047
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5098
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:5149
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12911
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:20294
+msgid "HOTPATTERN"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3789
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:3823
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4078
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4112
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4146
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4214
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4248
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10960
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10977
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:10994
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11011
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:11096
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16807
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16926
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16960
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:16994
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17028
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17130
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17164
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:19574
+msgid "GLYPHMASK"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4809
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13030
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17657
+msgid "SLIDERCHANNEL"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4826
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13047
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17674
+msgid "SLIDERMASK"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4843
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13064
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17691
+msgid "SLIDERVMASK"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4860
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:12996
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17708
+msgid "TICKHORZ"
+msgstr ""
+
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:4877
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:13013
+#. fmMain..sSkinManager1..........PropertyName
+#: uMain.dfm:17725
+msgid "TICKVERT"
+msgstr ""
+
+#. fmMain..sSkinManager1..........Name
+#: uMain.dfm:6963
+#. fmMain..sSkinManager1..........Name
+#: uMain.dfm:12893
+msgid "BUTTONHUGE.BMP"
+msgstr ""
+
+#. fmMain..sSkinManager1......Author
+#: uMain.dfm:8462
+msgid "Kolpakchi S.S."
+msgstr ""
+
+#. fmMain..sSkinManager1......Description
+#: uMain.dfm:8463
+msgid "Skin for Linux funs. It is cold  \"Blue Gauze\" in Linux. Enjoy "
+":)"
+msgstr ""
+
+#. fmMain..sSkinManager1......Name
+#: uMain.dfm:8466
+msgid "Cold"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8479
+msgid "12632256 13290186 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8514
+msgid "3881787;3881787;97;0;0;3881787;3881787;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8572
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:8573
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8603
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8665
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8789
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8820
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8851
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:8882
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9037
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9070
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9071
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9132
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9233
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9264
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9367
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9398
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9431
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9497
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9528
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9559
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9592
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9623
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9654
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9747
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9780
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9811
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9842
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9843
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9873
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9874
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9908
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9909
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9943
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9976
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10011
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10042
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10073
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10104
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10135
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10166
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10197
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10228
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10259
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10290
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10325
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10358
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:10391
+msgid "12632256 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8638
+msgid "2631720;8421504;53;0;0;8421504;0;44;0;0;0;0;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:8700
+msgid "3881787;5395026;97;1;0;5395026;5395026;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9043
+msgid "2434341;3355443;15;0;0;3355443;4276545;82;0;0;4276545;4276545;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9101
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:9466
+msgid "10855845 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9116
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:9481
+msgid "5855577;3881787;97;0;0;3881787;3881787;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9169
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9182
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9303
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9316
+msgid "2434341;3355443;50;1;0;3355443;3881787;47;1;0;3881787;3881787;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9204
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9217
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9338
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9351
+msgid "2434341;3355443;50;0;0;3355443;3881787;47;0;0;3881787;3881787;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:9254
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:11112
+msgid "COMBOBTN"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9268
+msgid "4342338;2302755;97;0;0;2302755;2302755;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9281
+msgid "3618615;4868682;10;0;0;4868682;2697513;41;0;0;2697513;2565927;30;0;0;2"
+"565927;1447446;16;0;0;1447446;1447446;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9404
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9879
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9892
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9914
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9927
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:10397
+msgid "5263440;4276545;50;0;0;4276545;3092271;1;0;0;3092271;2171169;47;0;0;21"
+"71169;2171169;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9437
+msgid "5789784;3881787;51;0;0;3881787;3092271;37;0;0;3092271;3092271;10;0;0;3"
+"092271;3092271;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9450
+msgid "6842472;3881787;53;0;0;3881787;2697513;14;0;0;2697513;1052688;30;0;0;1"
+"052688;1052688;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9576
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:9982
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9995
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:10296
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:10309
+msgid "8421504;5395026;51;0;0;5395026;3881787;2;0;0;3881787;2171169;44;0;0;21"
+"71169;2171169;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:9624
+msgid "16767072 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:9751
+msgid "2829099;3881787;97;0;0;3881787;3881787;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9764
+msgid "6579300;4802889;41;0;0;4802889;3881787;56;0;0;3881787;3881787;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:9960
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:10342
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:10375
+msgid "8421504;5395026;53;0;0;5395026;3881787;1;0;0;3881787;2171169;43;0;0;21"
+"71169;2171169;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:10280
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:13420
+msgid "UPDOWNBTN"
+msgstr ""
+
+#. fmMain..sSkinManager1......Author
+#: uMain.dfm:14524
+msgid "AC team"
+msgstr ""
+
+#. fmMain..sSkinManager1......Name
+#: uMain.dfm:14527
+msgid "Winter"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:14540
+msgid "0 16777215 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........SectionName
+#: uMain.dfm:14593
+msgid "TABSHEET"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:14641
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:14675
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:14709
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:14775
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:14809
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:15320
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:16110
+msgid "14927761;16777215;95;0;0;16777215;16116179;4;0;0;16116179;16116179;0;0"
+";0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:14868
+msgid "0 -1 -1 16771777 16771777"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:14873
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:15384
+msgid "7754286;16777215;9;0;0;16777215;9661497;17;0;0;9661497;14661514;73;0;0"
+";14661514;14661514;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:14886
+msgid "10054204;14659709;66;0;0;14659709;14598539;33;0;0;14598539;14598539;0;"
+"0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15224
+msgid "16777215;8999681;99;0;0;8999681;8999681;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15252
+msgid "0 -1 -1 16439433 16439433"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15266
+msgid "8481867;16765514;99;0;0;16765514;16765514;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15351
+msgid "15984858;13808000;99;0;0;13808000;13808000;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:15378
+msgid "6636336 -1 -1 16043927 16043927"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:15379
+msgid "16380390 4072704 4072704 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:15397
+msgid "16777215;5517569;26;0;0;5517569;10772992;42;0;0;10772992;16761199;32;0"
+";0;16761199;16761199;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15544
+msgid "14067056;16770241;99;0;0;16770241;16770241;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15575
+msgid "11567919;16777215;99;0;0;16777215;16777215;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15586
+msgid "9065984;16774593;99;0;0;16774593;16774593;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:15639
+msgid "9602667;13416093;18;0;0;13416093;13481622;81;0;0;13481622;13481622;0;0"
+";0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15670
+msgid "16314067;7621153;99;0;0;7621153;7621153;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15681
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:16025
+msgid "9065984;16772535;99;0;0;16772535;16772535;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15701
+msgid "15919308;7621153;99;1;0;7621153;7621153;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15712
+msgid "9065984;16773574;99;1;0;16773574;16773574;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15732
+msgid "15786190;7621153;99;1;0;7621153;7621153;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15743
+msgid "16773030;9201478;99;1;0;9201478;9201478;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15764
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15775
+msgid "16777215;13085057;99;0;0;13085057;13085057;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15826
+msgid "10584928;16765332;100;1;0;16765332;16765332;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15857
+msgid "16772535;16777215;100;0;0;16777215;16777215;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:15888
+#. fmMain..sSkinManager1..........HotGradientData
+#: uMain.dfm:15899
+msgid "14927761;16777215;99;0;0;16777215;16777215;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:16014
+msgid "16777215;15979677;88;0;0;15979677;7625012;12;0;0;7625012;7625012;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:16143
+msgid "16777215;15716271;15;1;0;15716271;13215350;72;1;0;13215350;16777215;11"
+";1;0;16777215;16777215;0;1;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........FontColor
+#: uMain.dfm:16201
+msgid "4468738 -1 -1 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........HotFontColor
+#: uMain.dfm:16202
+msgid "0 16777215 16777215 -1 -1"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16298
+msgid "15982781;11206655;97;0;0;11206655;11206655;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............GradientData
+#: uMain.dfm:16362
+msgid "14204826;16777215;48;0;0;16777215;14204826;49;0;0;14204826;14204826;0;"
+"0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:16375
+msgid "13939850;13939850;26;0;0;13939850;10841389;27;0;0;10841389;13939850;22"
+";0;0;13939850;14665369;23;0;0;14665369;14665369;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........GradientData
+#: uMain.dfm:16395
+msgid "8409857;16777215;97;0;0;16777215;16777215;0;0;0"
+msgstr ""
+
+#. fmMain..sSkinManager1............HotGradientData
+#: uMain.dfm:16408
+msgid "12293986;16777215;92;0;0;16777215;16777215;5;0;0;16777215;16777215;0;0"
+";0"
+msgstr ""
+
+#. fmMain..sSkinManager1..........Name
+#: uMain.dfm:19505
+msgid "BTN_HUGE.BMP"
+msgstr ""
+
+#. fmMain..sSkinManager1..........Name
+#: uMain.dfm:20293
+#. fmMain..sSkinManager1..........Name
+#: uMain.dfm:20298
+#. fmMain..sSkinManager1..........Name
+#: uMain.dfm:20303
+msgid "BG.JPG"
+msgstr ""
+
+#. fmMain..sSkinManager1..SkinDirectory
+#: uMain.dfm:22824
+msgid "c:\\Skins"
+msgstr ""
+
+#. fmMain..PopupMenu1..N1..Caption
+#: uMain.dfm:22886
+msgid "Копіювати в буфер"
+msgstr "Copy to clipboard"
+
+#. fmMain..PopupMenu1..Z0068535980301..Caption
+#: uMain.dfm:22890
+msgid "Z006853598030"
+msgstr ""
+
+#. fmMain..PopupMenu1..R4284232349151..Caption
+#: uMain.dfm:22894
+msgid "R428423234915"
+msgstr ""
+
+#. fmMain..PopupMenu1..U7785587523021..Caption
+#: uMain.dfm:22898
+msgid "U778558752302"
+msgstr ""
+
+#. fmMain..PopupMenu1..N49528031..Caption
+#: uMain.dfm:22902
+msgid "EGold 4952803"
+msgstr ""
+
+#. fmMain..PopupMenu1..N3..Caption
+#: uMain.dfm:22906
+msgid "-"
+msgstr ""
+
+#. fmMain..PopupMenu1..N2..Caption
+#: uMain.dfm:22910
+msgid "Написати листа автору"
+msgstr "Write email to author"
+
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
+#: uMain.dfm:22915
+msgid "TRUE, YES, Y"
+msgstr ""
+
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
+#: uMain.dfm:22916
+msgid "FALSE, NO, N"
+msgstr ""
+
+#. fmMain..JvAppRegistryStorage1..Root
+#: uMain.dfm:22918
+msgid "SOFTWARE\\MPSoft\\SeDB2020ImgTool"
+msgstr ""
+
+#. fmMain..JvFormStorage1..AppStoragePath
+#: uMain.dfm:22925
+msgid "fmMain\\"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22934
+msgid "sSkinManager1.SkinName"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22935
+msgid "cbStretchPreview.Checked"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22936
+msgid "seThumbHeight.Value"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22937
+msgid "sSplitter1.Left"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22938
+msgid "cbFixColors.Checked"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22939
+msgid "seLoadFrom.Value"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:22940
+msgid "seLoadTo.Value"
+msgstr ""
+
+#. fmMain..sHintManager1..HintKind.Font.Name
+#: uMain.dfm:22970
+#. fmWait..Font.Name
+#: uWaitForm.dfm:12
+#. Form1..Font.Name
+#: LZMA_Test/uMain.dfm:11
+msgid "MS Sans Serif"
+msgstr ""
+
+#. fmWait..Caption
+#: uWaitForm.dfm:5
+msgid "Зачекайте..."
+msgstr ""
+
+#. fmWait..sLabelFX1..Caption
+#: uWaitForm.dfm:30
+msgid "Зачекайте, будь ласка..."
+msgstr ""
+
+#. Form1..Caption
+#: LZMA_Test/uMain.dfm:6
+msgid "Form1"
+msgstr ""
+
+#. img.Draw(im.Canvas,im.Canvas.ClipRect);
+#: uMain.pas:480
+msgid "Прозорість підтримується лише в зображеннях типу \"RGBALPHA\" та "
+"\"GRAYSCALEALPHA\"\n"
+"Зображення буде збережено непрозорим"
+msgstr "Transparency is supported only for color types \"RGBALPHA\" and "
+"\"GRAYSCALEALPHA\"\n"
+"Image will be saved as non-transparent"
+
+#: uMain.pas:480
+msgid "Прозорість не підтримується"
+msgstr "Transparency is not supported"
+
+#: uMain.pas:567
+msgid "Читання файлу..."
+msgstr "Reading file..."
+
+#. SearchForPNGs(fw);
+#: uMain.pas:630
+msgid "Не знайдено жодного зображення!\n"
+"Можливо це не файл програмного забезпечення?"
+msgstr "Can't found any image!\n"
+"Maybe it's not db2020 RAW firmware file?"
+
+#: uMain.pas:630
+#: uMain.pas:790
+#: uMain.pas:861
+#: uMain.pas:922
+#: uMain.pas:942
+#: uMain.pas:964
+msgid "Помилка"
+msgstr "Error"
+
+#: uMain.pas:632
+msgid " зображень знайдено"
+msgstr " images found"
+
+#: uMain.pas:675
+msgid "Збереження файлу..."
+msgstr "Saving file..."
+
+#: uMain.pas:763
+msgid "Відкриття зображення..."
+msgstr "Opening image..."
+
+#. TfwImage(fwImages[lbImages.ItemIndex]).SaveRAW(fw,'c:\1.zlib');
+#: uMain.pas:781
+#. imPreview5.Picture.Assign(im);
+#: uMain.pas:975
+msgid "Тип зображення: "
+msgstr "Image type: "
+
+#: uMain.pas:783
+#: uMain.pas:977
+msgid "PNG"
+msgstr "PNG"
+
+#: uMain.pas:785
+#: uMain.pas:979
+msgid "паковане"
+msgstr "packed"
+
+#: uMain.pas:786
+#: uMain.pas:980
+msgid "Розмір: "
+msgstr "Size: "
+
+#: uMain.pas:790
+#. fs:TFileStream;
+#: uMain.pas:861
+#: uMain.pas:922
+msgid "Помилка при роботі з зображенням!\n"
+"Можливо, воно має невірний формат"
+msgstr "Error while working with image!\n"
+"Looks like it's broken"
+
+#: uMain.pas:790
+#: uMain.pas:861
+#: uMain.pas:922
+#: uMain.pas:1369
+msgid "Повідомлення: "
+msgstr "Message: "
+
+#: uMain.pas:887
+#. im:TPNGObject;
+#: uMain.pas:993
+#: uMain.pas:1162
+msgid "Файл вже існує. Перезаписати?"
+msgstr "File already exists. Rewrite?"
+
+#: uMain.pas:887
+#: uMain.pas:993
+#: uMain.pas:1162
+msgid "Перезаписати?"
+msgstr "Rewrite?"
+
+#: uMain.pas:939
+msgid "Заміна зображення..."
+msgstr "Replacing image..."
+
+#: uMain.pas:942
+#. WriteMemToFile('c:\1.zlib',Buf);
+#: uMain.pas:964
+msgid "Зображення завелике, неможливо замінити\n"
+"Розмір зображення: "
+msgstr "Image is too big, can't replace\n"
+"Image size: "
+
+#: uMain.pas:942
+#: uMain.pas:964
+msgid "Допустимий розмір: "
+msgstr "Allowed size: "
+
+#. fmMain.Enabled:=false;
+#: uMain.pas:1096
+msgid "Зупинити"
+msgstr "Stop"
+
+#: uMain.pas:1097
+msgid "Зупинити обробку"
+msgstr "Stop processing"
+
+#. patch preview
+#: uMain.pas:1143
+msgid "Ґенерація патчу..."
+msgstr "Generating patch..."
+
+#: uMain.pas:1147
+msgid "Жодного зображення не змінено, або зображення ідентичні!\n"
+"Не хочу створювати порожній файл"
+msgstr "No images changed or images are equal!\n"
+"Will not create empty file"
+
+#: uMain.pas:1147
+msgid "Нема чого записувати"
+msgstr "Nothing to write"
+
+#: uMain.pas:1152
+msgid "Введіть версію"
+msgstr "Enter version"
+
+#: uMain.pas:1152
+msgid "Неможливо автоматично визначити версію програмного забезпечення "
+"телефону\n"
+"Введіть версію вручну"
+msgstr "Unable to guess firmware version\n"
+"Please enter it"
+
+#: uMain.pas:1156
+msgid "Файли VKP (*.vkp)|*.vkp"
+msgstr "VKP files (*.vkp)|*.vkp"
+
+#: uMain.pas:1369
+msgid "Помилка при оптимізації зображення!\n"
+"Код помилки: "
+msgstr "Error while optimizing image!\n"
+"Error code: "
+
+#: uMain.pas:1369
+msgid "Помилка!"
+msgstr "Error!"
+
+#: uMain.pas:1438
+msgid "Обробка кольорів зображень..."
+msgstr "Processing colors..."
+
+#: uMain.pas:1451
+#. for i:=0 to 100 do begin
+#: uMain.pas:1550
+msgid " зображень оброблено"
+msgstr " images found"
+
+#: uMain.pas:1517
+msgid "Обчислення розмірів зображень..."
+msgstr "Calculating sizes of images..."
+
+#. Programmer's name: APFZAPFEXE EXE2
+#: apfzapf.rc:1
+msgid "apf2zapf.exe"
+msgstr ""
+
+#. Programmer's name: PNGOUTEXE EXE1
+#: pngout.rc:1
+msgid "pngout.exe"
+msgstr ""
+

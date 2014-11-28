@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-01-13 15:41\n"
+"PO-Revision-Date: 2008-01-13 15:41\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+
+#. Programmer's name: s_MsgDlgWarning
+#: sStrings.rc:5
+msgid "Увага"
+msgstr "Warning"
+
+#. Programmer's name: s_MsgDlgError
+#: sStrings.rc:6
+msgid "Помилка"
+msgstr "Error"
+
+#. Programmer's name: s_MsgDlgInformation
+#: sStrings.rc:7
+msgid "Інформація"
+msgstr "Information"
+
+#. Programmer's name: s_MsgDlgConfirm
+#: sStrings.rc:8
+msgid "Підтвердження"
+msgstr "Confirm"
+
+#. Programmer's name: s_MsgDlgYes
+#: sStrings.rc:9
+msgid "&Так"
+msgstr "&Yes"
+
+#. Programmer's name: s_MsgDlgNo
+#: sStrings.rc:10
+msgid "&Ні"
+msgstr "&No"
+
+#. Programmer's name: s_MsgDlgOK
+#: sStrings.rc:11
+msgid "Гаразд"
+msgstr "OK"
+
+#. Programmer's name: s_MsgDlgCancel
+#: sStrings.rc:12
+msgid "Скасувати"
+msgstr "Cancel"
+
+#. Programmer's name: s_MsgDlgHelp
+#: sStrings.rc:13
+msgid "&Допомога"
+msgstr "&Help"
+
+#. Programmer's name: s_MsgDlgHelpNone
+#: sStrings.rc:14
+msgid "Допомога відсутня"
+msgstr "No help available"
+
+#. Programmer's name: s_MsgDlgHelpHelp
+#: sStrings.rc:15
+#. Programmer's name: s_HintHelp
+#: sStrings.rc:34
+msgid "Допомога"
+msgstr "Help"
+
+#. Programmer's name: s_MsgDlgAbort
+#: sStrings.rc:16
+msgid "&Аварійне завершення"
+msgstr "&Abort"
+
+#. Programmer's name: s_MsgDlgRetry
+#: sStrings.rc:17
+msgid "&Повторити"
+msgstr "&Retry"
+
+#. Programmer's name: s_MsgDlgIgnore
+#: sStrings.rc:18
+msgid "&Ігнорувати"
+msgstr "&Ignore"
+
+#. Programmer's name: s_MsgDlgAll
+#: sStrings.rc:19
+msgid "&Всі"
+msgstr "&All"
+
+#. Programmer's name: s_MsgDlgNoToAll
+#: sStrings.rc:20
+msgid "Н&і для всіх"
+msgstr "N&o to All"
+
+#. Programmer's name: s_MsgDlgYesToAll
+#: sStrings.rc:21
+msgid "Так д&ля всіх"
+msgstr "Yes to &All"
+
+#. Programmer's name: s_RestoreStr
+#: sStrings.rc:23
+#. Programmer's name: s_HintRestore
+#: sStrings.rc:33
+msgid "Відновити"
+msgstr "Restore"
+
+#. Programmer's name: s_MoveStr
+#: sStrings.rc:24
+msgid "Пересунути"
+msgstr "Move"
+
+#. Programmer's name: s_SizeStr
+#: sStrings.rc:25
+msgid "Розмір"
+msgstr "Size"
+
+#. Programmer's name: s_MinimizeStr
+#: sStrings.rc:26
+#. Programmer's name: s_HintMinimize
+#: sStrings.rc:32
+msgid "Згорнути"
+msgstr "Minimize"
+
+#. Programmer's name: s_MaximizeStr
+#: sStrings.rc:27
+msgid "На все вікно"
+msgstr "Maximize"
+
+#. Programmer's name: s_CloseStr
+#: sStrings.rc:28
+#. Programmer's name: s_HintClose
+#: sStrings.rc:30
+msgid "Закрити"
+msgstr "Close"
+
+#. Programmer's name: s_HintMaximize
+#: sStrings.rc:31
+msgid "Розгорнути"
+msgstr "Maximize"
+
+#. Programmer's name: s_FileOpen
+#: sStrings.rc:36
+msgid "Відкриття файлу"
+msgstr "File open"
+
+#. Programmer's name: s_Calculator
+#: sStrings.rc:38
+msgid "Калькулятор"
+msgstr "Calculator"
+
+#. Programmer's name: s_GradBuilder
+#: sStrings.rc:39
+msgid "&Побудовник градієнту..."
+msgstr "&Gradient builder..."
+
+#. Programmer's name: s_HotGradBuilder
+#: sStrings.rc:40
+msgid "&Побудовник <активного> градієнту..."
+msgstr "&Hot gradient builder..."
+
+#. Programmer's name: s_Panels
+#: sStrings.rc:41
+msgid "&Панелі..."
+msgstr "&Panels..."
+
+#. Programmer's name: s_AvailSkins
+#: sStrings.rc:43
+msgid "Доступні оболонки"
+msgstr "Available skins"
+
+#. Programmer's name: s_InternalSkin
+#: sStrings.rc:44
+msgid "(внутрішня)"
+msgstr "(internal)"
+
+#. Programmer's name: s_ErrorSettingCount
+#: sStrings.rc:46
+msgid "Error setting %s.Count"
+msgstr "Error setting %s.Count"
+
+#. Programmer's name: s_ListBoxMustBeVirtual
+#: sStrings.rc:47
+msgid "Listbox (%s) style must be virtual in order to set "
+"Count"
+msgstr "Listbox (%s) style must be virtual in order to set Count"
+
+#. Programmer's name: s_ColorDlgAdd
+#: sStrings.rc:50
+msgid "Додати в свій набір"
+msgstr "Add to custom colors set"
+
+#. Programmer's name: s_ColorDlgDefine
+#: sStrings.rc:51
+msgid "Визначити кольори"
+msgstr "Define colors"
+
+#. Programmer's name: s_ColorDlgMainPal
+#: sStrings.rc:52
+msgid "Основна палітра :"
+msgstr "Main palette :"
+
+#. Programmer's name: s_ColorDlgAddPal
+#: sStrings.rc:53
+msgid "Додатковий набір кольорів :"
+msgstr "Additional colors :"
+
+#. Programmer's name: s_ColorDlgTitle
+#: sStrings.rc:54
+#. Programmer's name: s_HintDsgnColor
+#: sStrings.rc:84
+msgid "Колір"
+msgstr "Color"
+
+#. Programmer's name: s_ColorDlgRed
+#: sStrings.rc:55
+msgid "Червоний :"
+msgstr "Red :"
+
+#. Programmer's name: s_ColorDlgGreen
+#: sStrings.rc:56
+msgid "Зелений :"
+msgstr "Green :"
+
+#. Programmer's name: s_ColorDlgBlue
+#: sStrings.rc:57
+msgid "Синій :"
+msgstr "Blue :"
+
+#. Programmer's name: s_ColorDlgDecimal
+#: sStrings.rc:58
+msgid "Десяткове - "
+msgstr "Decimal - "
+
+#. Programmer's name: s_ColorDlgHex
+#: sStrings.rc:59
+msgid "Шістнадцяткове - "
+msgstr "Hex - "
+
+#. Programmer's name: s_FrameAdapterError1
+#: sStrings.rc:62
+msgid "Компонент TsFrameAdapter повинен знаходитись на відповідному "
+"TFrame"
+msgstr "TsFrameAdapter adapter must be placed on the handled frame"
+
+#. Programmer's name: s_HintDsgnTitle
+#: sStrings.rc:65
+msgid "Дизайнер підказок"
+msgstr "Hint Designer Form"
+
+#. Programmer's name: s_HintDsgnPreserved
+#: sStrings.rc:66
+msgid "Стд. налаштування:"
+msgstr "Preserved settings :"
+
+#. Programmer's name: s_HintDsgnStyle
+#: sStrings.rc:67
+msgid "Стиль :"
+msgstr "Style :"
+
+#. Programmer's name: s_HintDsgnBevelWidth
+#: sStrings.rc:68
+msgid "Ширина краю"
+msgstr "Bevel width"
+
+#. Programmer's name: s_Blur
+#: sStrings.rc:69
+msgid "Розмиття"
+msgstr "Blur"
+
+#. Programmer's name: s_HintDsgnArrowLength
+#: sStrings.rc:70
+msgid "Довжина указ."
+msgstr "Arrow length"
+
+#. Programmer's name: s_HintDsgnHorizMargin
+#: sStrings.rc:71
+msgid "Гориз. відступ"
+msgstr "Horiz. margin"
+
+#. Programmer's name: s_HintDsgnVertMargin
+#: sStrings.rc:72
+msgid "Верт. відступ"
+msgstr "Vert. margin"
+
+#. Programmer's name: s_HintDsgnRadius
+#: sStrings.rc:73
+msgid "Заокруглення"
+msgstr "Corners radius"
+
+#. Programmer's name: s_HintDsgnMaxWidth
+#: sStrings.rc:74
+msgid "Макс. шир."
+msgstr "Max width"
+
+#. Programmer's name: s_HintDsgnPauseHide
+#: sStrings.rc:75
+msgid "Затримка (ms)"
+msgstr "Pause hide (ms)"
+
+#. Programmer's name: s_Percent
+#: sStrings.rc:76
+msgid "Відсоток"
+msgstr "Percent"
+
+#. Programmer's name: s_HintDsgnOffset
+#: sStrings.rc:77
+msgid "Зміщення"
+msgstr "Offset"
+
+#. Programmer's name: s_HintDsgnTransparency
+#: sStrings.rc:78
+msgid "Прозорість"
+msgstr "Transparency"
+
+#. Programmer's name: s_HintDsgnNoPicture
+#: sStrings.rc:79
+msgid "Немає доступного зображення"
+msgstr "No picture available"
+
+#. Programmer's name: s_Font
+#: sStrings.rc:80
+msgid "Шрифт"
+msgstr "Font"
+
+#. Programmer's name: s_Texture
+#: sStrings.rc:81
+msgid "Текстура"
+msgstr "Texture"
+
+#. Programmer's name: s_HintDsgnLoad
+#: sStrings.rc:82
+msgid "Завантажити файл"
+msgstr "Load from file"
+
+#. Programmer's name: s_HintDsgnSave
+#: sStrings.rc:83
+msgid "Зберегти..."
+msgstr "Save to file as..."
+
+#. Programmer's name: s_HintDsgnBorderTop
+#: sStrings.rc:85
+msgid "Верхн. край"
+msgstr "Top border"
+
+#. Programmer's name: s_HintDsgnBorderBottom
+#: sStrings.rc:86
+msgid "Нижній край"
+msgstr "Bottom border"
+
+#. Programmer's name: s_Shadow
+#: sStrings.rc:87
+msgid "Тінь"
+msgstr "Shadow"
+
+#. Programmer's name: s_Background
+#: sStrings.rc:88
+msgid "Фон"
+msgstr "Background"
+
+#. Programmer's name: s_Gradient
+#: sStrings.rc:89
+msgid "Градієнт"
+msgstr "Gradient"
+
+#. Programmer's name: s_PreviewHint
+#: sStrings.rc:90
+msgid "Вікно попереднього перегляду"
+msgstr "Preview of the future hint window"
+
+#. Programmer's name: s_Folder
+#: sStrings.rc:93
+msgid "Тека:"
+msgstr "Folder"
+
+#. Programmer's name: s_FileName
+#: sStrings.rc:94
+msgid "Назва файлу:"
+msgstr "File name"
+
+#. Programmer's name: s_FileType
+#: sStrings.rc:95
+msgid "Тип файлів:"
+msgstr "File type"
+
+#. Programmer's name: s_ReadOnly
+#: sStrings.rc:96
+msgid "Тільки читання"
+msgstr "Read only"
+
+#. Programmer's name: s_ViewStyleList
+#: sStrings.rc:97
+msgid "Список"
+msgstr "List"
+
+#. Programmer's name: s_ViewStyleReport
+#: sStrings.rc:98
+msgid "Таблиця"
+msgstr "Details"
+
+#. Programmer's name: s_ViewStyleIcons
+#: sStrings.rc:99
+msgid "Значки"
+msgstr "Icons"
+
+#. Programmer's name: s_ViewStyleSmallIcons
+#: sStrings.rc:100
+msgid "Маленькі значки"
+msgstr "Small icons"
+
+#. Programmer's name: s_OpenFile
+#: sStrings.rc:101
+#. Programmer's name: s_BtnOpen
+#: sStrings.rc:103
+msgid "Відкрити"
+msgstr "Open"
+
+#. Programmer's name: s_SaveFile
+#: sStrings.rc:102
+msgid "Зберегти як..."
+msgstr "Save"
+
+#. Programmer's name: s_BtnSave
+#: sStrings.rc:104
+msgid "Зберегти"
+msgstr "Save"
+
+#. Programmer's name: s_SelectDir
+#: sStrings.rc:105
+msgid "Вибрати теку"
+msgstr "Select directory"
+
+#. Programmer's name: s_Create
+#: sStrings.rc:106
+msgid "Створити"
+msgstr "Create"
+

@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-01-13 00:12\n"
+"PO-Revision-Date: 2008-01-13 15:40\n"
+"Last-Translator: Magister <misha.cn.ua@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+
+msgid " images found"
+msgstr " зображень знайдено"
+
+msgid " images processed"
+msgstr " зображень оброблено"
+
+msgid "PNG"
+msgstr "PNG"
+
+msgid "Enter version"
+msgstr "Введіть версію"
+
+msgid ""
+"You can use and distribute software for free, but you SHOULD NOT \n"
+"modify it If you like this software, support author by sending some money to "
+"one of WebMoney wallets:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 or EGold: 4952803\n"
+"If you find some bug, or have ideas on program development write me: misha."
+"cn.ua@gmail.com\n"
+"A big THANKS to ego and Hussein for providing information on phone image "
+"format and location.\n"
+" "
+msgstr ""
+"Ви можете розповсюджувати та використовувати програму безкоштовно, але НЕ "
+"МАЄТЕ права вносити зміни, В ТОМУ ЧИСЛІ перекладати її іншими мовами.\n"
+"Якщо програма вам сподобалася, підтримайте автора переказавши будь-яку суму "
+"на один з гаманців WebMoney:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 або EGold: 4952803\n"
+"Про всі знайдені помилки, а також побажання щодо розвитку програми пишіть: "
+"misha.cn.ua@gmail.com\n"
+"Автор висловлює свою подяку ego та Hussein за інформацію щодо способу "
+"збереження зображень в телефонах.\n"
+" "
+
+msgid "Fix colors and optimize image"
+msgstr "Виправити кольори та оптимізувати зображення"
+
+msgid "Open"
+msgstr "Відкрити"
+
+msgid "Open RAW file"
+msgstr "Відкрити RAW-файл"
+
+msgid "Opening image..."
+msgstr "Відкриття зображення..."
+
+msgid "Restore"
+msgstr "Відновити"
+
+msgid "Restore original image"
+msgstr "Відновити ориґінальне зображення"
+
+msgid "Allowed size: "
+msgstr "Допустимий розмір: "
+
+msgid "Scan images between"
+msgstr "Діапазон обробки зображень"
+
+msgid ""
+"No images changed or images are equal!\n"
+"Will not create empty file"
+msgstr ""
+"Жодного зображення не змінено, або зображення ідентичні!\n"
+"Не хочу створювати порожній файл"
+
+msgid "Replacing image..."
+msgstr "Заміна зображення..."
+
+msgid "Replace"
+msgstr "Замінити"
+
+msgid "Replace selected image"
+msgstr "Замінити вибране зображення іншим"
+
+msgid "Write file"
+msgstr "Записати файл"
+
+msgid "Please wait..."
+msgstr "Зачекайте, будь ласка..."
+
+msgid "Wait..."
+msgstr "Зачекайте..."
+
+msgid "Save selected image to disk"
+msgstr "Зберегти вибране зображення на диск"
+
+msgid "Save to disk"
+msgstr "Зберегти на диск"
+
+msgid "Saving file..."
+msgstr "Збереження файлу..."
+
+msgid ""
+"Image is too big, can't replace\n"
+"Image size: "
+msgstr ""
+"Зображення завелике, неможливо замінити\n"
+"Розмір зображення: "
+
+msgid "Look&&feel:"
+msgstr "Зовнішній вигляд:"
+
+msgid "Make .vkp"
+msgstr "Зробити .vkp"
+
+msgid "Make .vkp patch"
+msgstr "Зробити патч формату .vkp для заміни зображення"
+
+msgid "Stop"
+msgstr "Зупинити"
+
+msgid "Stop processing"
+msgstr "Зупинити обробку"
+
+msgid "Copy to clipboard"
+msgstr "Копіювати в буфер"
+
+msgid "Language:"
+msgstr "Мова:"
+
+msgid "Write email to author"
+msgstr "Написати листа автору"
+
+msgid ""
+"Can't found any image!\n"
+"Maybe it's not db2020 RAW firmware file?"
+msgstr ""
+"Не знайдено жодного зображення!\n"
+"Можливо це не файл програмного забезпечення?"
+
+msgid "Nothing to write"
+msgstr "Нема чого записувати"
+
+msgid ""
+"Unable to guess firmware version\n"
+"Please enter it"
+msgstr ""
+"Неможливо автоматично визначити версію програмного забезпечення телефону\n"
+"Введіть версію вручну"
+
+msgid "Processing colors..."
+msgstr "Обробка кольорів зображень..."
+
+msgid "Calculating sizes of images..."
+msgstr "Обчислення розмірів зображень..."
+
+msgid "Waiting"
+msgstr "Очікування"
+
+msgid "Rewrite?"
+msgstr "Перезаписати?"
+
+msgid "Message: "
+msgstr "Повідомлення: "
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid ""
+"Error while optimizing image!\n"
+"Error code: "
+msgstr ""
+"Помилка при оптимізації зображення!\n"
+"Код помилки: "
+
+msgid ""
+"Error while working with image!\n"
+"Looks like it's broken"
+msgstr ""
+"Помилка при роботі з зображенням!\n"
+"Можливо, воно має невірний формат"
+
+msgid "Error!"
+msgstr "Помилка!"
+
+msgid "Transparency is not supported"
+msgstr "Прозорість не підтримується"
+
+msgid ""
+"Transparency is supported only for color types \"RGBALPHA\" and "
+"\"GRAYSCALEALPHA\"\n"
+"Image will be saved as non-transparent"
+msgstr ""
+"Прозорість підтримується лише в зображеннях типу \"RGBALPHA\" та "
+"\"GRAYSCALEALPHA\"\n"
+"Зображення буде збережено непрозорим"
+
+msgid "Thumnail size:"
+msgstr "Розмір ескізів:"
+
+msgid "Size: "
+msgstr "Розмір: "
+
+msgid "Stretch preview"
+msgstr "Розтягнути перегляд"
+
+msgid "Image type: "
+msgstr "Тип зображення: "
+
+msgid "File already exists. Rewrite?"
+msgstr "Файл вже існує. Перезаписати?"
+
+msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+msgstr "Файли RAW (*.raw)|*.raw|Всі файли (*.*)|*.*"
+
+msgid "VKP files (*.vkp)|*.vkp"
+msgstr "Файли VKP (*.vkp)|*.vkp"
+
+msgid "Reading file..."
+msgstr "Читання файлу..."
+
+msgid "packed"
+msgstr "паковане"
+
+msgid "Generating patch..."
+msgstr "Ґенерація патчу..."
+
+msgid "New image size differs from original, but cannot be safely saved!\nReplace anyway?"
+msgstr "Розмір зображення відрізняється від ориґінального, а новий розмір неможливо коректно зберегти!\nЗамінити все одно?"
+
+msgid "Warning!"
+msgstr "Попередження!"

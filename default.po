@@ -1,0 +1,642 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-01-22 23:03\n"
+"PO-Revision-Date: 2008-01-22 23:03\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+
+#. fmMain..Caption
+#: uMain.dfm:6
+msgid "SE db2020 Image Tool"
+msgstr ""
+
+#. fmMain..sbStatus......Text
+#: uMain.dfm:34
+#: uMain.pas:892
+#: uMain.pas:1321
+msgid "Waiting"
+msgstr ""
+
+#. fmMain..sbStatus..SkinData.SkinSection
+#: uMain.dfm:41
+msgid "STATUSBAR"
+msgstr ""
+
+#. fmMain..sbStatus..pbProgress..SkinData.SkinSection
+#: uMain.dfm:54
+msgid "GAUGE"
+msgstr ""
+
+#. fmMain..sPanel1..SkinData.SkinSection
+#: uMain.dfm:65
+#. fmMain..sPanel2..SkinData.SkinSection
+#: uMain.dfm:1150
+#. fmMain..sPanel2..sPanel3..SkinData.SkinSection
+#: uMain.dfm:1196
+#. fmMain..sPanel2..sPanel3..pnAbout..SkinData.SkinSection
+#: uMain.dfm:1291
+#. fmMain..sPanel2..sPanel3..pnDevControls..SkinData.SkinSection
+#: uMain.dfm:1733
+#. fmMain..sSkinManager1..MenuSupport.IcoLineSkin
+#: uMain.dfm:4416
+msgid "ICOLINE"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel1..Caption
+#: uMain.dfm:75
+msgid "Thumnail size:"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel2..Caption
+#: uMain.dfm:89
+msgid "Scan images between"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel4..Caption
+#: uMain.dfm:103
+msgid "Look&&feel:"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel3..Caption
+#: uMain.dfm:117
+msgid "—"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel5..Caption
+#: uMain.dfm:158
+msgid "Language:"
+msgstr ""
+
+#. fmMain..sPanel1..btOpenFw..Hint
+#: uMain.dfm:187
+#: uMain.pas:1318
+msgid "Open RAW file"
+msgstr ""
+
+#. fmMain..sPanel1..btOpenFw..Caption
+#: uMain.dfm:188
+#. fmMain.Enabled:=true;
+#: uMain.pas:1317
+msgid "Open"
+msgstr ""
+
+#. fmMain..sPanel1..btOpenFw..SkinData.SkinSection
+#: uMain.dfm:290
+#. fmMain..sPanel1..btReplaceImg..SkinData.SkinSection
+#: uMain.dfm:402
+#. fmMain..sPanel1..btSaveImg..SkinData.SkinSection
+#: uMain.dfm:514
+#. fmMain..sPanel1..btMakeVKP..SkinData.SkinSection
+#: uMain.dfm:626
+#. fmMain..sPanel1..btClearFW..SkinData.SkinSection
+#: uMain.dfm:915
+#. fmMain..sPanel1..btLoadProject..SkinData.SkinSection
+#: uMain.dfm:1026
+#. fmMain..sPanel1..btSaveProject..SkinData.SkinSection
+#: uMain.dfm:1138
+#. fmMain..sPanel2..sPanel3..gbOriginal..btSaveOrig..SkinData.SkinSection
+#: uMain.dfm:1420
+#. fmMain..sPanel2..sPanel3..gbOriginal..btOpenOrig..SkinData.SkinSection
+#: uMain.dfm:1473
+#. fmMain..sPanel2..sPanel3..gbPreview..btSaveRepl..SkinData.SkinSection
+#: uMain.dfm:1557
+#. fmMain..sPanel2..sPanel3..gbPreview..btOpenRepl..SkinData.SkinSection
+#: uMain.dfm:1610
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
+#: uMain.dfm:1722
+#. fmMain..sPanel2..sPanel3..pnDevControls..btTest..SkinData.SkinSection
+#: uMain.dfm:1747
+#. fmMain..sPanel2..sPanel3..pnDevControls..btSaveFw..SkinData.SkinSection
+#: uMain.dfm:1759
+#. fmMain..sPanel2..sPanel3..pnDevControls..btFreeSpaceLog..SkinData.SkinSection
+#: uMain.dfm:1771
+msgid "BUTTON"
+msgstr ""
+
+#. fmMain..sPanel1..btReplaceImg..Hint
+#: uMain.dfm:298
+msgid "Replace selected image"
+msgstr ""
+
+#. fmMain..sPanel1..btReplaceImg..Caption
+#: uMain.dfm:299
+msgid "Replace"
+msgstr ""
+
+#. fmMain..sPanel1..btSaveImg..Hint
+#: uMain.dfm:410
+msgid "Save selected image to disk"
+msgstr ""
+
+#. fmMain..sPanel1..btSaveImg..Caption
+#: uMain.dfm:411
+msgid "Save to disk"
+msgstr ""
+
+#. fmMain..sPanel1..btMakeVKP..Hint
+#: uMain.dfm:522
+msgid "Make .vkp patch"
+msgstr ""
+
+#. fmMain..sPanel1..btMakeVKP..Caption
+#: uMain.dfm:523
+msgid "Make .vkp"
+msgstr ""
+
+#. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
+#: uMain.dfm:645
+#. fmMain..sPanel1..seLoadFrom..SkinData.SkinSection
+#: uMain.dfm:729
+#. fmMain..sPanel1..seLoadTo..SkinData.SkinSection
+#: uMain.dfm:758
+#. fmMain..sPanel2..lbImages..SkinData.SkinSection
+#: uMain.dfm:1173
+msgid "EDIT"
+msgstr ""
+
+#. fmMain..sPanel1..cbStretchPreview..Caption
+#: uMain.dfm:664
+msgid "Stretch preview"
+msgstr ""
+
+#. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
+#: uMain.dfm:667
+#. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
+#: uMain.dfm:680
+msgid "CHECKBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbFixColors..Caption
+#: uMain.dfm:676
+msgid "Fix colors and optimize image"
+msgstr ""
+
+#. fmMain..sPanel1..cbSkins..SkinData.SkinSection
+#: uMain.dfm:699
+#. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
+#: uMain.dfm:787
+msgid "COMBOBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:802
+msgid "English"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:803
+msgid "Українська"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:804
+msgid "Hungarian"
+msgstr ""
+
+#. fmMain..sPanel1..btClearFW..Hint
+#: uMain.dfm:811
+msgid "Restore RAW"
+msgstr ""
+
+#. fmMain..sPanel1..btClearFW..Caption
+#: uMain.dfm:812
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..Caption
+#: uMain.dfm:1619
+msgid "Restore"
+msgstr ""
+
+#. fmMain..sPanel1..btLoadProject..Hint
+#: uMain.dfm:923
+#. fmMain..sPanel1..btLoadProject..Caption
+#: uMain.dfm:924
+msgid "Load project"
+msgstr ""
+
+#. fmMain..sPanel1..btSaveProject..Hint
+#: uMain.dfm:1034
+#. fmMain..sPanel1..btSaveProject..Caption
+#: uMain.dfm:1035
+msgid "Save project"
+msgstr ""
+
+#. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
+#: uMain.dfm:1156
+msgid "SPLITTER"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
+#: uMain.dfm:1281
+msgid "BARPANEL"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnAbout..lbAbout....Caption
+#: uMain.dfm:1306
+msgid "You can use and distribute software for free, but you SHOULD NOT \n"
+"modify it If you like this software, support author by sending some "
+"money to one of WebMoney wallets:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 or EGold: "
+"4952803\n"
+"If you find some bug, or have ideas on program development write me: "
+"misha.cn.ua@gmail.com\n"
+"A big THANKS to ego and Hussein for providing information on phone "
+"image format and location.\n"
+" "
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
+#: uMain.dfm:1347
+#. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
+#: uMain.dfm:1484
+msgid "GROUPBOX"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..Hint
+#: uMain.dfm:1618
+msgid "Restore original image"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btTest..Caption
+#: uMain.dfm:1743
+msgid "Testing"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btSaveFw..Caption
+#: uMain.dfm:1755
+msgid "Write file"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btFreeSpaceLog..Caption
+#: uMain.dfm:1767
+msgid "Free space log"
+msgstr ""
+
+#. fmMain..OpenDialog1..Filter
+#: uMain.dfm:1777
+#. fmMain..SaveDialog1..Filter
+#: uMain.dfm:1782
+#: uMain.pas:678
+#: uMain.pas:1017
+#: uMain.pas:2244
+#: uMain.pas:2256
+#: uMain.pas:2271
+#: uMain.pas:2284
+msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+msgstr ""
+
+#. fmMain..OpenPictureDialog1..Filter
+#: uMain.dfm:1787
+#. fmMain..SavePictureDialog1..Filter
+#: uMain.dfm:1792
+msgid "Portable Network Graphics (*.png)|*.png"
+msgstr ""
+
+#. fmMain..sSkinManager1......Name
+#: uMain.dfm:1808
+#. fmMain..sSkinManager1..SkinName
+#: uMain.dfm:4423
+msgid "BlueGauze"
+msgstr ""
+
+#. fmMain..sSkinManager1..SkinDirectory
+#: uMain.dfm:4422
+msgid "c:\\Skins"
+msgstr ""
+
+#. fmMain..sSkinProvider1..SkinData.SkinSection
+#: uMain.dfm:4430
+#. fmWait..sSkinProvider1..SkinData.SkinSection
+#: uWaitForm.dfm:41
+msgid "FORM"
+msgstr ""
+
+#. fmMain..PopupMenu1..N1..Caption
+#: uMain.dfm:4484
+msgid "Copy to clipboard"
+msgstr ""
+
+#. fmMain..PopupMenu1..N49528031..Caption
+#: uMain.dfm:4500
+msgid "EGold 4952803"
+msgstr ""
+
+#. fmMain..PopupMenu1..N2..Caption
+#: uMain.dfm:4508
+msgid "Write email to author"
+msgstr ""
+
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
+#: uMain.dfm:4513
+msgid "TRUE, YES, Y"
+msgstr ""
+
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
+#: uMain.dfm:4514
+msgid "FALSE, NO, N"
+msgstr ""
+
+#. fmMain..JvFormStorage1..AppStoragePath
+#: uMain.dfm:4523
+msgid "fmMain\\"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:4533
+msgid "cbStretchPreview.Checked"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:4534
+msgid "seThumbHeight.Value"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:4536
+msgid "cbFixColors.Checked"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:4537
+msgid "seLoadFrom.Value"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:4538
+msgid "seLoadTo.Value"
+msgstr ""
+
+#. fmMain..sHintManager1..SkinSection
+#: uMain.dfm:4571
+msgid "HINT"
+msgstr ""
+
+#. fmWait..Caption
+#: uWaitForm.dfm:5
+msgid "Wait..."
+msgstr ""
+
+#. fmWait..sLabelFX1..Caption
+#: uWaitForm.dfm:30
+msgid "Please wait..."
+msgstr ""
+
+#. img.Draw(im.Canvas,im.Canvas.ClipRect);
+#: uMain.pas:554
+msgid "Transparency is supported only for color types \"RGBALPHA\" and "
+"\"GRAYSCALEALPHA\"\n"
+"Image will be saved as non-transparent"
+msgstr ""
+
+#: uMain.pas:554
+msgid "Transparency is not supported"
+msgstr ""
+
+#: uMain.pas:641
+msgid "Reading file..."
+msgstr ""
+
+#. SearchForPNGs(fw);
+#: uMain.pas:706
+msgid "Can't found any image!\n"
+"Maybe it's not db2020 RAW firmware file?"
+msgstr ""
+
+#: uMain.pas:706
+#: uMain.pas:888
+#: uMain.pas:994
+#: uMain.pas:1063
+#: uMain.pas:1083
+#: uMain.pas:1106
+msgid "Error"
+msgstr ""
+
+#: uMain.pas:708
+#. Read changed images
+#: uMain.pas:2523
+msgid " images found"
+msgstr ""
+
+#: uMain.pas:753
+msgid "Saving file..."
+msgstr ""
+
+#: uMain.pas:842
+msgid "Opening image..."
+msgstr ""
+
+#. TfwImage(fwImages[lbImages.ItemIndex]).SaveRAW(fw,'c:\1.zlib');
+#: uMain.pas:859
+#: uMain.pas:878
+#. imPreview5.Picture.Assign(im);
+#: uMain.pas:1118
+msgid "Image type: "
+msgstr ""
+
+#: uMain.pas:861
+#: uMain.pas:880
+#: uMain.pas:1120
+msgid "PNG"
+msgstr ""
+
+#: uMain.pas:863
+#: uMain.pas:882
+#: uMain.pas:1122
+msgid "packed"
+msgstr ""
+
+#: uMain.pas:864
+#: uMain.pas:883
+#: uMain.pas:1123
+msgid "Pixels size: "
+msgstr ""
+
+#: uMain.pas:865
+#: uMain.pas:884
+#: uMain.pas:1124
+msgid "Bytes size: "
+msgstr ""
+
+#: uMain.pas:888
+#. UpdateSize(fw);
+#: uMain.pas:994
+#. Buf2:TByteArray;
+#: uMain.pas:1063
+msgid "Error while working with image!\n"
+"Looks like it's broken"
+msgstr ""
+
+#: uMain.pas:888
+#: uMain.pas:994
+#: uMain.pas:1063
+#: uMain.pas:1596
+#: uMain.pas:1600
+#: uMain.pas:2416
+msgid "Message: "
+msgstr ""
+
+#: uMain.pas:1020
+#. im:TPNGObject;
+#: uMain.pas:1138
+#: uMain.pas:1376
+#: uMain.pas:2247
+#: uMain.pas:2259
+#: uMain.pas:2435
+msgid "File already exists. Rewrite?"
+msgstr ""
+
+#: uMain.pas:1020
+#: uMain.pas:1138
+#: uMain.pas:1376
+#: uMain.pas:2247
+#: uMain.pas:2259
+#: uMain.pas:2435
+msgid "Rewrite?"
+msgstr ""
+
+#: uMain.pas:1080
+msgid "Replacing image..."
+msgstr ""
+
+#: uMain.pas:1083
+#. WriteMemToFile('c:\1.zlib',Buf);
+#: uMain.pas:1106
+msgid "Image is too big, can't replace\n"
+"Image size: "
+msgstr ""
+
+#: uMain.pas:1083
+#: uMain.pas:1106
+msgid "Allowed size: "
+msgstr ""
+
+#: uMain.pas:1157
+msgid "Error loading image"
+msgstr ""
+
+#: uMain.pas:1171
+msgid "Looks like this file is for newer version of "
+"software"
+msgstr ""
+
+#. imgLen:=EndAddress-StartAddress;
+#: uMain.pas:1259
+msgid "New image size differs from original, but cannot be safely saved!\n"
+"Replace anyway?"
+msgstr ""
+
+#: uMain.pas:1259
+msgid "Warning!"
+msgstr ""
+
+#. fmMain.Enabled:=false;
+#: uMain.pas:1302
+msgid "Stop"
+msgstr ""
+
+#: uMain.pas:1303
+msgid "Stop processing"
+msgstr ""
+
+#. patch preview
+#: uMain.pas:1357
+msgid "Generating patch..."
+msgstr ""
+
+#: uMain.pas:1361
+msgid "No images changed or images are equal!\n"
+"Will not create empty file"
+msgstr ""
+
+#: uMain.pas:1361
+msgid "Nothing to write"
+msgstr ""
+
+#: uMain.pas:1366
+msgid "Enter version"
+msgstr ""
+
+#: uMain.pas:1366
+msgid "Unable to guess firmware version\n"
+"Please enter it"
+msgstr ""
+
+#: uMain.pas:1370
+msgid "VKP files (*.vkp)|*.vkp"
+msgstr ""
+
+#. Create preview image
+#: uMain.pas:1407
+msgid "Generating preview..."
+msgstr ""
+
+#. Now try PngOptimizerCL.exe
+#: uMain.pas:1596
+#: uMain.pas:1600
+msgid "Error while optimizing image!\n"
+"Error code: "
+msgstr ""
+
+#: uMain.pas:1596
+#: uMain.pas:1600
+#: uMain.pas:2416
+msgid "Error!"
+msgstr ""
+
+#: uMain.pas:1673
+msgid "Processing colors..."
+msgstr ""
+
+#: uMain.pas:1686
+#. for i:=0 to 100 do begin
+#: uMain.pas:1786
+msgid " images processed"
+msgstr ""
+
+#: uMain.pas:1753
+msgid "Calculating sizes of images..."
+msgstr ""
+
+#: uMain.pas:2074
+msgid "The .vkp is ready, now it's time to create a preview.\n"
+"But patch preview image size is large (%dx%d pixels), and software "
+"can crash while generating it.\n"
+"Generate preview anyway?"
+msgstr ""
+
+#: uMain.pas:2074
+msgid "Too big preview"
+msgstr ""
+
+#. Now try pngcrush
+#: uMain.pas:2416
+msgid "Error while converting image to RGBA!\n"
+"Error code: "
+msgstr ""
+
+#: uMain.pas:2431
+msgid "Saving project..."
+msgstr ""
+
+#: uMain.pas:2432
+#: uMain.pas:2475
+msgid "IMT files (*.imt)|*.imt|All files (*.*)|*.*"
+msgstr ""
+
+#: uMain.pas:2474
+msgid "Loading project..."
+msgstr ""
+
+#. Programmer's name: PNGOUTEXE EXE1
+#: pngout.rc:1
+msgid "pngout.exe"
+msgstr ""
+

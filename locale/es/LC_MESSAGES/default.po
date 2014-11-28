@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-01-13 00:12\n"
+"PO-Revision-Date: 2008-01-13 15:40\n"
+"Last-Translator: Adrian <adrian@topsony.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: dxgettext 1.2.1\n"
+
+msgid " images found"
+msgstr " imagenes encontradas"
+
+msgid " images processed"
+msgstr " imagenes procesadas"
+
+msgid "Allowed size: "
+msgstr "Tamaсo permitido: "
+
+msgid "Bytes size: "
+msgstr "Tamaсo: "
+
+msgid "Calculating sizes of images..."
+msgstr "Calculando tamaсo de las imagenes..."
+
+msgid ""
+"Can't found any image!\n"
+"Maybe it's not db2020 RAW firmware file?"
+msgstr ""
+"No se pudo encontrar imagenes!\n"
+"Este no es un firmware de DB2020 en formato raw"
+
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+msgid "Enter version"
+msgstr "Version"
+
+msgid "Error"
+msgstr "Error"
+
+msgid ""
+"Error while optimizing image!\n"
+"Error code: "
+msgstr ""
+"Error al optimazar imagenes!\n"
+"Codigo de Error: "
+
+msgid ""
+"Error while working with image!\n"
+"Looks like it's broken"
+msgstr ""
+"Error al trabajar con las imagenes!\n"
+"Parece que esta daсado"
+
+msgid "Error!"
+msgstr "Error!"
+
+msgid "File already exists. Rewrite?"
+msgstr "El archivo ya existe. їSobreescribir?"
+
+msgid "Fix colors and optimize image"
+msgstr "Arreglar colores y optimazar imagenes"
+
+msgid "Generating patch..."
+msgstr "Generando Parche..."
+
+msgid "Generating preview..."
+msgstr "Generando vista previa..."
+
+msgid ""
+"Image is too big, can't replace\n"
+"Image size: "
+msgstr ""
+"La imagenes e muy grande, no se puede reemplazar\n"
+"Tamaсo de imagen: "
+
+msgid "Image type: "
+msgstr "Tipo de imagen: "
+
+msgid "Language:"
+msgstr "Idioma:"
+
+msgid "Look&&feel:"
+msgstr "Ver:"
+
+msgid "Make .vkp"
+msgstr "Armar .vkp"
+
+msgid "Make .vkp patch"
+msgstr "Armar un parche .vkp"
+
+msgid "Message: "
+msgstr "Mensaje: "
+
+msgid ""
+"New image size differs from original, but cannot be safely saved!\n"
+"Replace anyway?"
+msgstr ""
+"El tamaсo de la nueva imagen difiere del original"
+"pero no s seguro guardarla!\n"
+"їReemplazar Igual?"
+
+msgid ""
+"No images changed or images are equal!\n"
+"Will not create empty file"
+msgstr ""
+"Imagenes no cambiadas!\n"
+"No se cresra un archivo vacio"
+
+msgid "Nothing to write"
+msgstr "Nada para escribir"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Open RAW file"
+msgstr "Abrir archivo .RAW"
+
+msgid "Opening image..."
+msgstr "Abriendo imagenes..."
+
+msgid "PNG"
+msgstr "PNG"
+
+msgid "Pixels size: "
+msgstr "Tamaсo de Pixeles: "
+
+msgid "Please wait..."
+msgstr "Espere..."
+
+msgid "Processing colors..."
+msgstr "Procesando colores..."
+
+msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+msgstr "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+
+msgid "Reading file..."
+msgstr "Leyendo archivo..."
+
+msgid "Replace"
+msgstr "Remplazar"
+
+msgid "Replace selected image"
+msgstr "Remplazar imagen seleccionada"
+
+msgid "Replacing image..."
+msgstr "Remplazando imagen..."
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "Restore RAW"
+msgstr "Restaurar RAW"
+
+msgid "Restore original image"
+msgstr "REstaurar imagen original"
+
+msgid "Rewrite?"
+msgstr "їReescribir?"
+
+msgid "Save selected image to disk"
+msgstr "Guardar imagen seleccionada al disco"
+
+msgid "Save to disk"
+msgstr "Guardar al disco"
+
+msgid "Saving file..."
+msgstr "Guardando archivo..."
+
+msgid "Scan images between"
+msgstr "Escanear imagenes entre"
+
+msgid "Stop"
+msgstr "Cancelar"
+
+msgid "Stop processing"
+msgstr "Cancelando Proceso"
+
+msgid "Stretch preview"
+msgstr "Stretch Vista Previa"
+
+msgid "Testing"
+msgstr "Testeando"
+
+msgid ""
+"The .vkp is ready, now it's time to create a preview.\n"
+"But patch preview image size is large (%dx%d pixels), and software can crash "
+"while generating it.\n"
+"Generate preview anyway?"
+msgstr ""
+"El .vkp esta listo, ahora es tiempo de crear la vista previa.\n"
+"Pero el tamaсo de la imagen de la vista previa del parches es larga (%dx%d pixeles), y el programa podria daсarse "
+"mientras se genera este.\n"
+"їGenerar vista previa igual?"
+
+msgid "Thumnail size:"
+msgstr "Tamaсo Thumnail:"
+
+msgid "Too big preview"
+msgstr "Vista previa demasiado grande"
+
+msgid "Transparency is not supported"
+msgstr "Transparencia no es soportada"
+
+msgid ""
+"Transparency is supported only for color types \"RGBALPHA\" and "
+"\"GRAYSCALEALPHA\"\n"
+"Image will be saved as non-transparent"
+msgstr ""
+"Transparencia es solo soportada para colores \"RGBALPHA\" and "
+"\"GRAYSCALEALPHA\"\n"
+"La imagen sera guardada sin transparencia"
+
+msgid "Ukrainian"
+msgstr "Ucraniano"
+
+msgid ""
+"Unable to guess firmware version\n"
+"Please enter it"
+msgstr ""
+"Imposible encontrar version de Firmware"
+"Por favor ingrese este"
+
+msgid "VKP files (*.vkp)|*.vkp"
+msgstr "VKP files (*.vkp)|*.vkp"
+
+msgid "Wait..."
+msgstr "Espere..."
+
+msgid "Waiting"
+msgstr "Esperando"
+
+msgid "Warning!"
+msgstr "Advertencia!"
+
+msgid "Write email to author"
+msgstr "Escribir email al autor"
+
+msgid "Write file"
+msgstr "Escribir Archivo"
+
+msgid ""
+"You can use and distribute software for free, but you SHOULD NOT \n"
+"modify it If you like this software, support author by sending some money to "
+"one of WebMoney wallets:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 or EGold: 4952803\n"
+"If you find some bug, or have ideas on program development write me: misha."
+"cn.ua@gmail.com\n"
+"A big THANKS to ego and Hussein for providing information on phone image "
+"format and location.\n"
+" "
+msgstr ""
+"Puedes usar y distribuir gratuitamente el software, pero no debes \n"
+"modificar este. Si te gusta este programa, envia dinero al autor "
+"a una cuenta de WebMoney:\n"
+"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 Р°Р±Рѕ EGold: 4952803\n"
+"Si encuentrar algun bug, o tienes ideas para el desarrollo del programa esbribime a:"
+"adrian@topsony.com\n"
+"Un gran agradecimiento a ego y Hussein por la informacion sobre el formato de "
+"las imagenes y su ubicacion.\n"
+" "
+
+msgid "packed"
+msgstr "packed"
