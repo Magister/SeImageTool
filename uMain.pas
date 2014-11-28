@@ -15,7 +15,8 @@ uses
   JclCompression, sGroupBox, uStreamIO, JvSearchFiles, languagecodes, uByteUtils,
   DateUtils, XPMan, PngBitBtn, ImgList, PngImageList, ActnList, sListView,
   JvExStdCtrls, JvListComb, ToolWin, sToolBar, sSpeedButton, sTrackBar,
-  JclContainerIntf, JclHashMaps, JvSimpleXml, JvHint, JvgHint;
+  JclContainerIntf, JclHashMaps, JvSimpleXml, JvHint, JvgHint, JvBaseDlg,
+  JvBrowseFolder;
 
 type
   TImgType=(imPNG,imPKI,imBWI,imUNK);
@@ -158,7 +159,6 @@ type
     btClearLog: TsBitBtn;
     acClearLog: TAction;
     sPanel6: TsPanel;
-    lbImages: TsListBox;
     pnFilter: TsPanel;
     cbDeleted: TsCheckBox;
     cbReplaced: TsCheckBox;
@@ -177,6 +177,13 @@ type
     lbFreeBlocks: TsLabel;
     cbUseNames: TsCheckBox;
     sHintManager1: TsHintManager;
+    JvBrowseForFolderDialog1: TJvBrowseForFolderDialog;
+    lbImages: TsListBox;
+    sPanel7: TsPanel;
+    rgTableIndex: TsRadioGroup;
+    btSaveRAW: TsBitBtn;
+    sBevel6: TsBevel;
+    acSaveRAW: TAction;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure lbImagesClick(Sender: TObject);
@@ -236,6 +243,10 @@ type
     procedure cbUseNamesClick(Sender: TObject);
     procedure lbImagesMouseMove(Sender: TObject; Shift: TShiftState; X,
       Y: Integer);
+    procedure JvBrowseForFolderDialog1AcceptChange(Sender: TObject;
+      const NewFolder: String; var Accept: Boolean);
+    procedure rgTableIndexClick(Sender: TObject);
+    procedure acSaveRAWExecute(Sender: TObject);
   private
     { Private declarations }
     StartPNGAddreses:TStrings;
@@ -252,7 +263,7 @@ type
     procedure EnableForm;
     function GenerateVKP(const fwSrc,fwMod:TByteArray):TStringList;overload;
     function GenerateVKP(const fwSrc,fwMod:PByte;iLen:Cardinal):TStringList;overload;
-    function GenerateVKP(const fwSrc:PByte):TStringList;overload;
+    function GenerateVKP(const fwSrc:PByte; var FNewData:PByte):TStringList;overload;
     function GenTempFileName:TFileName;
     procedure OptimizeImg(fName:TFileName);
 //    procedure ExtractPNGOut(path:string);
@@ -268,14 +279,16 @@ type
     procedure UpdateFilter;
     procedure ChangePanelsSkinSection(Control:TWinControl;SkinSection:string);
     procedure LoadNames;
-    procedure LoadXMLItems(var Hash:IJclStrStrMap;xmlItems:TJvSimpleXMLElems);
-    procedure LoadValues(var Hash:IJclStrStrMap;xmlItem:TJvSimpleXMLElem);
+{    procedure LoadXMLItems(var Hash:IJclStrStrMap;xmlItems:TJvSimpleXMLElems);
+    procedure LoadValues(var Hash:IJclStrStrMap;xmlItem:TJvSimpleXMLElem);}
+    function HashOfString(const str:string):integer;
+    procedure SaveImg(const idx:integer;const fName:TFileName);
   public
     { Public declarations }
   end;
 
 const
-  swversion='2.04 (c) 2008 Magister';
+  swversion='2.05 ALPHA - NOT ALL FUNCTIONS WORK AS EXPECTED (c) 2008 Magister';
   iVersion=203;
 
 type
@@ -1616,77 +1629,12 @@ begin
 end;}
 
 procedure TfmMain.lbImagesClick(Sender: TObject);
-(*var
- im,im2:TPNGObject;
- fwIm:TfwImage;
- tmpStr:string;
-begin
- if Length(fw)<1 then Exit;
- if lbImages.Count<1 then Exit;
- sbStatus.Panels[0].Text:=_('Opening image...');
- Application.ProcessMessages;
-{ im:=TfwImage(fwImages[lbImages.ItemIndex]).GetPicture(fw);
- im:=FixImageColors(im);}
- try
-//  TfwImage(fwImages[lbImages.ItemIndex]).SaveRAW(fw,'c:\1.zlib');
-  fwIm:=TfwImage(fwImages[lbImages.ItemIndex]);
-  im:=fwIm.GetPicture(fw);
-  if fwIm.imgType=imPNG then begin
-   im2:=FixImageColors(im);
-   imPreview.Picture.Assign(im2);
-   im.Free;
-   im2.Free;
-  end else begin
-   imPreview.Picture.Assign(im);
-   im.Free;
-  end;
-  tmpStr:='  '+_('Image type: ');
-  if fwIm.imgType=imPNG then
-   tmpStr:=tmpStr+_('PNG')
-  else if fwIm.imgType=imPKI then
-   tmpStr:=tmpStr+_('packed');
-  fwIm.UpdateSize(fw);
-  tmpStr:=tmpStr+#10#13+'  '+_('Pixels size: ')+IntToStr(fwIm.Fim_width)+'x'+IntToStr(fwIm.Fim_height);
-  tmpStr:=tmpStr+#10#13+'  '+_('Bytes size: ')+IntToStr(fwIm.FimRealSize);
-  tmpStr:=tmpStr+#10#13+'  '+_('Space for image: ')+IntToStr(fwIm.FimDataSize);
-  lbImageInfo.Caption:=tmpStr;
-  fwIm:=TfwImage(fwImagesOrig[lbImages.ItemIndex]);
-  im:=fwIm.GetPicture(fwOrig);
-  if fwIm.imgType=imPNG then begin
-   im2:=FixImageColors(im);
-   im.Free;
-   imOriginal.Picture.Assign(im2);
-   im2.Free;
-  end else begin
-   imOriginal.Picture.Assign(im);
-   im.Free;
-  end;
-  tmpStr:='  '+_('Image type: ');
-  if fwIm.imgType=imPNG then
-   tmpStr:=tmpStr+_('PNG')
-  else if fwIm.imgType=imPKI then
-   tmpStr:=tmpStr+_('packed');
-  fwIm.UpdateSize(fwOrig);
-  tmpStr:=tmpStr+#10#13+'  '+_('Pixels size: ')+IntToStr(fwIm.Fim_width)+'x'+IntToStr(fwIm.Fim_height);
-  tmpStr:=tmpStr+#10#13+'  '+_('Bytes size: ')+IntToStr(fwIm.FimRealSize);
-  tmpStr:=tmpStr+#10#13+'  '+_('Space for image: ')+IntToStr(fwIm.FimDataSize);
-  lbOrigImageInfo.Caption:=tmpStr;
- except
-  on E: Exception do begin
-   MessageBox(Application.Handle, PAnsiChar(_('Error while working with image!'+#13+#10+'Looks like it''s broken')+#10#13+_('Message: ')+E.Message), PChar(_('Error')), MB_ICONERROR or MB_OK or MB_TASKMODAL);
-   Exit;
-  end;
- end;
- sbStatus.Panels[0].Text:=_('Waiting');*)
 var
  aImg:TfnImage;
  tmpStr:string;
 begin
-// aImg:=imArray[lbImages.ItemIndex];
  aImg:=imArray[getCurrentImg];
  if aImg.imType=imBWI then begin
-//  btReplaceImg.Enabled:=false;
-//  btDelImg.Enabled:=false;
   acReplaceImg.Enabled:=false;
   acDeleteImg.Enabled:=false;
  end else begin
@@ -1707,20 +1655,15 @@ begin
  tmpStr:=tmpStr+#10#13+'  '+_('Space for image: ')+IntToStr(aImg.DataLength);
  tmpStr:=tmpStr+#10#13+'  '+_('Image address: ')+IntToHex(aImg.StartOffset+picbase,8);
  lbOrigImageInfo.Caption:=tmpStr;
-// imOriginal.Picture.Assign(GetImgFromArray(FData,imArray,lbImages.ItemIndex));
  imOriginal.Picture.Assign(GetImgFromArray(FData,imArray,GetCurrentImg));
  if Length(imArrayRepl)>0 then begin
-//  if imArrayRepl[lbImages.ItemIndex].empty then begin
   if imArrayRepl[GetCurrentImg].empty then begin
    imPreview.Picture.Assign(deletedImg);
-//  end else if imArrayRepl[lbImages.ItemIndex].Replaced then begin
   end else if imArrayRepl[GetCurrentImg].Replaced then begin
-//   imPreview.Picture.Assign(GetImgFromRawData(imArrayRepl,lbImages.ItemIndex));
    imPreview.Picture.Assign(GetImgFromRawData(imArrayRepl,GetCurrentImg));
   end else begin
    imPreview.Picture.Bitmap.FreeImage;
   end;
-//  aImg:=imArrayRepl[lbImages.ItemIndex];
   aImg:=imArrayRepl[getCurrentImg];
   if (aImg.Replaced) or (aImg.empty) then begin
    tmpStr:='  '+_('Image type: ');
@@ -2227,7 +2170,7 @@ begin
   else
    Str:=Str+'UNK)';
   if cbUseNames.Checked then
-   if imNames<>nil then
+   if imNames<>nil then if imNames<>nil then
     if imNames.ContainsKey(imArray[lsImages.IndexOf(lbImages.Items[Index])].name) then
      Str:=imNames.Items[imArray[lsImages.IndexOf(lbImages.Items[Index])].name]+': '+Str;
   R:=Rect;
@@ -2402,71 +2345,82 @@ end;
 
 procedure TfmMain.ReadImgTable;
 var
- i:Integer;
+ i:integer;
  tmpWindow:PChar;
  StartAddress:Integer;
  imNames:TStrings;
-const
- sigLen=13;
+ sigLen:integer;
+//const
+// sigLen=13;
 begin
- tmpWindow:=PChar('ICON_16BIT_V2');
- for i:=0 to iFileLen-1 do begin
-  if CompareMem(tmpWindow,Pointer(Integer(FData)+i),sigLen) then begin
-   tableStart:=i-12;
-   break;
+  if rgTableIndex.ItemIndex=0 then begin
+   tmpWindow:=PChar('ICON_16BIT_V2');
+  end else begin
+   tmpWindow:=PChar('ICON_2BIT_V2_2NDLCD');
   end;
- end;
- pheader:=GetWORD(FData,tableStart+$34);
- numIcons:=pheader;
- offset:=GetWORD(FData,tableStart+$34+$10);
- picbase:=tableStart+offset;
- names:=tableStart+$34+$10+4;
- offsettable:=names+numIcons*2;
- imNames:=TStringList.Create;
- lbData.Caption:=Format('table start: %s; '+
-                        'pheader: %s; '+
-                        'images count: %s; '+
-                        'offset: %s; '+#10#13+
-                        'picbase: %s; '+
-                        'names start: %s; '+
-                        'offset table: %s; ', 
-                [IntToHex(tableStart,8),
-                 IntToHex(pheader,8),
-                 IntToStr(numIcons),
-                 IntToHex(offset,8),
-                 IntToHex(picbase,8),
-                 IntToHex(names,8),
-                 IntToHex(offsettable,8)]);
-
- SetLength(imArray,numIcons);
- for i:=0 to numIcons-1 do begin
-  StartAddress:=Get3Bytes(FData,offsettable+i*3);
-  imArray[i].StartOffset:=StartAddress;
-  imArray[i].orig_offset:=StartAddress;
-  StartAddress:=StartAddress+picbase;
-  imArray[i].imType:=imBWI;
-  if (GetByte(FData,StartAddress)=$AA) then begin
-   if (GetByte(FData,StartAddress+5)=$00) and
-      (GetByte(FData,StartAddress+6)=$00) then begin
-         imArray[i].imType:=imUNK;
-         if GetByte(FData,StartAddress+11)=$5A then imArray[i].imType:=imPKI;
-         if GetByte(FData,StartAddress+11)=$89 then imArray[i].imType:=imPNG;
+  tableStart:=0;
+  sigLen:=Length(tmpWindow);
+  for i:=0 to iFileLen-1 do begin
+   if CompareMem(tmpWindow,Pointer(Integer(FData)+i),sigLen) then begin
+    tableStart:=i-12;
+    break;
    end;
   end;
-  imArray[i].name:=IntToHex(GetWORD(FData,names+i*2),2);
-  imArray[i].DataLength:=-1;
-  imArray[i].ImgLength:=-1;
-  imArray[i].Image:=nil;
-  imArray[i].empty:=false;
-  imArray[i].Replaced:=false;
-  imNames.Add(imArray[i].name);
- end;
- lbImages.Clear;
- lsImages.Clear;
- lsImages.AddStrings(imNames);
- lbImages.Items.AddStrings(imNames);
- imNames.Free;
- sbStatus.Panels[1].Text:=IntToStr(lsImages.Count)+_(' images found')+'    ';
+  if tableStart=0 then begin
+   EnableForm;
+   raise EStreamError.Create(_('Firmware does not contain requested image table!'));
+  end;
+  pheader:=GetWORD(FData,tableStart+$34);
+  numIcons:=pheader;
+  offset:=GetWORD(FData,tableStart+$34+$10);
+  picbase:=tableStart+offset;
+  names:=tableStart+$34+$10+4;
+  offsettable:=names+numIcons*2;
+  imNames:=TStringList.Create;
+  lbData.Caption:=Format('table start: %s; '+
+                         'pheader: %s; '+
+                         'images count: %s; '+
+                         'offset: %s; '+#10#13+
+                         'picbase: %s; '+
+                         'names start: %s; '+
+                         'offset table: %s; ',
+                  [IntToHex(tableStart,8),
+                  IntToHex(pheader,8),
+                  IntToStr(numIcons),
+                  IntToHex(offset,8),
+                  IntToHex(picbase,8),
+                  IntToHex(names,8),
+                  IntToHex(offsettable,8)]);
+
+  SetLength(imArray,numIcons);
+  for i:=0 to numIcons-1 do begin
+   StartAddress:=Get3Bytes(FData,offsettable+i*3);
+   imArray[i].StartOffset:=StartAddress;
+   imArray[i].orig_offset:=StartAddress;
+   StartAddress:=StartAddress+picbase;
+   imArray[i].imType:=imBWI;
+    if (GetByte(FData,StartAddress)=$AA) then begin
+    if (GetByte(FData,StartAddress+5)=$00) and
+       (GetByte(FData,StartAddress+6)=$00) then begin
+          imArray[i].imType:=imUNK;
+          if GetByte(FData,StartAddress+11)=$5A then imArray[i].imType:=imPKI;
+          if GetByte(FData,StartAddress+11)=$89 then imArray[i].imType:=imPNG;
+    end;
+   end;
+    imArray[i].name:=IntToHex(GetWORD(FData,names+i*2),2);
+   imArray[i].DataLength:=-1;
+   imArray[i].ImgLength:=-1;
+   imArray[i].Image:=nil;
+   imArray[i].empty:=false;
+   imArray[i].Replaced:=false;
+   imNames.Add(imArray[i].name);
+  end;
+  lbImages.Clear;
+  lsImages.Clear;
+  lsImages.AddStrings(imNames);
+  lbImages.Items.AddStrings(imNames);
+  imNames.Free;
+  sbStatus.Panels[1].Text:=IntToStr(lsImages.Count)+_(' images found')+'    ';
 end;
 
 procedure TfmMain.FormResize(Sender: TObject);
@@ -2854,7 +2808,6 @@ var
  curAddr:Integer;
  lastImgIndex,lastImgOffset:Integer;
 begin
-// Len:=iLen-1;
  Result:=TStringList.Create;
  pbProgress.Max:=100;
  pbProgress.Position:=0;
@@ -2919,11 +2872,10 @@ begin
  pbProgress.Position:=100;
 end;
 
-function TfmMain.GenerateVKP(const fwSrc: PByte): TStringList;
+function TfmMain.GenerateVKP(const fwSrc: PByte; var FNewData:PByte): TStringList;
 var
  oftLines:TStringList;
  i,j:Integer;
- FNewData:PByte;
  newAr:TimArray;
  tmpIm:TfnImage;
  src,dst,tmpStr:string;
@@ -2949,7 +2901,6 @@ begin
     imArrayRepl[j].StartOffset:=newAr[i].StartOffset;
   end;
  end;
- GetMem(FNewData,iFileLen);
  MoveMemory(FNewData,FData,iFileLen);
  for i:=0 to Length(imArrayRepl)-1 do begin
   if not imArrayRepl[i].Replaced then continue;
@@ -3000,10 +2951,10 @@ begin
   end;
  end;
 // Result.AddStrings(oftLines);
- for i:=0 to Length(FreeBlocks)-1 do begin
+{ for i:=0 to Length(FreeBlocks)-1 do begin
   for j:=FreeBlocks[i].Offset to FreeBlocks[i].Offset+FreeBlocks[i].Length-1 do
    SetByte(FNewData,picbase+j,0);
- end;
+ end;}
  for i:=0 to Length(newAr)-1 do begin
   if not (newAr[i].Replaced or newAr[i].empty) then continue;
   for j:=0 to Length(newAr[i].RAWData) do begin
@@ -3017,7 +2968,6 @@ begin
  Result.AddStrings(oftLines);
  oftLines.Free;
  reAdressedNames.Free;
- FreeMem(FNewData);
 end;
 
 procedure TfmMain.sSplitter1Resize(Sender: TObject);
@@ -3082,60 +3032,38 @@ end;
 
 procedure TfmMain.acSaveImgExecute(Sender: TObject);
 var
-// im:TPNGObject;
-// fwIm:TfwImage;
- im:TPNGObject;
- fim:TfnImage;
- i:Integer;
- tmpStr:string;
- fs:TFileStream;
- ms:TStringStream;
- im2:TPNGObject;
  imID:string;
+ i:integer;
 begin
  if GetCurrentImg<0 then Exit;
- imID:=lsImages[getCurrentImg];
- if cbUseNames.Checked then
-  if imNames.ContainsKey(imID) then
-   imID:=imNames.Items[imID];
- SavePictureDialog1.FileName:=imID;
+ if lbImages.SelCount<=1 then begin
+  imID:=lsImages[getCurrentImg];
+  if cbUseNames.Checked then
+   if imNames<>nil then if imNames.ContainsKey(imID) then
+    imID:=imNames.Items[imID];
+  SavePictureDialog1.FileName:=imID;
 
- if not SavePictureDialog1.Execute then Exit;
- if FileExists(ChangeFileExt(SavePictureDialog1.FileName,'.png')) then begin
-  if MessageBox(Application.Handle, PAnsiChar(AnsiString(_('File already exists. Rewrite?'))), PChar(AnsiString(_('Rewrite?'))), MB_ICONQUESTION or MB_YESNO or MB_TASKMODAL)=IDNO then begin
-   EnableForm;
-   Exit;
-  end
- end;
- DisableForm;
-// fwIm:=TfwImage(fwImages[lbImages.ItemIndex]);
-// im:=fwIm.GetPicture(fw);
-// imPreview.Picture.Assign(im);
-// fwIm.SaveToFile(fw,ChangeFileExt(SavePictureDialog1.FileName,'.png'),cbFixColors.Checked);
- fim:=imArray[getCurrentImg];
- GetImgFromArray(FData,imArray,getCurrentImg);
- if fim.imType=imPNG then begin
-  for i:=fim.StartOffset+picbase+12 to fim.StartOffset+picbase+fim.ImgLength+11 do begin
-   tmpStr:=tmpStr+chr(PByte(Integer(FData)+i)^);
+  if not SavePictureDialog1.Execute then Exit;
+  if FileExists(ChangeFileExt(SavePictureDialog1.FileName,'.png')) then begin
+   if MessageBox(Application.Handle, PAnsiChar(AnsiString(_('File already exists. Rewrite?'))), PChar(AnsiString(_('Rewrite?'))), MB_ICONQUESTION or MB_YESNO or MB_TASKMODAL)=IDNO then begin
+    EnableForm;
+    Exit;
+   end
   end;
-  ms:=TStringStream.Create(tmpStr);
-  if cbFixColors.Checked then begin
-   im2:=TPNGObject.Create;
-   im2.LoadFromStream(ms);
-   im2:=FixImageColors(im2);
-   ms.Free;
-   im2.SaveToFile(ChangeFileExt(SavePictureDialog1.FileName,'.png'));
-  end else begin
-   fs:=TFileStream.Create(ChangeFileExt(SavePictureDialog1.FileName,'.png'),fmCreate);
-   fs.CopyFrom(ms,ms.Size);
-   ms.Free;
-   fs.Free;
-  end;
+  DisableForm;
+  SaveImg(GetCurrentImg,SavePictureDialog1.FileName);
+  EnableForm;
  end else begin
-  im:=GetImgFromArray(FData,imArray,GetCurrentImg);
-  im.SaveToFile(ChangeFileExt(SavePictureDialog1.FileName,'.png'));
+  if not JvBrowseForFolderDialog1.Execute then Exit;
+  for i:=0 to lbImages.Count-1 do begin
+   if not lbImages.Selected[i] then continue;
+   imID:=lsImages[getCurrentImg(i)];
+   if cbUseNames.Checked then
+    if imNames<>nil then if imNames.ContainsKey(imID) then
+     imID:=imNames.Items[imID];
+   SaveImg(GetCurrentImg(i),IncludeTrailingPathDelimiter(JvBrowseForFolderDialog1.Directory)+imID);
+  end;
  end;
- EnableForm;
 end;
 
 procedure TfmMain.acDeleteImgExecute(Sender: TObject);
@@ -3320,7 +3248,6 @@ begin
     end;
    end;
    GetImgFromArray(FData,imArray,i);
-//   imArrayRepl[i]:=fim;
    imArrayRepl[i]:=imArray[i];
   end;
  end;
@@ -3333,7 +3260,6 @@ begin
     Exit;
    end;
   end;
-//  SetPicture(FNewData,fim,Buf,im_width,im_height);
   fim.im_width:=im_width;
   fim.im_height:=im_height;
   SetRAWData(fim,Buf);
@@ -3400,6 +3326,7 @@ var
  j:Integer;
  tmpName:string;
  old_pos,percent:Integer;
+ FNewData:PByte;
 begin
  sbStatus.Panels[0].Text:=_('Generating patch...');
  if Length(imArrayRepl)<1 then begin
@@ -3421,7 +3348,9 @@ begin
   end;
  end;
  RecalculateFreeBlocks;
- tmpStrings:=GenerateVKP(FData);
+ GetMem(FNewData,iFileLen);
+ tmpStrings:=GenerateVKP(FData,FNewData);
+ FreeMem(FNewData);
  if tmpStrings=nil then begin
   EnableForm;
   Exit;
@@ -3504,13 +3433,6 @@ end;
 
 procedure TfmMain.acClearFWExecute(Sender: TObject);
 begin
-{ CopyMemory(fw,fwOrig,Length(fw));
- fwImages.Clear;
- SetLength(FreeBlocks,0);
- for i:=0 to fwImages.Count-1 do begin
-  fwim:=TfwImage.Create;
-  fwim.Assign(TfwImage(fwImagesOrig[i]));
- end;}
  imArrayRepl:=nil;
  FreeBlocks:=nil;
  GlobalDeleted:=-1;
@@ -3641,18 +3563,6 @@ begin
  DisableForm;
  fs:=TFileStream.Create(ChangeFileExt(SaveDialog1.FileName,'.imt'),fmCreate);
  f:=TZCompressionStream.Create(fs,zcDefault);
-{ //Write original firmware
- sWriteBlock(f,Length(fwOrig));
- sWriteBlock(f,String(fwOrig));
- //Write changed firmware
- sWriteBlock(f,Length(fw));
- sWriteBlock(f,String(fw));
- //Write original images
- sWriteBlock(f,fwImagesOrig.Count);
- for i:=0 to fwImagesOrig.Count-1 do begin
-  tmpStr:=TfwImage(fwImagesOrig[i]).SaveToString;
-  sWriteBlock(f,tmpStr);
- end;}
  //Write changed images
  sWriteBlock(f,iVersion);
  sWriteBlock(f,fwFileName);
@@ -3849,7 +3759,7 @@ begin
   if filterText<>'' then begin
    c_item_text:=lsImages[i];
    if cbUseNames.Checked then begin
-    if imNames.ContainsKey(c_item_text) then
+    if imNames<>nil then if imNames.ContainsKey(c_item_text) then
      c_item_text:=c_item_text+' '+imNames.Items[c_item_text];
    end;
    if Pos(filterText,AnsiUpperCase(c_item_text))>0 then
@@ -4115,15 +4025,21 @@ begin
  EnableForm;
 end;
 
-procedure TfmMain.LoadValues(var Hash: IJclStrStrMap;
+{procedure TfmMain.LoadValues(var Hash: IJclStrStrMap;
   xmlItem: TJvSimpleXMLElem);
 var
  i:integer;
+ CalcHash:integer;
+ LoadedHash:integer;
 begin
  if xmlItem.Properties.Count<1 then Exit;
  for i:=0 to xmlItem.Properties.Count-1 do
-  if Trim(xmlItem.Properties.Value('KnownID'))<>'' then
+  if Trim(xmlItem.Properties.Value('KnownID'))<>'' then begin
    Hash.PutValue(xmlItem.Properties.Value('Hash'),xmlItem.Properties.Value('KnownID'));
+   //check algo
+   CalcHash:=HashOfString(xmlItem.Properties.Value('KnownID'));
+   LoadedHash:=StrToInt('$'+xmlItem.Properties.Value('Hash'));
+  end;
 end;
 
 procedure TfmMain.LoadXMLItems(var Hash: IJclStrStrMap;
@@ -4136,14 +4052,7 @@ begin
   LoadValues(Hash,xmlItems[i]);
   LoadXMLItems(Hash,xmlItems[i].Items);
  end;
-//  for j:=0 to sxXML.Root.Items[i].Items.Count-1 do begin
-//   LoadValues(Hash,sxXML.Root.Items[i].Items[j]);
-//   if sxXML.Root.Items[i].Items[j].Items.Count<1 then continue;
-//   for k:=0 to sxXML.Root.Items[i].Items[j].Items.Count-1 do begin
-//    LoadValues(Hash,sxXML.Root.Items[i].Items[j].Items[k]);
-//   end;
-//  end;
-end;
+end;}
 
 procedure TfmMain.LoadNames;
 var
@@ -4155,6 +4064,8 @@ var
  i,j,k:integer;
  //
  percent,old_percent:integer;
+ f:System.text;
+ s:string;
 begin
  meLog.Lines.Add('Building names table...');
  namesTable:=TStringList.Create;
@@ -4165,23 +4076,16 @@ begin
  //Load table
  meLog.Lines.Add('Loading names file...');
  Hash:=TJclStrStrHashMap.Create();
-// AssignFile(csv,'d:\Misha\Projects\Delphi\SE_fwImagesEditor\z610_ico.csv');
-// Reset(csv);
-// while not eof(csv) do begin
-//  Readln(csv,s);
-//  s:=Trim(s);
-//  if Length(s)<1 then continue;
-//  s1:=Copy(s,1,Pos(';',s)-1);
-//  s1:='$'+Copy(s1,3,Length(s1));
-//  s2:=Copy(s,Pos(';',s)+1,Length(s));
-//  s2:=Copy(s2,Pos(';',s)-1,Length(s2));
-//  if Hash.ContainsKey(s1) then
-//   ShowMessage('Duplicate hash!');
-//  Hash.PutValue(s1,s2);
-// end;
-// CloseFile(csv);
- sxXML.LoadFromFile(ExtractFilePath(Application.ExeName)+'IconsHash.xml');
- LoadXMLItems(Hash,sxXML.Root.Items);
+{ sxXML.LoadFromFile(ExtractFilePath(Application.ExeName)+'IconsHash.xml');
+ LoadXMLItems(Hash,sxXML.Root.Items);}
+ AssignFile(f,ExtractFilePath(Application.ExeName)+'names.txt');
+ Reset(f);
+ while not eof(f) do begin
+  ReadLn(f,s);
+  s:=Trim(AnsiUpperCase(s));
+  Hash.PutValue(IntToHex(HashOfString(s),6),s);
+ end;
+ CloseFile(f);
  meLog.Lines[meLog.Lines.Count-1]:=meLog.Lines[meLog.Lines.Count-1]+' ok';
  //Let's try to find names table
  sbStatus.Panels[0].Text:=_('Searching for names table...');
@@ -4345,6 +4249,166 @@ begin
 //  sHintManager1.HideHint;
   Application.ActivateHint(pn);
  end;
+end;
+
+function TfmMain.HashOfString(const str: string): integer;
+var
+ s:string;
+ curChar:integer;
+ i:integer;
+ temp:integer;
+begin
+ Result:=0;
+ s:=Trim(str);
+ if Length(s)<1 then Exit;
+ for i:=1 to Length(s) do begin
+  curChar:=ord(s[i]);
+  if (curchar=ord('_')) then curchar:=$24
+   else
+  if (curchar>=ord('A')) and (curchar<ord('[')) then curchar:=curchar+$C9  //0x0A..0x23
+   else
+  if (curchar>=ord('0')) and (curchar<ord(':')) then curchar:=curchar+$D0  //0x00..0x09
+   else
+  if (curchar>=ord('a')) and (curchar<ord('{')) then curchar:=curchar+$C4  //0x25..0x3E
+   else curchar:=$3F;
+  curChar:=curChar and $3F;
+  curChar:=curChar or (Result shl 6);
+  temp:=Result shr $12;
+  Result:=$3F and temp xor curChar;
+ end;
+ Result:=Result and $FFFFFF;
+end;
+
+procedure TfmMain.SaveImg(const idx: integer; const fName: TFileName);
+var
+ im:TPNGObject;
+ fim:TfnImage;
+ i:Integer;
+ tmpStr:string;
+ fs:TFileStream;
+ ms:TStringStream;
+ im2:TPNGObject;
+begin
+  GetImgFromArray(FData,imArray,idx);
+  fim:=imArray[idx];
+  if (fim.im_width<1) then begin
+   meLog.Lines.Add('Skipping image '+ExtractFileName(fName)+' because it''s width is zero');
+   Exit;
+  end;
+  if (fim.im_height<1) then begin
+   meLog.Lines.Add('Skipping image '+ExtractFileName(fName)+' because it''s height is zero');
+   Exit;
+  end;
+  if fim.imType=imPNG then begin
+   for i:=fim.StartOffset+picbase+12 to fim.StartOffset+picbase+fim.ImgLength+11 do begin
+    tmpStr:=tmpStr+chr(PByte(Integer(FData)+i)^);
+   end;
+   ms:=TStringStream.Create(tmpStr);
+   if cbFixColors.Checked then begin
+    im2:=TPNGObject.Create;
+    im2.LoadFromStream(ms);
+    im2:=FixImageColors(im2);
+    ms.Free;
+    im2.SaveToFile(ChangeFileExt(fName,'.png'));
+   end else begin
+    fs:=TFileStream.Create(ChangeFileExt(fName,'.png'),fmCreate);
+    fs.CopyFrom(ms,ms.Size);
+    ms.Free;
+    fs.Free;
+   end;
+  end else begin
+   im:=GetImgFromArray(FData,imArray,idx);
+   im.SaveToFile(ChangeFileExt(fName,'.png'));
+  end;
+end;
+
+procedure TfmMain.JvBrowseForFolderDialog1AcceptChange(Sender: TObject;
+  const NewFolder: String; var Accept: Boolean);
+begin
+ Accept:=DirectoryExists(NewFolder);
+end;
+
+procedure TfmMain.rgTableIndexClick(Sender: TObject);
+begin
+ if FData=nil then Exit;
+ DisableForm;
+ lbImages.Clear;
+ lsImages.Clear;
+ lbData.Caption:=' '+#10#13+' ';
+ imArray:=nil;
+ imArrayRepl:=nil;
+ FreeBlocks:=nil;
+ imNames:=nil;
+ GlobalDeleted:=-1;
+ GlobalDeletedIdx:=-1;
+ replacedCount:=0;
+ replacedSize:=0;
+ RecalculateFreeBlocks;
+ ReadImgTable;
+ if cbUseNames.Checked then
+  LoadNames;
+ EnableForm;
+end;
+
+procedure TfmMain.acSaveRAWExecute(Sender: TObject);
+var
+ fVkp:System.text;
+ tmpStr:string;
+ tmpStrings:TStrings;
+ i:Integer;
+ fim:TfnImage;
+ j:Integer;
+ tmpName:string;
+ old_pos,percent:Integer;
+ FNewData:PByte;
+ newAr:TByteArray;
+begin
+ sbStatus.Panels[0].Text:=_('Generating patch...');
+ if Length(imArrayRepl)<1 then begin
+  EnableForm;
+  MessageBox(Application.Handle, PChar(AnsiString(_('No images changed or images are equal!'+#13+#10+'Will not create empty file'))), PChar(AnsiString(_('Nothing to write'))), MB_ICONWARNING or MB_OK or MB_TASKMODAL);
+  Exit;
+ end;
+ SaveDialog1.Filter:=_('RAW files (*.raw)|*.raw|All files (*.*)|*.*');
+ SaveDialog1.FileName:=ChangeFileExt(fwFileName,'')+'_patched.raw';
+ if not SaveDialog1.Execute then Exit;
+ DisableForm;
+ for j:=0 to Length(imArrayRepl)-1 do begin
+  fim:=imArrayRepl[j];
+  if not (fim.Replaced or fim.empty) then Continue;
+  for i:=j+1 to Length(imArrayRepl)-1 do begin
+   if fim.orig_offset=imArrayRepl[i].orig_offset then begin
+    GetImgFromArray(FData,imArray,i);
+    tmpName:=imArrayRepl[i].name;
+    imArrayRepl[i]:=fim;
+    imArrayRepl[i].name:=tmpName;
+   end;
+  end;
+ end;
+ RecalculateFreeBlocks;
+ GetMem(FNewData,iFileLen);
+ tmpStrings:=GenerateVKP(FData,FNewData);
+{ if tmpStrings=nil then begin
+  EnableForm;
+  FreeMem(FNewData);
+  Exit;
+ end;
+ if tmpStrings.Count<1 then begin
+  EnableForm;
+  FreeMem(FNewData);
+  tmpStrings.Free;
+  MessageBox(Application.Handle, PChar(AnsiString(_('No images changed or images are equal!'+#13+#10+'Will not create empty file'))), PChar(AnsiString(_('Nothing to write'))), MB_ICONWARNING or MB_OK or MB_TASKMODAL);
+  Exit;
+ end;}
+ SetLength(newAr,iFileLen);
+ for i:=0 to iFileLen-1 do begin
+  newAr[i]:=GetByte(FNewData,i);
+ end;
+ WriteMemToFile(SaveDialog1.FileName,newAr);
+ newAr:=nil;
+ tmpStrings.Free;
+ FreeMem(FNewData);
+ EnableForm;
 end;
 
 end.
