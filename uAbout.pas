@@ -40,6 +40,7 @@ end;
 procedure TfmAbout.FormCreate(Sender: TObject);
 begin
  TranslateComponent(Self);
+ fmAbout.Caption:=fmAbout.Caption+' v'+swversion;
 end;
 
 end.

@@ -13,6 +13,7 @@ function GetWORD(const P:PByte; const addr:Cardinal):DWORD;overload;
 function GetDWORD(const P:PByte; const addr:Cardinal):DWORD;overload;
 function Get3Bytes(const fw:TByteArray; const addr:Cardinal):LongInt;overload;
 function Get3Bytes(const P:PByte; const addr:Cardinal):LongInt;overload;
+function Get3BytesAlt(const P: PByte; const addr: Cardinal): LongInt;
 function GetByte(const P:PByte; const addr:Cardinal):Byte;
 function DecompressImg(const P:PByte; const addr:Cardinal; const BufLen:Cardinal; out len:LongInt; const stOffset:Integer=12):string;
 procedure SetByte(const P:PByte; const addr:Cardinal; const val:byte);
@@ -79,6 +80,24 @@ begin
  b1:=pn^;
  byte3:=IntToHex(b1,2);
  Result:=StrToInt('$'+byte3+byte2+byte1);
+end;
+
+function Get3BytesAlt(const P: PByte; const addr: Cardinal): LongInt;
+var
+ b1:Byte;
+ pn:PByte;
+ byte1,byte2,byte3:string;
+begin
+ pn:=Pointer(Cardinal(P)+addr);
+ b1:=pn^;
+ byte1:=IntToHex(b1,2);
+ pn:=Pointer(Cardinal(P)+addr+1);
+ b1:=pn^;
+ byte2:=IntToHex(b1,2);
+ pn:=Pointer(Cardinal(P)+addr+2);
+ b1:=pn^;
+ byte3:=IntToHex(b1,2);
+ Result:=StrToInt('$'+byte3+byte1+byte2);
 end;
 
 function GetByte(const P: PByte; const addr: Cardinal): Byte;

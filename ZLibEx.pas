@@ -414,20 +414,6 @@ type
   EZCompressionError = class(EZLibError);
   EZDecompressionError = class(EZLibError);
 
-implementation
-
-{** link zlib code **********************************************************}
-
-{$L deflate.obj}
-{$L inflate.obj}
-{$L inftrees.obj}
-{$L infback.obj}
-{$L inffast.obj}
-{$L trees.obj}
-{$L compress.obj}
-{$L adler32.obj}
-{$L crc32.obj}
-
 {*****************************************************************************
 *  note: do not reorder the above -- doing so will result in external        *
 *  functions being undefined                                                 *
@@ -442,7 +428,6 @@ const
   Z_FULL_FLUSH    = 3;
   Z_FINISH        = 4;
   Z_BLOCK         = 5;
-
   {** return codes **********************************************************}
 
   Z_OK            = 0;
@@ -455,6 +440,32 @@ const
   Z_BUF_ERROR     = (-5);
   Z_VERSION_ERROR = (-6);
 
+function inflate(var strm: TZStreamRec; flush: Integer): Integer;
+  external;
+
+function inflateEnd(var strm: TZStreamRec): Integer;
+  external;
+
+function inflateReset(var strm: TZStreamRec): Integer;
+  external;
+
+function InflateInit(var stream: TZStreamRec): Integer;
+
+implementation
+
+{** link zlib code **********************************************************}
+
+{$L deflate.obj}
+{$L inflate.obj}
+{$L inftrees.obj}
+{$L infback.obj}
+{$L inffast.obj}
+{$L trees.obj}
+{$L compress.obj}
+{$L adler32.obj}
+{$L crc32.obj}
+
+const
   {** compression levels ****************************************************}
 
   Z_NO_COMPRESSION       =   0;
@@ -543,6 +554,14 @@ function deflate(var strm: TZStreamRec; flush: Integer): Integer;
 function deflateEnd(var strm: TZStreamRec): Integer;
   external;
 
+{** checksum routines *******************************************************}
+
+function adler32(adler: Longint; const buf; len: Integer): Longint;
+  external;
+
+function crc32(crc: Longint; const buf; len: Integer): Longint;
+  external;
+
 {** inflate routines ********************************************************}
 
 function inflateInit_(var strm: TZStreamRec; version: PChar;
@@ -551,23 +570,6 @@ function inflateInit_(var strm: TZStreamRec; version: PChar;
 
 function inflateInit2_(var strm: TZStreamRec; windowBits: Integer;
   version: PChar; recsize: Integer): Integer;
-  external;
-
-function inflate(var strm: TZStreamRec; flush: Integer): Integer;
-  external;
-
-function inflateEnd(var strm: TZStreamRec): Integer;
-  external;
-
-function inflateReset(var strm: TZStreamRec): Integer;
-  external;
-
-{** checksum routines *******************************************************}
-
-function adler32(adler: Longint; const buf; len: Integer): Longint;
-  external;
-
-function crc32(crc: Longint; const buf; len: Integer): Longint;
   external;
 
 {** zlib function implementations *******************************************}

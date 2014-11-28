@@ -2,8 +2,8 @@ object fmAbout: TfmAbout
   Left = 331
   Top = 237
   BorderStyle = bsToolWindow
-  Caption = 'About SE db2020 Image Tool'
-  ClientHeight = 315
+  Caption = 'About SE Image Tool'
+  ClientHeight = 313
   ClientWidth = 635
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -45,7 +45,7 @@ object fmAbout: TfmAbout
     Left = 0
     Top = 113
     Width = 635
-    Height = 202
+    Height = 200
     HideSel = True
     Align = alClient
     ColorHighlight = clMenuHighlight
@@ -54,18 +54,24 @@ object fmAbout: TfmAbout
     Items.Strings = (
       '<align=center><b>--Development--</b></align>'
       
-        '<b>Hussein</b> - for information on image table and B&W image fo' +
-        'rmat'
+        '<b>Hussein</b> - for information on image table and decompressio' +
+        'n code for db2010 images'
       '<b>ego</b> - for information on packed image format'
       '<b>INFerno-- (aka se-team)</b> - for information on BABE format'
-      '<b>den_po</b> - for information on names table and list of names'
+      
+        '<b>den_po</b> - for information on names table, list of names an' +
+        'd CXC format'
       '<b>svansvan</b> - for help on names table and .xml with names'
       '<b>timos_06</b> - for discovering of a strange bug'
-      '<align=center><b>--Translations--</b></align>'
-      '<b>Magister (it'#39's me :) )</b> - Ukrainian and English'
-      '<b>DJSuB</b> - Hungarian'
-      '<b>Adrian</b> - Spanish'
-      '<b>Blast Pit</b> - Russian'
+      '<b>Yoti</b> - for testing and usefull propositions'
+      '<b>'#1041#1072#1088#1082#1077#1090'</b> - for testing and usefull propositions'
+      
+        '<b>Ruslana Lyzhychko</b> - for her great album '#39'Amazonka'#39', which' +
+        ' helped me to work on this program :)'
+      
+        '<align=center><b>--Translations (no translations for now)--</b><' +
+        '/align>'
+      '<b>Magister (it'#39's me :) )</b> - English'
       
         '<align=center><b><a href=http://magister.ipsys.net>Visit my site' +
         ' for new versions</a></b></align>'
