@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-10 14:32+0200\n"
+"POT-Creation-Date: 2008-04-07 13:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. fmAbout..Caption
-#: uAbout.dfm:5 
+#. fmAbout..Caption
+#: uAbout.dfm:5  bak_before_int64/uAbout.dfm:5
 msgid "About SE db2020 Image Tool"
 msgstr ""
 
 #. fmAbout..JvHTLabel1....Caption
-#: uAbout.dfm:34 
+#. fmAbout..JvHTLabel1....Caption
+#: uAbout.dfm:34  bak_before_int64/uAbout.dfm:34
 msgid ""
 "<br>\n"
 "<align=center>You can use and distribute software for free, but you "
@@ -39,59 +41,85 @@ msgid ""
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
-#: uAbout.dfm:55 
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:55  bak_before_int64/uAbout.dfm:55
 msgid "<align=center><b>--Development--</b></align>"
 msgstr ""
 
 #. fmAbout..lbThanks......Items.Strings
-#: uAbout.dfm:58 
+#. fmAbout..lbThanks......Items.Strings
+#: uAbout.dfm:58  bak_before_int64/uAbout.dfm:58
 msgid "<b>Hussein</b> - for information on image table and B&W image format"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
-#: uAbout.dfm:59 
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:59  bak_before_int64/uAbout.dfm:59
 msgid "<b>ego</b> - for information on packed image format"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
-#: uAbout.dfm:60 
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:60  bak_before_int64/uAbout.dfm:60
 msgid "<b>INFerno-- (aka se-team)</b> - for information on BABE format"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:61 
-msgid "<align=center><b>--Translations--</b></align>"
+msgid "<b>den_po</b> - for information on names table and list of names"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:62 
-msgid "<b>Magister (it's me :) )</b> - Ukrainian and English"
+msgid "<b>svansvan</b> - for help on names table and .xml with names"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:63 
+msgid "<b>timos_06</b> - for discovering of a strange bug"
+msgstr ""
+
+#. fmAbout..lbThanks....Items.Strings
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:64  bak_before_int64/uAbout.dfm:61
+msgid "<align=center><b>--Translations--</b></align>"
+msgstr ""
+
+#. fmAbout..lbThanks....Items.Strings
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:65  bak_before_int64/uAbout.dfm:62
+msgid "<b>Magister (it's me :) )</b> - Ukrainian and English"
+msgstr ""
+
+#. fmAbout..lbThanks....Items.Strings
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:66  bak_before_int64/uAbout.dfm:63
 msgid "<b>DJSuB</b> - Hungarian"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
-#: uAbout.dfm:64 
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:67  bak_before_int64/uAbout.dfm:64
 msgid "<b>Adrian</b> - Spanish"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
-#: uAbout.dfm:65 
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:68  bak_before_int64/uAbout.dfm:65
 msgid "<b>Blast Pit</b> - Russian"
 msgstr ""
 
 #. fmAbout..lbThanks......Items.Strings
-#: uAbout.dfm:68 
+#. fmAbout..lbThanks......Items.Strings
+#: uAbout.dfm:71  bak_before_int64/uAbout.dfm:68
 msgid ""
 "<align=center><b><a href=http://magister.ipsys.net>Visit my site for new "
 "versions</a></b></align>"
 msgstr ""
 
 #. fmAbout..lbThanks....Items.Strings
-#: uAbout.dfm:69 
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:72  bak_before_int64/uAbout.dfm:69
 msgid "<align=center><b>---------------------------</b></align>"
 msgstr ""
 
@@ -99,33 +127,57 @@ msgstr ""
 #. fmEditIMT..sSkinProvider1..SkinData.SkinSection
 #. fmMain..sSkinProvider1..SkinData.SkinSection
 #. fmWait..sSkinProvider1..SkinData.SkinSection
-#: uAbout.dfm:73  uEditIMT.dfm:68 uMain.dfm:1636 uWaitForm.dfm:41
+#. fmAbout..sSkinProvider1..SkinData.SkinSection
+#. fmEditIMT..sSkinProvider1..SkinData.SkinSection
+#. fmMain..sSkinProvider1..SkinData.SkinSection
+#. fmWait..sSkinProvider1..SkinData.SkinSection
+#: uAbout.dfm:76  uEditIMT.dfm:68 uMain.dfm:1673 uWaitForm.dfm:41
+#: bak_before_int64/uAbout.dfm:73 bak_before_int64/uEditIMT.dfm:68
+#: bak_before_int64/uMain.dfm:1635 bak_before_int64/uWaitForm.dfm:41
 msgid "FORM"
 msgstr ""
 
 #. fmEditIMT..Caption
-#: uEditIMT.dfm:6 
+#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton1..Caption
+#. fmEditIMT..Caption
+#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton1..Caption
+#: uEditIMT.dfm:6  uMain.dfm:958 bak_before_int64/uEditIMT.dfm:6
+#: bak_before_int64/uMain.dfm:959
 msgid "Edit image table"
 msgstr ""
 
 #. fmEditIMT..veTable....TitleCaptions.Strings
-#: uEditIMT.dfm:33 
+#. fmEditIMT..veTable....TitleCaptions.Strings
+#: uEditIMT.dfm:33  bak_before_int64/uEditIMT.dfm:33
 msgid "Image"
 msgstr ""
 
 #. fmEditIMT..veTable....TitleCaptions.Strings
-#: uEditIMT.dfm:34 
+#. fmEditIMT..veTable....TitleCaptions.Strings
+#: uEditIMT.dfm:34  bak_before_int64/uEditIMT.dfm:34
 msgid "Image offset"
 msgstr ""
 
 #. fmEditIMT..sPanel1..SkinData.SkinSection
+#. fmMain..sPanel1..SkinData.SkinSection
+#. fmMain..sPanel2..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..pnAbout..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..sPanel5..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..SkinData.SkinSection
 #. fmMain..pnLog..SkinData.SkinSection
-#: uEditIMT.dfm:47  uMain.dfm:1127
+#. fmEditIMT..sPanel1..SkinData.SkinSection
+#. fmMain..pnLog..SkinData.SkinSection
+#: uEditIMT.dfm:47  uMain.dfm:74 uMain.dfm:448 uMain.dfm:465 uMain.dfm:560
+#: uMain.dfm:895 uMain.dfm:993 uMain.dfm:1062 uMain.dfm:1163
+#: bak_before_int64/uEditIMT.dfm:47 bak_before_int64/uMain.dfm:1126
 msgid "PANEL"
 msgstr ""
 
 #. fmEditIMT..sPanel1..sBitBtn1..Caption
-#: uEditIMT.dfm:53 
+#. fmEditIMT..sPanel1..sBitBtn1..Caption
+#: uEditIMT.dfm:53  bak_before_int64/uEditIMT.dfm:53
 msgid "Save"
 msgstr ""
 
@@ -145,44 +197,357 @@ msgstr ""
 #. fmMain..sPanel2..sPanel3..gbPreview..btSaveRepl..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel3..gbPreview..btOpenRepl..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
+#. fmEditIMT..sPanel1..sBitBtn1..SkinData.SkinSection
+#. fmEditIMT..sPanel1..sBitBtn2..SkinData.SkinSection
+#. fmMain..sPanel1..btLoadProject..SkinData.SkinSection
+#. fmMain..sPanel1..btSaveProject..SkinData.SkinSection
+#. fmMain..sPanel1..btOpenFw..SkinData.SkinSection
+#. fmMain..sPanel1..btSaveImg..SkinData.SkinSection
+#. fmMain..sPanel1..btDelImg..SkinData.SkinSection
+#. fmMain..sPanel1..btReplaceImg..SkinData.SkinSection
+#. fmMain..sPanel1..btMakeVKP..SkinData.SkinSection
+#. fmMain..sPanel1..btClearFW..SkinData.SkinSection
+#. fmMain..sPanel1..btAbout..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..btSaveOrig..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..btOpenOrig..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..btSaveRepl..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..btOpenRepl..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
 #: uEditIMT.dfm:55  uEditIMT.dfm:64 uMain.dfm:292 uMain.dfm:305 uMain.dfm:318
 #: uMain.dfm:330 uMain.dfm:342 uMain.dfm:354 uMain.dfm:366 uMain.dfm:378
 #: uMain.dfm:391 uMain.dfm:683 uMain.dfm:736 uMain.dfm:820 uMain.dfm:873
-#: uMain.dfm:883
+#: uMain.dfm:883 bak_before_int64/uEditIMT.dfm:55
+#: bak_before_int64/uEditIMT.dfm:64 bak_before_int64/uMain.dfm:292
+#: bak_before_int64/uMain.dfm:305 bak_before_int64/uMain.dfm:318
+#: bak_before_int64/uMain.dfm:330 bak_before_int64/uMain.dfm:342
+#: bak_before_int64/uMain.dfm:354 bak_before_int64/uMain.dfm:366
+#: bak_before_int64/uMain.dfm:378 bak_before_int64/uMain.dfm:391
+#: bak_before_int64/uMain.dfm:683 bak_before_int64/uMain.dfm:736
+#: bak_before_int64/uMain.dfm:820 bak_before_int64/uMain.dfm:873
+#: bak_before_int64/uMain.dfm:883
 msgid "BUTTON"
 msgstr ""
 
 #. fmEditIMT..sPanel1..sBitBtn2..Caption
-#: uEditIMT.dfm:62 
+#. fmEditIMT..sPanel1..sBitBtn2..Caption
+#: uEditIMT.dfm:62  bak_before_int64/uEditIMT.dfm:62
 msgid "Cancel"
 msgstr ""
 
 #. fmMain..Caption
-#: uMain.dfm:6 
+#. fmMain..Caption
+#: uMain.dfm:6  bak_before_int64/uMain.dfm:6
 msgid "SE db2020 Image Tool"
 msgstr ""
 
 #. fmMain..sSplitter2..SkinData.SkinSection
 #. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
-#: uMain.dfm:34  uMain.dfm:455
+#. fmMain..sSplitter2..SkinData.SkinSection
+#. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
+#: uMain.dfm:34  uMain.dfm:455 bak_before_int64/uMain.dfm:34
+#: bak_before_int64/uMain.dfm:455
 msgid "SPLITTER"
 msgstr ""
 
 #. fmMain..sbStatus......Text
-#: uMain.dfm:43 
+#. fmMain..sbStatus......Text
+#: uMain.dfm:43  bak_before_int64/uMain.dfm:43
 msgid "Waiting"
 msgstr ""
 
 #. fmMain..sbStatus..SkinData.SkinSection
-#: uMain.dfm:50 
+#. fmMain..sbStatus..SkinData.SkinSection
+#: uMain.dfm:50  bak_before_int64/uMain.dfm:50
 msgid "STATUSBAR"
 msgstr ""
 
 #. fmMain..sbStatus..pbProgress..SkinData.SkinSection
-#: uMain.dfm:63 
+#. fmMain..sbStatus..pbProgress..SkinData.SkinSection
+#: uMain.dfm:63  bak_before_int64/uMain.dfm:63
 msgid "GAUGE"
 msgstr ""
 
+#. fmMain..sPanel1..sLabel1..Caption
+#. fmMain..sPanel1..sLabel1..Caption
+#: uMain.dfm:84  bak_before_int64/uMain.dfm:84
+msgid "Thumnail size:"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel4..Caption
+#. fmMain..sPanel1..sLabel4..Caption
+#: uMain.dfm:98  bak_before_int64/uMain.dfm:98
+msgid "Look&&feel:"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel5..Caption
+#. fmMain..sPanel1..sLabel5..Caption
+#: uMain.dfm:139  bak_before_int64/uMain.dfm:139
+msgid "Language:"
+msgstr ""
+
+#. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..lbImages..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..SkinData.SkinSection
+#. fmMain..pnLog..meLog..SkinData.SkinSection
+#. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..lbImages..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..SkinData.SkinSection
+#. fmMain..pnLog..meLog..SkinData.SkinSection
+#: uMain.dfm:179  uMain.dfm:1038 uMain.dfm:1139 uMain.dfm:1206
+#: bak_before_int64/uMain.dfm:179 bak_before_int64/uMain.dfm:1017
+#: bak_before_int64/uMain.dfm:1102 bak_before_int64/uMain.dfm:1169
+msgid "EDIT"
+msgstr ""
+
+#. fmMain..sPanel1..cbStretchPreview..Caption
+#. fmMain..sPanel1..cbStretchPreview..Caption
+#: uMain.dfm:198  bak_before_int64/uMain.dfm:198
+msgid "Stretch preview"
+msgstr ""
+
+#. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
+#. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
+#. fmMain..sPanel1..cbExpertMode..SkinData.SkinSection
+#. fmMain..sPanel1..cbAllGraphicsInVKP..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..pnDevControls..cbUseNames..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..cbDeleted..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..cbReplaced..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..cbUnchanged..SkinData.SkinSection
+#. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
+#. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
+#. fmMain..sPanel1..cbExpertMode..SkinData.SkinSection
+#. fmMain..sPanel1..cbAllGraphicsInVKP..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..cbDeleted..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..cbReplaced..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..pnFilter..cbUnchanged..SkinData.SkinSection
+#: uMain.dfm:202  uMain.dfm:216 uMain.dfm:405 uMain.dfm:435 uMain.dfm:980
+#: uMain.dfm:1092 uMain.dfm:1106 uMain.dfm:1120 bak_before_int64/uMain.dfm:202
+#: bak_before_int64/uMain.dfm:216 bak_before_int64/uMain.dfm:405
+#: bak_before_int64/uMain.dfm:435 bak_before_int64/uMain.dfm:1055
+#: bak_before_int64/uMain.dfm:1069 bak_before_int64/uMain.dfm:1083
+msgid "CHECKBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbFixColors..Caption
+#. fmMain..sPanel1..cbFixColors..Caption
+#: uMain.dfm:211  bak_before_int64/uMain.dfm:211
+msgid "Fix colors and optimize image"
+msgstr ""
+
+#. fmMain..sPanel1..cbSkins..SkinData.SkinSection
+#. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
+#. fmMain..sPanel1..cbSkins..SkinData.SkinSection
+#. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
+#: uMain.dfm:235  uMain.dfm:265 bak_before_int64/uMain.dfm:235
+#: bak_before_int64/uMain.dfm:265
+msgid "COMBOBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:280  bak_before_int64/uMain.dfm:280
+msgid "English"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:281  bak_before_int64/uMain.dfm:281
+msgid "Українська"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:282  bak_before_int64/uMain.dfm:282
+msgid "Hungarian"
+msgstr ""
+
+#. fmMain..sPanel1..cbExpertMode..Caption
+#. fmMain..sPanel1..cbExpertMode..Caption
+#: uMain.dfm:401  bak_before_int64/uMain.dfm:401
+msgid "Expert mode"
+msgstr ""
+
+#. fmMain..sPanel1..tbHue..Hint
+#. fmMain..sPanel1..tbHue..Hint
+#: uMain.dfm:414  bak_before_int64/uMain.dfm:414
+msgid "Color hue"
+msgstr ""
+
+#. fmMain..sPanel1..tbHue..SkinData.SkinSection
+#. fmMain..sPanel1..tbHue..SkinData.SkinSection
+#: uMain.dfm:423  bak_before_int64/uMain.dfm:423
+msgid "TRACKBAR"
+msgstr ""
+
+#. fmMain..sPanel1..cbAllGraphicsInVKP..Caption
+#. fmMain..sPanel1..cbAllGraphicsInVKP..Caption
+#: uMain.dfm:430  bak_before_int64/uMain.dfm:430
+msgid "Include all graphics in VKP"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
+#: uMain.dfm:550  bak_before_int64/uMain.dfm:550
+msgid "BARPANEL"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty....Caption
+#. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty....Caption
+#: uMain.dfm:572  bak_before_int64/uMain.dfm:572
+msgid ""
+"By using this software You agree that THE ENTIRE RISK AS TO THE QUALITY AND "
+"PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, "
+"YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
+#: uMain.dfm:610  uMain.dfm:747 bak_before_int64/uMain.dfm:610
+#: bak_before_int64/uMain.dfm:747
+msgid "GROUPBOX"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..Caption
+#. fmMain..sPanel2..sPanel3..pnDevControls..Caption
+#: uMain.dfm:914  bak_before_int64/uMain.dfm:915
+msgid "pnDevControls"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..SkinData.SkinSection
+#: uMain.dfm:921 
+msgid "TOOLBAR"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton2..Caption
+#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton2..Caption
+#: uMain.dfm:926  bak_before_int64/uMain.dfm:927
+msgid "Free space log"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btShowImageAddress..Caption
+#. fmMain..sPanel2..sPanel3..pnDevControls..btShowImageAddress..Caption
+#: uMain.dfm:934  bak_before_int64/uMain.dfm:935
+msgid "Show image address"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btLinkImg..Caption
+#. fmMain..sPanel2..sPanel3..pnDevControls..btLinkImg..Caption
+#: uMain.dfm:942  bak_before_int64/uMain.dfm:943
+msgid "Link image to another"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btRestoreGraphicsVKP..Caption
+#. fmMain..sPanel2..sPanel3..pnDevControls..btRestoreGraphicsVKP..Caption
+#: uMain.dfm:950  bak_before_int64/uMain.dfm:951
+msgid "Restore graphics patch"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..tbFindNames..Caption
+#: uMain.dfm:967 
+msgid "Find names"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..cbUseNames..Caption
+#: uMain.dfm:977 
+msgid "Use names"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..sbHideFilter..Caption
+#. fmMain..sPanel2..sPanel6..sbHideFilter..Caption
+#: uMain.dfm:1012  bak_before_int64/uMain.dfm:991
+msgid "t"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..sbHideFilter..SkinData.SkinSection
+#. fmMain..pnLog..btClearLog..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sbHideFilter..SkinData.SkinSection
+#. fmMain..pnLog..btClearLog..SkinData.SkinSection
+#: uMain.dfm:1021  uMain.dfm:1217 bak_before_int64/uMain.dfm:1000
+#: bak_before_int64/uMain.dfm:1180
+msgid "SPEEDBUTTON_SMALL"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..pnFilter..sbClearEdFilter..Caption
+#: uMain.dfm:1072 
+msgid "X"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..pnFilter..sbClearEdFilter..SkinData.SkinSection
+#: uMain.dfm:1080 
+msgid "SPEEDBUTTON"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..pnFilter..cbDeleted..Caption
+#. fmMain..sPanel2..sPanel6..pnFilter..cbDeleted..Caption
+#: uMain.dfm:1087  bak_before_int64/uMain.dfm:1050
+msgid "Deleted"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..pnFilter..cbReplaced..Caption
+#. fmMain..sPanel2..sPanel6..pnFilter..cbReplaced..Caption
+#: uMain.dfm:1101  bak_before_int64/uMain.dfm:1064
+msgid "Replaced"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..pnFilter..cbUnchanged..Caption
+#. fmMain..sPanel2..sPanel6..pnFilter..cbUnchanged..Caption
+#: uMain.dfm:1115  bak_before_int64/uMain.dfm:1078
+msgid "Unchanged"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..BoundLabel.Caption
+#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..BoundLabel.Caption
+#: uMain.dfm:1141  bak_before_int64/uMain.dfm:1104
+msgid "Filter by"
+msgstr ""
+
+#. fmMain..pnLog..lbData..Caption
+#. fmMain..pnLog..lbData..Caption
+#: uMain.dfm:1173  bak_before_int64/uMain.dfm:1136
+msgid ""
+" \n"
+" "
+msgstr ""
+
+#. fmMain..OpenDialog1....Filter
+#. fmMain..OpenDialog1....Filter
+#: uMain.dfm:1226  bak_before_int64/uMain.dfm:1189 uMain.pas:3045
+#: bak_before_int64/uMain.pas:3126
+msgid ""
+"All supported files|*.mbn;*.raw|MBN files (*.mbn)|*.mbn|RAW files (*.raw)|*."
+"raw|All files (*.*)|*.*"
+msgstr ""
+
+#. fmMain..SaveDialog1..Filter
+#. fmMain..SaveDialog1..Filter
+#: uMain.dfm:1231  bak_before_int64/uMain.dfm:1194 uMain.pas:2709
+#: uMain.pas:2721 uMain.pas:2736 uMain.pas:2749
+#: bak_before_int64/uMain.pas:2790 bak_before_int64/uMain.pas:2802
+#: bak_before_int64/uMain.pas:2817 bak_before_int64/uMain.pas:2830
+msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+msgstr ""
+
+#. fmMain..OpenPictureDialog1..Filter
+#. fmMain..SavePictureDialog1..Filter
+#. fmMain..OpenPictureDialog1..Filter
+#. fmMain..SavePictureDialog1..Filter
+#: uMain.dfm:1236  uMain.dfm:1241 bak_before_int64/uMain.dfm:1199
+#: bak_before_int64/uMain.dfm:1204
+msgid "Portable Network Graphics (*.png)|*.png"
+msgstr ""
+
+#. fmMain..sSkinManager1......Name
+#. fmMain..sSkinManager1..SkinName
+#. fmMain..sSkinManager1......Name
+#. fmMain..sSkinManager1..SkinName
+#: uMain.dfm:1257  uMain.dfm:1666 bak_before_int64/uMain.dfm:1219
+#: bak_before_int64/uMain.dfm:1628
+msgid "BlueGauze"
+msgstr ""
+
+#. fmMain..sSkinManager1..MenuSupport.IcoLineSkin
 #. fmMain..sPanel1..SkinData.SkinSection
 #. fmMain..sPanel2..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel3..SkinData.SkinSection
@@ -192,510 +557,377 @@ msgstr ""
 #. fmMain..sPanel2..sPanel6..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel6..pnFilter..SkinData.SkinSection
 #. fmMain..sSkinManager1..MenuSupport.IcoLineSkin
-#: uMain.dfm:74  uMain.dfm:448 uMain.dfm:465 uMain.dfm:560 uMain.dfm:895
-#: uMain.dfm:922 uMain.dfm:973 uMain.dfm:1042 uMain.dfm:1622
+#: uMain.dfm:1659  bak_before_int64/uMain.dfm:74
+#: bak_before_int64/uMain.dfm:448 bak_before_int64/uMain.dfm:465
+#: bak_before_int64/uMain.dfm:560 bak_before_int64/uMain.dfm:895
+#: bak_before_int64/uMain.dfm:922 bak_before_int64/uMain.dfm:972
+#: bak_before_int64/uMain.dfm:1041 bak_before_int64/uMain.dfm:1621
 msgid "ICOLINE"
 msgstr ""
 
-#. fmMain..sPanel1..sLabel1..Caption
-#: uMain.dfm:84 
-msgid "Thumnail size:"
-msgstr ""
-
-#. fmMain..sPanel1..sLabel4..Caption
-#: uMain.dfm:98 
-msgid "Look&&feel:"
-msgstr ""
-
-#. fmMain..sPanel1..sLabel5..Caption
-#: uMain.dfm:139 
-msgid "Language:"
-msgstr ""
-
-#. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
-#. fmMain..sPanel2..sPanel6..lbImages..SkinData.SkinSection
-#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..SkinData.SkinSection
-#. fmMain..pnLog..meLog..SkinData.SkinSection
-#: uMain.dfm:179  uMain.dfm:1018 uMain.dfm:1103 uMain.dfm:1170
-msgid "EDIT"
-msgstr ""
-
-#. fmMain..sPanel1..cbStretchPreview..Caption
-#: uMain.dfm:198 
-msgid "Stretch preview"
-msgstr ""
-
-#. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
-#. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
-#. fmMain..sPanel1..cbExpertMode..SkinData.SkinSection
-#. fmMain..sPanel1..cbAllGraphicsInVKP..SkinData.SkinSection
-#. fmMain..sPanel2..sPanel6..pnFilter..cbDeleted..SkinData.SkinSection
-#. fmMain..sPanel2..sPanel6..pnFilter..cbReplaced..SkinData.SkinSection
-#. fmMain..sPanel2..sPanel6..pnFilter..cbUnchanged..SkinData.SkinSection
-#: uMain.dfm:202  uMain.dfm:216 uMain.dfm:405 uMain.dfm:435 uMain.dfm:1056
-#: uMain.dfm:1070 uMain.dfm:1084
-msgid "CHECKBOX"
-msgstr ""
-
-#. fmMain..sPanel1..cbFixColors..Caption
-#: uMain.dfm:211 
-msgid "Fix colors and optimize image"
-msgstr ""
-
-#. fmMain..sPanel1..cbSkins..SkinData.SkinSection
-#. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
-#: uMain.dfm:235  uMain.dfm:265
-msgid "COMBOBOX"
-msgstr ""
-
-#. fmMain..sPanel1..cbLanguage....Items.Strings
-#: uMain.dfm:280 
-msgid "English"
-msgstr ""
-
-#. fmMain..sPanel1..cbLanguage....Items.Strings
-#: uMain.dfm:281 
-msgid "Українська"
-msgstr ""
-
-#. fmMain..sPanel1..cbLanguage....Items.Strings
-#: uMain.dfm:282 
-msgid "Hungarian"
-msgstr ""
-
-#. fmMain..sPanel1..cbExpertMode..Caption
-#: uMain.dfm:401 
-msgid "Expert mode"
-msgstr ""
-
-#. fmMain..sPanel1..tbHue..Hint
-#: uMain.dfm:414 
-msgid "Color hue"
-msgstr ""
-
-#. fmMain..sPanel1..tbHue..SkinData.SkinSection
-#: uMain.dfm:423 
-msgid "TRACKBAR"
-msgstr ""
-
-#. fmMain..sPanel1..cbAllGraphicsInVKP..Caption
-#: uMain.dfm:430 
-msgid "Include all graphics in VKP"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
-#: uMain.dfm:550 
-msgid "BARPANEL"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty....Caption
-#: uMain.dfm:572 
-msgid ""
-"By using this software You agree that THE ENTIRE RISK AS TO THE QUALITY AND "
-"PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, "
-"YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
-#. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
-#: uMain.dfm:610  uMain.dfm:747
-msgid "GROUPBOX"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..Caption
-#: uMain.dfm:915 
-msgid "pnDevControls"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton2..Caption
-#: uMain.dfm:927 
-msgid "Free space log"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..btShowImageAddress..Caption
-#: uMain.dfm:935 
-msgid "Show image address"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..btLinkImg..Caption
-#: uMain.dfm:943 
-msgid "Link image to another"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..btRestoreGraphicsVKP..Caption
-#: uMain.dfm:951 
-msgid "Restore graphics patch"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton1..Caption
-#: uMain.dfm:959 
-msgid "Show image table"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel6..sbHideFilter..Caption
-#: uMain.dfm:992 
-msgid "t"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel6..sbHideFilter..SkinData.SkinSection
-#. fmMain..pnLog..btClearLog..SkinData.SkinSection
-#: uMain.dfm:1001  uMain.dfm:1181
-msgid "SPEEDBUTTON_SMALL"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel6..pnFilter..cbDeleted..Caption
-#: uMain.dfm:1051 
-msgid "Deleted"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel6..pnFilter..cbReplaced..Caption
-#: uMain.dfm:1065 
-msgid "Replaced"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel6..pnFilter..cbUnchanged..Caption
-#: uMain.dfm:1079 
-msgid "Unchanged"
-msgstr ""
-
-#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..BoundLabel.Caption
-#: uMain.dfm:1105 
-msgid "Filter by"
-msgstr ""
-
-#. fmMain..pnLog..lbData..Caption
-#: uMain.dfm:1137 
-msgid ""
-" \n"
-" "
-msgstr ""
-
-#. fmMain..OpenDialog1....Filter
-#: uMain.dfm:1190  uMain.pas:3152
-msgid ""
-"All supported files|*.mbn;*.raw|MBN files (*.mbn)|*.mbn|RAW files (*.raw)|*."
-"raw|All files (*.*)|*.*"
-msgstr ""
-
-#. fmMain..SaveDialog1..Filter
-#: uMain.dfm:1195  uMain.pas:2788 uMain.pas:2800 uMain.pas:2815
-#: uMain.pas:2828
-msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
-msgstr ""
-
-#. fmMain..OpenPictureDialog1..Filter
-#. fmMain..SavePictureDialog1..Filter
-#: uMain.dfm:1200  uMain.dfm:1205
-msgid "Portable Network Graphics (*.png)|*.png"
-msgstr ""
-
-#. fmMain..sSkinManager1......Name
-#. fmMain..sSkinManager1..SkinName
-#: uMain.dfm:1220  uMain.dfm:1629
-msgid "BlueGauze"
-msgstr ""
-
 #. fmMain..sSkinManager1..SkinDirectory
-#: uMain.dfm:1628 
+#. fmMain..sSkinManager1..SkinDirectory
+#: uMain.dfm:1665  bak_before_int64/uMain.dfm:1627
 msgid "c:\\Skins"
 msgstr ""
 
 #. fmMain..PopupMenu1..N1..Caption
-#: uMain.dfm:1690 
+#. fmMain..PopupMenu1..N1..Caption
+#: uMain.dfm:1727  bak_before_int64/uMain.dfm:1689
 msgid "Copy to clipboard"
 msgstr ""
 
 #. fmMain..PopupMenu1..N49528031..Caption
-#: uMain.dfm:1706 
+#. fmMain..PopupMenu1..N49528031..Caption
+#: uMain.dfm:1743  bak_before_int64/uMain.dfm:1705
 msgid "EGold 4952803"
 msgstr ""
 
 #. fmMain..PopupMenu1..N2..Caption
-#: uMain.dfm:1714 
+#. fmMain..PopupMenu1..N2..Caption
+#: uMain.dfm:1751  bak_before_int64/uMain.dfm:1713
 msgid "Write email to author"
 msgstr ""
 
 #. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
-#: uMain.dfm:1719 
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
+#: uMain.dfm:1756  bak_before_int64/uMain.dfm:1718
 msgid "TRUE, YES, Y"
 msgstr ""
 
 #. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
-#: uMain.dfm:1720 
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
+#: uMain.dfm:1757  bak_before_int64/uMain.dfm:1719
 msgid "FALSE, NO, N"
 msgstr ""
 
 #. fmMain..JvFormStorage1..AppStoragePath
-#: uMain.dfm:1729 
+#. fmMain..JvFormStorage1..AppStoragePath
+#: uMain.dfm:1766  bak_before_int64/uMain.dfm:1728
 msgid "fmMain\\"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1739 
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1776  bak_before_int64/uMain.dfm:1738
 msgid "cbStretchPreview.Checked"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1740 
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1777  bak_before_int64/uMain.dfm:1739
 msgid "seThumbHeight.Value"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1742 
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1779  bak_before_int64/uMain.dfm:1741
 msgid "cbFixColors.Checked"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1744 
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1781  bak_before_int64/uMain.dfm:1743
 msgid "cbExpertMode.Checked"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1745 
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1782  bak_before_int64/uMain.dfm:1744
 msgid "pnFilter.Visible"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1746 
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1783  bak_before_int64/uMain.dfm:1745
 msgid "tbHue.Position"
 msgstr ""
 
 #. fmMain..sHintManager1..SkinSection
-#: uMain.dfm:1779 
+#. fmMain..sHintManager1..SkinSection
+#: uMain.dfm:1817  bak_before_int64/uMain.dfm:1778
 msgid "HINT"
 msgstr ""
 
 #. fmMain..ActionList1..acOpen..Hint
+#. fmMain..ActionList1..acOpen..Hint
 #. btOpenFw.Caption:=_('Open');
-#: uMain.dfm:2480  uMain.pas:2026
+#. btOpenFw.Caption:=_('Open');
+#: uMain.dfm:2518  bak_before_int64/uMain.dfm:2479 uMain.pas:2042
+#: bak_before_int64/uMain.pas:2028
 msgid "Open RAW file"
 msgstr ""
 
 #. fmMain..ActionList1..acSaveImg..Hint
-#: uMain.dfm:2487 
+#. fmMain..ActionList1..acSaveImg..Hint
+#: uMain.dfm:2525  bak_before_int64/uMain.dfm:2486
 msgid "Save selected image to disk"
 msgstr ""
 
 #. fmMain..ActionList1..acDeleteImg..Hint
-#: uMain.dfm:2494 
+#. fmMain..ActionList1..acDeleteImg..Hint
+#: uMain.dfm:2532  bak_before_int64/uMain.dfm:2493
 msgid "Delete image"
 msgstr ""
 
 #. fmMain..ActionList1..acReplaceImg..Hint
-#: uMain.dfm:2501 
+#. fmMain..ActionList1..acReplaceImg..Hint
+#: uMain.dfm:2539  bak_before_int64/uMain.dfm:2500
 msgid "Replace selected image"
 msgstr ""
 
 #. fmMain..ActionList1..acMakeVKP..Hint
-#: uMain.dfm:2508 
+#. fmMain..ActionList1..acMakeVKP..Hint
+#: uMain.dfm:2546  bak_before_int64/uMain.dfm:2507
 msgid "Make .vkp patch"
 msgstr ""
 
 #. fmMain..ActionList1..acClearFW..Hint
-#: uMain.dfm:2515 
+#. fmMain..ActionList1..acClearFW..Hint
+#: uMain.dfm:2553  bak_before_int64/uMain.dfm:2514
 msgid "Restore RAW"
 msgstr ""
 
 #. fmMain..ActionList1..acLoadProject..Hint
-#: uMain.dfm:2521 
+#. fmMain..ActionList1..acLoadProject..Hint
+#: uMain.dfm:2559  bak_before_int64/uMain.dfm:2520
 msgid "Load project"
 msgstr ""
 
 #. fmMain..ActionList1..acSaveProject..Hint
-#: uMain.dfm:2528 
+#. fmMain..ActionList1..acSaveProject..Hint
+#: uMain.dfm:2566  bak_before_int64/uMain.dfm:2527
 msgid "Save project"
 msgstr ""
 
 #. fmMain..ActionList1..acRestoreOriginal..Hint
-#: uMain.dfm:2535 
+#. fmMain..ActionList1..acRestoreOriginal..Hint
+#: uMain.dfm:2573  bak_before_int64/uMain.dfm:2534
 msgid "Restore original image"
 msgstr ""
 
 #. fmMain..ActionList1..acAbout..Hint
-#: uMain.dfm:2541 
+#. fmMain..ActionList1..acAbout..Hint
+#: uMain.dfm:2579  bak_before_int64/uMain.dfm:2540
 msgid "About..."
 msgstr ""
 
 #. fmMain..ActionList1..acClearLog..Hint
-#: uMain.dfm:2546 
+#. fmMain..ActionList1..acClearLog..Hint
+#: uMain.dfm:2584  bak_before_int64/uMain.dfm:2545
 msgid "Clear log"
 msgstr ""
 
 #. fmWait..Caption
-#: uWaitForm.dfm:5 
+#. fmWait..Caption
+#: uWaitForm.dfm:5  bak_before_int64/uWaitForm.dfm:5
 msgid "Wait..."
 msgstr ""
 
 #. fmWait..sLabelFX1..Caption
-#: uWaitForm.dfm:30 
+#. fmWait..sLabelFX1..Caption
+#: uWaitForm.dfm:30  bak_before_int64/uWaitForm.dfm:30
 msgid "Please wait..."
 msgstr ""
 
-#: uMain.pas:434 
+#: uMain.pas:448  bak_before_int64/uMain.pas:434
 msgid "Free space: %d bytes in %d blocks"
 msgstr ""
 
-#: uMain.pas:435 
+#: uMain.pas:449  bak_before_int64/uMain.pas:435
 msgid "Largest block: %d bytes; Smallest block: %d bytes"
 msgstr ""
 
-#: uMain.pas:436 
+#: uMain.pas:450  bak_before_int64/uMain.pas:436
 msgid "Need to replace: %d images consuming %d bytes"
 msgstr ""
 
-#. fmMain.meLog.Lines.Add('Block after: Start: '+IntToHex(picbase+tmpBlocks[j].Offset,8)+'; End: '+IntToHex(picbase+tmpBlocks[j].Offset+tmpBlocks[j].Length,8));
-#: uMain.pas:1071 
+#. tmpStr2:=Copy(tmpStr,5,2)+Copy(tmpStr,3,2)+Copy(tmpStr,1,2);
+#: uMain.pas:1085  bak_before_int64/uMain.pas:1071
 msgid ""
 "There is no enough free space to replace all images.\n"
 "Either cancel some of the replacements, or delete one or more images to get "
 "free space."
 msgstr ""
 
-#: uMain.pas:1071 
+#: uMain.pas:1085  bak_before_int64/uMain.pas:1071
 msgid "Not enough free blocks"
 msgstr ""
 
-#: uMain.pas:1204  uMain.pas:1858
+#: uMain.pas:1220  uMain.pas:1874 bak_before_int64/uMain.pas:1206
+#: bak_before_int64/uMain.pas:1860
 msgid "Error loading image"
 msgstr ""
 
-#: uMain.pas:1243  uMain.pas:1247
+#: uMain.pas:1259  uMain.pas:1263 bak_before_int64/uMain.pas:1245
+#: bak_before_int64/uMain.pas:1249
 msgid "Failed to open RAW file"
 msgstr ""
 
-#: uMain.pas:1253 
+#: uMain.pas:1269  bak_before_int64/uMain.pas:1255
 msgid "Cannot read MBN file"
 msgstr ""
 
-#: uMain.pas:1330 
+#: uMain.pas:1346  bak_before_int64/uMain.pas:1332
 msgid "It's not a BABE file or it is corrupted, cannot open!"
 msgstr ""
 
-#: uMain.pas:1330  uMain.pas:1354 uMain.pas:1831 uMain.pas:3374
-#: uMain.pas:3395 uMain.pas:3417 uMain.pas:3613 uMain.pas:3620 uMain.pas:4144
+#: uMain.pas:1346  uMain.pas:1370 uMain.pas:1847 uMain.pas:3278
+#: uMain.pas:3324 uMain.pas:3346 uMain.pas:3542 uMain.pas:3549 uMain.pas:4053
+#: bak_before_int64/uMain.pas:1332 bak_before_int64/uMain.pas:1356
+#: bak_before_int64/uMain.pas:1833 bak_before_int64/uMain.pas:3348
+#: bak_before_int64/uMain.pas:3369 bak_before_int64/uMain.pas:3391
+#: bak_before_int64/uMain.pas:3587 bak_before_int64/uMain.pas:3594
+#: bak_before_int64/uMain.pas:4118
 msgid "Error"
 msgstr ""
 
-#: uMain.pas:1354 
+#: uMain.pas:1370  bak_before_int64/uMain.pas:1356
 msgid "Not supported BABE version: %d"
 msgstr ""
 
-#: uMain.pas:1363 
+#: uMain.pas:1379  bak_before_int64/uMain.pas:1365
 msgid "Cannot read RAW file"
 msgstr ""
 
-#: uMain.pas:1427 
+#: uMain.pas:1443  bak_before_int64/uMain.pas:1429
 msgid "Reading file..."
 msgstr ""
 
 #. TP_Ignore(Self,'cbSkins');
-#: uMain.pas:1478  uMain.pas:2344 uMain.pas:2597
+#. TP_Ignore(Self,'cbSkins');
+#: uMain.pas:1494  uMain.pas:2368 uMain.pas:2518
+#: bak_before_int64/uMain.pas:1480 bak_before_int64/uMain.pas:2346
+#: bak_before_int64/uMain.pas:2599
 msgid "No skin"
 msgstr ""
 
-#: uMain.pas:1517 
+#: uMain.pas:1533  bak_before_int64/uMain.pas:1519
 msgid "Saving file..."
 msgstr ""
 
 #. btDelImg.Enabled:=false;
 #. aImg:=imArrayRepl[lbImages.ItemIndex];
-#: uMain.pas:1680  uMain.pas:1708
+#. btDelImg.Enabled:=false;
+#. aImg:=imArrayRepl[lbImages.ItemIndex];
+#: uMain.pas:1696  uMain.pas:1724 bak_before_int64/uMain.pas:1682
+#: bak_before_int64/uMain.pas:1710
 msgid "Image type: "
 msgstr ""
 
-#: uMain.pas:1682  uMain.pas:1710
+#: uMain.pas:1698  uMain.pas:1726 bak_before_int64/uMain.pas:1684
+#: bak_before_int64/uMain.pas:1712
 msgid "PNG"
 msgstr ""
 
-#: uMain.pas:1684  uMain.pas:1712
+#: uMain.pas:1700  uMain.pas:1728 bak_before_int64/uMain.pas:1686
+#: bak_before_int64/uMain.pas:1714
 msgid "packed"
 msgstr ""
 
-#: uMain.pas:1686  uMain.pas:1714
+#: uMain.pas:1702  uMain.pas:1730 bak_before_int64/uMain.pas:1688
+#: bak_before_int64/uMain.pas:1716
 msgid "Black&&White"
 msgstr ""
 
-#: uMain.pas:1687  uMain.pas:1715
+#: uMain.pas:1703  uMain.pas:1731 bak_before_int64/uMain.pas:1689
+#: bak_before_int64/uMain.pas:1717
 msgid "Pixels size: "
 msgstr ""
 
-#: uMain.pas:1688  uMain.pas:1716
+#: uMain.pas:1704  uMain.pas:1732 bak_before_int64/uMain.pas:1690
+#: bak_before_int64/uMain.pas:1718
 msgid "Bytes size: "
 msgstr ""
 
-#: uMain.pas:1689  uMain.pas:1717
+#: uMain.pas:1705  uMain.pas:1733 bak_before_int64/uMain.pas:1691
+#: bak_before_int64/uMain.pas:1719
 msgid "Space for image: "
 msgstr ""
 
-#: uMain.pas:1690 
+#: uMain.pas:1706  bak_before_int64/uMain.pas:1692
 msgid "Image address: "
 msgstr ""
 
 #. UpdateSize(fw);
 #. Replaced:=false;
-#: uMain.pas:1831  uMain.pas:3374
+#. UpdateSize(fw);
+#. Replaced:=false;
+#: uMain.pas:1847  uMain.pas:3278 bak_before_int64/uMain.pas:1833
+#: bak_before_int64/uMain.pas:3348
 msgid ""
 "Error while working with image!\n"
 "Looks like it's broken"
 msgstr ""
 
-#: uMain.pas:1831  uMain.pas:2258 uMain.pas:2262 uMain.pas:2914
-#: uMain.pas:3374
+#: uMain.pas:1847  uMain.pas:2278 uMain.pas:2282 uMain.pas:2835
+#: uMain.pas:3278 bak_before_int64/uMain.pas:1833
+#: bak_before_int64/uMain.pas:2260 bak_before_int64/uMain.pas:2264
+#: bak_before_int64/uMain.pas:2916 bak_before_int64/uMain.pas:3348
 msgid "Message: "
 msgstr ""
 
-#: uMain.pas:1872  uMain.pas:1874
+#: uMain.pas:1888  uMain.pas:1890 bak_before_int64/uMain.pas:1874
+#: bak_before_int64/uMain.pas:1876
 msgid "Looks like this file is for newer version of software"
 msgstr ""
 
 #. imgLen:=EndAddress-StartAddress;
-#: uMain.pas:1966 
+#. imgLen:=EndAddress-StartAddress;
+#: uMain.pas:1982  bak_before_int64/uMain.pas:1968
 msgid ""
 "New image size differs from original, but cannot be safely saved!\n"
 "Replace anyway?"
 msgstr ""
 
-#: uMain.pas:1966 
+#: uMain.pas:1982  bak_before_int64/uMain.pas:1968
 msgid "Warning!"
 msgstr ""
 
 #. btOpenFw.Caption:=_('Stop');
-#: uMain.pas:2010 
+#. btOpenFw.Caption:=_('Stop');
+#: uMain.pas:2026  bak_before_int64/uMain.pas:2012
 msgid "Stop processing"
 msgstr ""
 
-#: uMain.pas:2029 
+#: uMain.pas:2045  bak_before_int64/uMain.pas:2031
 msgid "Finished in %s milliseconds, now waiting"
 msgstr ""
 
-#: uMain.pas:2061  uMain.pas:3941
+#: uMain.pas:2077  uMain.pas:3850 bak_before_int64/uMain.pas:2063
+#: bak_before_int64/uMain.pas:3915
 msgid "Images shown: %d"
 msgstr ""
 
 #. Now try PngOptimizerCL.exe
-#: uMain.pas:2258  uMain.pas:2262
+#. Now try PngOptimizerCL.exe
+#: uMain.pas:2278  uMain.pas:2282 bak_before_int64/uMain.pas:2260
+#: bak_before_int64/uMain.pas:2264
 msgid ""
 "Error while optimizing image!\n"
 "Error code: "
 msgstr ""
 
-#: uMain.pas:2258  uMain.pas:2262 uMain.pas:2914
+#: uMain.pas:2278  uMain.pas:2282 uMain.pas:2835
+#: bak_before_int64/uMain.pas:2260 bak_before_int64/uMain.pas:2264
+#: bak_before_int64/uMain.pas:2916
 msgid "Error!"
 msgstr ""
 
-#: uMain.pas:2300 
+#: uMain.pas:2320  bak_before_int64/uMain.pas:2302
 msgid "Processing colors..."
 msgstr ""
 
-#: uMain.pas:2313 
+#: uMain.pas:2333  bak_before_int64/uMain.pas:2315
 msgid " images processed"
 msgstr ""
 
-#: uMain.pas:2544  uMain.pas:3680
+#: uMain.pas:2465  uMain.pas:3609 bak_before_int64/uMain.pas:2546
+#: bak_before_int64/uMain.pas:3654
 msgid " images found"
 msgstr ""
 
-#: uMain.pas:2696 
+#: uMain.pas:2617  bak_before_int64/uMain.pas:2698
 msgid ""
 "The .vkp is ready, now it's time to create a preview.\n"
 "But patch preview image size is large (%dx%d pixels), and software can crash "
@@ -703,162 +935,192 @@ msgid ""
 "Generate preview anyway?"
 msgstr ""
 
-#: uMain.pas:2696 
+#: uMain.pas:2617  bak_before_int64/uMain.pas:2698
 msgid "Too big preview"
 msgstr ""
 
 #. fwIm:TfwImage;
-#: uMain.pas:2791  uMain.pas:2803 uMain.pas:3195 uMain.pas:3510
-#: uMain.pas:3701 uMain.pas:4046
+#: uMain.pas:2712  uMain.pas:2724 uMain.pas:3098 uMain.pas:3439
+#: uMain.pas:3630 uMain.pas:3955 bak_before_int64/uMain.pas:2793
+#: bak_before_int64/uMain.pas:2805 bak_before_int64/uMain.pas:3169
+#: bak_before_int64/uMain.pas:3484 bak_before_int64/uMain.pas:3675
+#: bak_before_int64/uMain.pas:4020
 msgid "File already exists. Rewrite?"
 msgstr ""
 
-#: uMain.pas:2791  uMain.pas:2803 uMain.pas:3195 uMain.pas:3510
-#: uMain.pas:3701 uMain.pas:4046
+#: uMain.pas:2712  uMain.pas:2724 uMain.pas:3098 uMain.pas:3439
+#: uMain.pas:3630 uMain.pas:3955 bak_before_int64/uMain.pas:2793
+#: bak_before_int64/uMain.pas:2805 bak_before_int64/uMain.pas:3169
+#: bak_before_int64/uMain.pas:3484 bak_before_int64/uMain.pas:3675
+#: bak_before_int64/uMain.pas:4020
 msgid "Rewrite?"
 msgstr ""
 
 #. Now try pngcrush
-#: uMain.pas:2914 
+#. Now try pngcrush
+#: uMain.pas:2835  bak_before_int64/uMain.pas:2916
 msgid ""
 "Error while converting image to RGBA!\n"
 "Error code: "
 msgstr ""
 
 #. Res:TResourceStream;
-#: uMain.pas:3258 
+#. Res:TResourceStream;
+#: uMain.pas:3161  bak_before_int64/uMain.pas:3232
 msgid "Deleting images..."
 msgstr ""
 
-#: uMain.pas:3391 
+#: uMain.pas:3295  bak_before_int64/uMain.pas:3365
 msgid "Replacing image..."
 msgstr ""
 
+#. end;
+#: uMain.pas:3308  uMain.pas:3698 bak_before_int64/uMain.pas:3764
+msgid ""
+"This image is used as global deleted picture and can be restored only via "
+"full undo"
+msgstr ""
+
+#: uMain.pas:3308  uMain.pas:3698 bak_before_int64/uMain.pas:3764
+msgid "Cannot restore"
+msgstr ""
+
+#. imArrayRepl[i]:=fim;
 #. SetPicture(FNewData,fim,Buf,im_width,im_height);
-#: uMain.pas:3395  uMain.pas:3417
+#. SetPicture(FNewData,fim,Buf,im_width,im_height);
+#: uMain.pas:3324  uMain.pas:3346 bak_before_int64/uMain.pas:3369
+#: bak_before_int64/uMain.pas:3391
 msgid ""
 "Image is too big, can't replace\n"
 "Image size: "
 msgstr ""
 
-#: uMain.pas:3395  uMain.pas:3417
+#: uMain.pas:3324  uMain.pas:3346 bak_before_int64/uMain.pas:3369
+#: bak_before_int64/uMain.pas:3391
 msgid "Allowed size: "
 msgstr ""
 
 #. patch preview
 #. vkp
-#: uMain.pas:3468  uMain.pas:3979
+#. patch preview
+#. vkp
+#: uMain.pas:3397  uMain.pas:3888 bak_before_int64/uMain.pas:3442
+#: bak_before_int64/uMain.pas:3953
 msgid "Generating patch..."
 msgstr ""
 
-#: uMain.pas:3471  uMain.pas:3495
+#: uMain.pas:3400  uMain.pas:3424 bak_before_int64/uMain.pas:3445
+#: bak_before_int64/uMain.pas:3469
 msgid ""
 "No images changed or images are equal!\n"
 "Will not create empty file"
 msgstr ""
 
-#: uMain.pas:3471  uMain.pas:3495
+#: uMain.pas:3400  uMain.pas:3424 bak_before_int64/uMain.pas:3445
+#: bak_before_int64/uMain.pas:3469
 msgid "Nothing to write"
 msgstr ""
 
 #. vkp.Add(IntToHex(curAddr-c,8)+': '+tmpResSrc);
-#: uMain.pas:3500  uMain.pas:4035
+#. vkp.Add(IntToHex(curAddr-c,8)+': '+tmpResSrc);
+#: uMain.pas:3429  uMain.pas:3944 bak_before_int64/uMain.pas:3474
+#: bak_before_int64/uMain.pas:4009
 msgid "Enter version"
 msgstr ""
 
-#: uMain.pas:3500  uMain.pas:4035
+#: uMain.pas:3429  uMain.pas:3944 bak_before_int64/uMain.pas:3474
+#: bak_before_int64/uMain.pas:4009
 msgid ""
 "Unable to guess firmware version\n"
 "Please enter it"
 msgstr ""
 
-#: uMain.pas:3504  uMain.pas:4039
+#: uMain.pas:3433  uMain.pas:3948 bak_before_int64/uMain.pas:3478
+#: bak_before_int64/uMain.pas:4013
 msgid "VKP files (*.vkp)|*.vkp"
 msgstr ""
 
 #. Create preview image
-#: uMain.pas:3549 
+#. Create preview image
+#: uMain.pas:3478  bak_before_int64/uMain.pas:3523
 msgid "Generating preview..."
 msgstr ""
 
-#: uMain.pas:3599 
+#: uMain.pas:3528  bak_before_int64/uMain.pas:3573
 msgid "Loading project..."
 msgstr ""
 
-#: uMain.pas:3600  uMain.pas:3698
+#: uMain.pas:3529  uMain.pas:3627 bak_before_int64/uMain.pas:3574
+#: bak_before_int64/uMain.pas:3672
 msgid "IMT files (*.imt)|*.imt|All files (*.*)|*.*"
 msgstr ""
 
-#: uMain.pas:3613 
+#: uMain.pas:3542  bak_before_int64/uMain.pas:3587
 msgid ""
 "This project was created with version %f of software which has bugs that "
 "prevent it's normal usage. Load anyway?"
 msgstr ""
 
-#: uMain.pas:3620 
+#: uMain.pas:3549  bak_before_int64/uMain.pas:3594
 msgid ""
 "This project was created with version %f of software which is newer than "
 "current software and thus cannot be loaded.\n"
 "Please download new version from http://magister.ipsys.net"
 msgstr ""
 
-#: uMain.pas:3634 
+#: uMain.pas:3563  bak_before_int64/uMain.pas:3608
 msgid ""
 "Cannot load firmware file: %s\n"
 "Open it manually and then load project"
 msgstr ""
 
-#: uMain.pas:3640 
+#: uMain.pas:3569  bak_before_int64/uMain.pas:3614
 msgid ""
 "Loaded firmware file is not the same the project was created\n"
 "Loading rhis project with incorrect firmware can crash program. Load anyway?"
 msgstr ""
 
-#: uMain.pas:3640 
+#: uMain.pas:3569  bak_before_int64/uMain.pas:3614
 msgid "Different firmware file"
 msgstr ""
 
-#: uMain.pas:3697 
+#: uMain.pas:3626  bak_before_int64/uMain.pas:3671
 msgid "Saving project..."
 msgstr ""
 
-#. end;
-#: uMain.pas:3790 
-msgid ""
-"This image is used as global deleted picture and can be restored only via "
-"full undo"
-msgstr ""
-
-#: uMain.pas:3790 
-msgid "Cannot restore"
-msgstr ""
-
 #. --------------------------
-#: uMain.pas:4071 
+#. --------------------------
+#: uMain.pas:3980  bak_before_int64/uMain.pas:4045
 msgid "Saving..."
 msgstr ""
 
-#: uMain.pas:4109 
+#: uMain.pas:4018  bak_before_int64/uMain.pas:4083
 msgid "Enter address"
 msgstr ""
 
-#: uMain.pas:4109 
+#: uMain.pas:4018  bak_before_int64/uMain.pas:4083
 msgid "Enter the image address (in hex)"
 msgstr ""
 
 #. end;
-#: uMain.pas:4144 
-msgid ""
-"There is no image at address you entered\n"
-"Maybe you entered absolute address, not offset?"
+#. end;
+#: uMain.pas:4053  bak_before_int64/uMain.pas:4118
+msgid "There is no image at address you entered"
+msgstr ""
+
+#. Let's try to find names table
+#: uMain.pas:4173 
+msgid "Searching for names table..."
 msgstr ""
 
 #. Programmer's name: EMPTYPNG PNG1
-#: empty.rc:1 
+#. Programmer's name: EMPTYPNG PNG1
+#: empty.rc:1  bak_before_int64/empty.rc:1
 msgid "empty.png"
 msgstr ""
 
 #. Programmer's name: DELETEDPNG PNG2
-#: empty.rc:2 
+#. Programmer's name: DELETEDPNG PNG2
+#: empty.rc:2  bak_before_int64/empty.rc:2
 msgid "deleted.png"
 msgstr ""

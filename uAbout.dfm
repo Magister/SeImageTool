@@ -3,7 +3,7 @@ object fmAbout: TfmAbout
   Top = 237
   BorderStyle = bsToolWindow
   Caption = 'About SE db2020 Image Tool'
-  ClientHeight = 286
+  ClientHeight = 315
   ClientWidth = 635
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -45,7 +45,7 @@ object fmAbout: TfmAbout
     Left = 0
     Top = 113
     Width = 635
-    Height = 173
+    Height = 202
     HideSel = True
     Align = alClient
     ColorHighlight = clMenuHighlight
@@ -58,6 +58,9 @@ object fmAbout: TfmAbout
         'rmat'
       '<b>ego</b> - for information on packed image format'
       '<b>INFerno-- (aka se-team)</b> - for information on BABE format'
+      '<b>den_po</b> - for information on names table and list of names'
+      '<b>svansvan</b> - for help on names table and .xml with names'
+      '<b>timos_06</b> - for discovering of a strange bug'
       '<align=center><b>--Translations--</b></align>'
       '<b>Magister (it'#39's me :) )</b> - Ukrainian and English'
       '<b>DJSuB</b> - Hungarian'

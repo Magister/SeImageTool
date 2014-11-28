@@ -1,6 +1,8 @@
 #  Doesn't have any letters
 #. fmMain..PopupMenu1..N3..Caption
-#: uMain.dfm:1710
+#: uMain.dfm:1747
+#. fmMain..PopupMenu1..N3..Caption
+#: bak_before_int64/uMain.dfm:1709
 msgid "-"
 msgstr ""
 
@@ -462,6 +464,12 @@ msgstr ""
 #. fmMain..sSkinManager1..........HotGradientData
 #: uMain.dfm:16800
 msgid " "
+msgstr ""
+
+#  Doesn't have any letters
+#. fmMain..sxXML..IndentString
+#: uMain.dfm:2590
+msgid "  "
 msgstr ""
 
 #  Doesn't have any letters
@@ -1667,8 +1675,14 @@ msgstr ""
 
 #  Doesn't have any letters
 #. fmMain..sSkinManager1..SkinInfo
-#: uMain.dfm:1630
+#: bak_before_int64/uMain.dfm:1629
 msgid "5.27"
+msgstr ""
+
+#  Doesn't have any letters
+#. fmMain..sSkinManager1..SkinInfo
+#: uMain.dfm:1667
+msgid "5.41"
 msgstr ""
 
 #  Doesn't have any letters
@@ -1895,6 +1909,8 @@ msgstr ""
 #  Doesn't look like text
 #. fmMain..sPanel2..sPanel3..Button1..Caption
 #: uMain.dfm:587
+#. fmMain..sPanel2..sPanel3..Button1..Caption
+#: bak_before_int64/uMain.dfm:587
 #. Form1..Button1..Caption
 #: bak_before_rew/LZMA_Test/uMain.dfm:21
 msgid "Button1"
@@ -1903,6 +1919,8 @@ msgstr ""
 #  Doesn't look like text
 #. fmMain..sPanel2..sPanel3..Button2..Caption
 #: uMain.dfm:597
+#. fmMain..sPanel2..sPanel3..Button2..Caption
+#: bak_before_int64/uMain.dfm:597
 msgid "Button2"
 msgstr ""
 
@@ -1922,9 +1940,13 @@ msgstr ""
 
 #  Seems like a Font.Name extract
 #. fmMain..pnLog..lbData..Font.Name
-#: uMain.dfm:1143
+#: uMain.dfm:1179
 #. fmMain..pnLog..meLog..Font.Name
-#: uMain.dfm:1156
+#: uMain.dfm:1192
+#. fmMain..pnLog..lbData..Font.Name
+#: bak_before_int64/uMain.dfm:1142
+#. fmMain..pnLog..meLog..Font.Name
+#: bak_before_int64/uMain.dfm:1155
 msgid "Fixedsys"
 msgstr ""
 
@@ -1935,8 +1957,16 @@ msgid "Form1"
 msgstr ""
 
 #  Seems like a Font.Name extract
+#. fmMain..sPanel2..sPanel6..pnFilter..sbClearEdFilter..Font.Name
+#: uMain.dfm:1076
+msgid "Lucida Console"
+msgstr ""
+
+#  Seems like a Font.Name extract
 #. fmMain..sPanel2..sPanel6..sbHideFilter..Font.Name
-#: uMain.dfm:996
+#: uMain.dfm:1016
+#. fmMain..sPanel2..sPanel6..sbHideFilter..Font.Name
+#: bak_before_int64/uMain.dfm:995
 msgid "Marlett"
 msgstr ""
 
@@ -1946,11 +1976,21 @@ msgstr ""
 #. fmEditIMT..Font.Name
 #: uEditIMT.dfm:11
 #. fmMain..pnLog..meLog..BoundLabel.Font.Name
-#: uMain.dfm:1165
+#: uMain.dfm:1201
 #. fmMain..sHintManager1..HintKind.Font.Name
-#: uMain.dfm:1776
+#: uMain.dfm:1814
 #. fmWait..Font.Name
 #: uWaitForm.dfm:12
+#. fmAbout..Font.Name
+#: bak_before_int64/uAbout.dfm:12
+#. fmEditIMT..Font.Name
+#: bak_before_int64/uEditIMT.dfm:11
+#. fmMain..pnLog..meLog..BoundLabel.Font.Name
+#: bak_before_int64/uMain.dfm:1164
+#. fmMain..sHintManager1..HintKind.Font.Name
+#: bak_before_int64/uMain.dfm:1775
+#. fmWait..Font.Name
+#: bak_before_int64/uWaitForm.dfm:12
 #. Form1..Font.Name
 #: bak_before_rew/LZMA_Test/uMain.dfm:11
 msgid "MS Sans Serif"
@@ -1958,73 +1998,97 @@ msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:1849
+#: uMain.dfm:1887
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:1848
 msgid "PngImage0"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:1911
+#: uMain.dfm:1949
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:1910
 msgid "PngImage1"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2467
+#: uMain.dfm:2505
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2466
 msgid "PngImage10"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:1988
+#: uMain.dfm:2026
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:1987
 msgid "PngImage2"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2045
+#: uMain.dfm:2083
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2044
 msgid "PngImage3"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2102
+#: uMain.dfm:2140
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2101
 msgid "PngImage4"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2173
+#: uMain.dfm:2211
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2172
 msgid "PngImage5"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2206
+#: uMain.dfm:2244
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2205
 msgid "PngImage6"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2266
+#: uMain.dfm:2304
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2265
 msgid "PngImage7"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2325
+#: uMain.dfm:2363
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2324
 msgid "PngImage8"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PngImageList1......Name
-#: uMain.dfm:2402
+#: uMain.dfm:2440
+#. fmMain..PngImageList1......Name
+#: bak_before_int64/uMain.dfm:2401
 msgid "PngImage9"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PopupMenu1..R4284232349151..Caption
-#: uMain.dfm:1698
+#: uMain.dfm:1735
+#. fmMain..PopupMenu1..R4284232349151..Caption
+#: bak_before_int64/uMain.dfm:1697
 msgid "R428423234915"
 msgstr ""
 
@@ -2096,25 +2160,39 @@ msgstr ""
 
 #  Doesn't look like text
 #. fmMain..JvAppRegistryStorage1..Root
-#: uMain.dfm:1722
+#: uMain.dfm:1759
+#. fmMain..JvAppRegistryStorage1..Root
+#: bak_before_int64/uMain.dfm:1721
 msgid "SOFTWARE\\MPSoft\\SeDB2020ImgTool"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1743
+#: uMain.dfm:1784
+msgid "sPanel6.Width"
+msgstr ""
+
+#  Doesn't look like text
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1780
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: bak_before_int64/uMain.dfm:1742
 msgid "sSkinManager1.Active"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1738
+#: uMain.dfm:1775
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: bak_before_int64/uMain.dfm:1737
 msgid "sSkinManager1.SkinName"
 msgstr ""
 
 #  Doesn't look like text
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:1741
+#: uMain.dfm:1778
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: bak_before_int64/uMain.dfm:1740
 msgid "sSplitter1.Left"
 msgstr ""
 
@@ -2144,19 +2222,57 @@ msgstr ""
 #. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty..Font.Name
 #: uMain.dfm:578
 #. fmMain..sPanel2..sPanel6..lbFilteredImages..Font.Name
-#: uMain.dfm:984
+#: uMain.dfm:1004
 #. fmMain..sPanel2..sPanel6..lbImages..BoundLabel.Font.Name
-#: uMain.dfm:1013
+#: uMain.dfm:1033
 #. fmMain..sPanel2..sPanel6..lbImages..Font.Name
-#: uMain.dfm:1027
+#: uMain.dfm:1047
 #. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..Font.Name
-#: uMain.dfm:1098
+#: uMain.dfm:1134
 #. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..BoundLabel.Font.Name
-#: uMain.dfm:1110
+#: uMain.dfm:1146
 #. fmMain..sSkinManager1..MenuSupport.ExtraLineFont.Name
-#: uMain.dfm:1626
+#: uMain.dfm:1663
 #. fmWait..sLabelFX1..Font.Name
 #: uWaitForm.dfm:37
+#. fmAbout..JvHTLabel1..Font.Name
+#: bak_before_int64/uAbout.dfm:38
+#. fmMain..Font.Name
+#: bak_before_int64/uMain.dfm:13
+#. fmMain..sPanel1..sLabel1..Font.Name
+#: bak_before_int64/uMain.dfm:89
+#. fmMain..sPanel1..sLabel4..Font.Name
+#: bak_before_int64/uMain.dfm:103
+#. fmMain..sPanel1..sLabel5..Font.Name
+#: bak_before_int64/uMain.dfm:144
+#. fmMain..sPanel1..seThumbHeight..Font.Name
+#: bak_before_int64/uMain.dfm:173
+#. fmMain..sPanel1..seThumbHeight..BoundLabel.Font.Name
+#: bak_before_int64/uMain.dfm:184
+#. fmMain..sPanel1..cbSkins..BoundLabel.Font.Name
+#: bak_before_int64/uMain.dfm:230
+#. fmMain..sPanel1..cbSkins..Font.Name
+#: bak_before_int64/uMain.dfm:242
+#. fmMain..sPanel1..cbLanguage..BoundLabel.Font.Name
+#: bak_before_int64/uMain.dfm:260
+#. fmMain..sPanel1..cbLanguage..Font.Name
+#: bak_before_int64/uMain.dfm:272
+#. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty..Font.Name
+#: bak_before_int64/uMain.dfm:578
+#. fmMain..sPanel2..sPanel6..lbFilteredImages..Font.Name
+#: bak_before_int64/uMain.dfm:983
+#. fmMain..sPanel2..sPanel6..lbImages..BoundLabel.Font.Name
+#: bak_before_int64/uMain.dfm:1012
+#. fmMain..sPanel2..sPanel6..lbImages..Font.Name
+#: bak_before_int64/uMain.dfm:1026
+#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..Font.Name
+#: bak_before_int64/uMain.dfm:1097
+#. fmMain..sPanel2..sPanel6..pnFilter..edFilterName..BoundLabel.Font.Name
+#: bak_before_int64/uMain.dfm:1109
+#. fmMain..sSkinManager1..MenuSupport.ExtraLineFont.Name
+#: bak_before_int64/uMain.dfm:1625
+#. fmWait..sLabelFX1..Font.Name
+#: bak_before_int64/uWaitForm.dfm:37
 msgid "Tahoma"
 msgstr ""
 
@@ -2168,7 +2284,9 @@ msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PopupMenu1..U7785587523021..Caption
-#: uMain.dfm:1702
+#: uMain.dfm:1739
+#. fmMain..PopupMenu1..U7785587523021..Caption
+#: bak_before_int64/uMain.dfm:1701
 msgid "U778558752302"
 msgstr ""
 
@@ -2186,7 +2304,9 @@ msgstr ""
 
 #  Doesn't look like text
 #. fmMain..PopupMenu1..Z0068535980301..Caption
-#: uMain.dfm:1694
+#: uMain.dfm:1731
+#. fmMain..PopupMenu1..Z0068535980301..Caption
+#: bak_before_int64/uMain.dfm:1693
 msgid "Z006853598030"
 msgstr ""
 

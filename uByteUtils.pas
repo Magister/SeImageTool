@@ -8,7 +8,8 @@ uses
 type
   TByteArray=packed array of byte;
 
-function GetDWORD(const fw:TByteArray; const addr:Cardinal):DWORD;overload;
+function GetWORD(const fw:TByteArray; const addr:Cardinal):DWORD;overload;
+function GetWORD(const P:PByte; const addr:Cardinal):DWORD;overload;
 function GetDWORD(const P:PByte; const addr:Cardinal):DWORD;overload;
 function Get3Bytes(const fw:TByteArray; const addr:Cardinal):LongInt;overload;
 function Get3Bytes(const P:PByte; const addr:Cardinal):LongInt;overload;
@@ -18,7 +19,7 @@ procedure SetByte(const P:PByte; const addr:Cardinal; const val:byte);
 
 implementation
 
-function GetDWORD(const fw: TByteArray;
+function GetWORD(const fw: TByteArray;
   const addr: Cardinal): DWORD;
 var
  byte1,byte2:string;
@@ -28,7 +29,7 @@ begin
  Result:=StrToInt('$'+byte2+byte1);
 end;
 
-function GetDWORD(const P: PByte; const addr: Cardinal): DWORD;
+function GetWORD(const P: PByte; const addr: Cardinal): DWORD;
 var
  b1:Byte;
  pn:PByte;
@@ -41,6 +42,14 @@ begin
  b1:=pn^;
  byte2:=IntToHex(b1,2);
  Result:=StrToInt('$'+byte2+byte1);
+end;
+
+function GetDWORD(const P: PByte; const addr: Cardinal): DWORD;
+var
+ pn:PDWORD;
+begin
+ pn:=Pointer(Cardinal(P)+addr);
+ Result:=pn^;
 end;
 
 function Get3Bytes(const fw: TByteArray;
