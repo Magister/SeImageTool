@@ -114,8 +114,8 @@ IncludeVerInfo=1
 AutoIncBuild=1
 MajorVer=2
 MinorVer=0
-Release=1
-Build=513
+Release=3
+Build=527
 Debug=0
 PreRelease=0
 Special=0
@@ -126,13 +126,13 @@ CodePage=1251
 [Version Info Keys]
 CompanyName=Magister Studion
 FileDescription=SE db2020 Image Tool
-FileVersion=2.0.1.513
+FileVersion=2.0.3.527
 InternalName=SE db2020 Image Tool
 LegalCopyright=Copyright (c) 2008 Magister (Misha Padalka)
 LegalTrademarks=
 OriginalFilename=ImgToolDB2020.exe
 ProductName=SE db2020 Image Tool
-ProductVersion=2.01
+ProductVersion=2.03
 Comments=
 [HistoryLists\hlUnitAliases]
 Count=1

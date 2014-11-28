@@ -14,7 +14,7 @@ uses
   Buttons, sBitBtn, sHintManager, sBevel, gnugettext, sRadioButton,
   JclCompression, sGroupBox, uStreamIO, JvSearchFiles, languagecodes, uByteUtils,
   DateUtils, XPMan, PngBitBtn, ImgList, PngImageList, ActnList, sListView,
-  JvExStdCtrls, JvListComb, ToolWin, sToolBar;
+  JvExStdCtrls, JvListComb, ToolWin, sToolBar, sSpeedButton, sTrackBar;
 
 type
   TImgType=(imPNG,imPKI,imBWI,imUNK);
@@ -160,12 +160,18 @@ type
     acClearLog: TAction;
     sPanel6: TsPanel;
     lbImages: TsListBox;
-    sPanel7: TsPanel;
+    pnFilter: TsPanel;
     cbDeleted: TsCheckBox;
     cbReplaced: TsCheckBox;
     cbUnchanged: TsCheckBox;
     edFilterName: TsEdit;
     lbFilteredImages: TsLabel;
+    sbHideFilter: TsSpeedButton;
+    tbHue: TsTrackBar;
+    btRestoreGraphicsVKP: TToolButton;
+    cbAllGraphicsInVKP: TsCheckBox;
+    btLinkImg: TToolButton;
+    ToolButton1: TToolButton;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure lbImagesClick(Sender: TObject);
@@ -215,6 +221,11 @@ type
     procedure cbReplacedClick(Sender: TObject);
     procedure cbUnchangedClick(Sender: TObject);
     procedure edFilterNameChange(Sender: TObject);
+    procedure sbHideFilterClick(Sender: TObject);
+    procedure tbHueChange(Sender: TObject);
+    procedure btRestoreGraphicsVKPClick(Sender: TObject);
+    procedure btLinkImgClick(Sender: TObject);
+    procedure ToolButton1Click(Sender: TObject);
   private
     { Private declarations }
     StartPNGAddreses:TStrings;
@@ -243,15 +254,15 @@ type
     procedure DrawPNG(dst:TPNGObject;const src:TPNGObject;Left,Top:integer);
     //
     procedure ConvertToRGBA(fName:TFileName);
-    function GetCurrentImg:integer;
+    function GetCurrentImg(const index:integer=-2): integer;
     procedure UpdateFilter;
   public
     { Public declarations }
   end;
 
 const
-  swversion='2.02 (c) 2008 Magister';
-  iVersion=202;
+  swversion='2.03 (c) 2008 Magister';
+  iVersion=203;
 
 type
   TFreeBlock=record
@@ -339,9 +350,11 @@ type
   hash2: array [0..Pred(128)] of BYTE; (*0x300 *)
 end;
 
+function GetImgFromArray(Data:PByte;arr:TimArray;Index:integer):TPNGObject;
+
 implementation
 
-uses StrUtils, Math, uWaitForm, uAbout;
+uses StrUtils, Math, uWaitForm, uAbout, uEditIMT;
 
 {$R *.dfm}
 //{$R pngout.res}
@@ -837,16 +850,16 @@ begin
  ysz:=GetByte(P,adr+2);
  img.im_width:=xsz;
  img.im_height:=ysz;
- img.DataLength:=xsz*ysz;
- img.ImgLength:=img.DataLength;
  Result:=TPNGObject.CreateBlank(COLOR_RGB,8,xsz,ysz);
  adr:=adr+6; // скипаем остальные запчасти хедэра
  inc (adr);
  n:=0;
+ img.DataLength:=0;
  repeat // разматываем....
   if (n and 7)=0 then  begin
    b:=GetByte(P,adr);
    adr:=adr+1;
+   img.DataLength:=img.DataLength+1;
   end;
   n:=n+1;
   if (b and 1)=1 then
@@ -860,6 +873,7 @@ begin
    y:=y+1;
   end;
  until((n>xsz*ysz));
+ img.ImgLength:=img.DataLength;
 end;
 
 function SwapRGBtpBGR(color: TColor): TColor;
@@ -1001,7 +1015,7 @@ begin
  imToPlace[0]:=tmpImg;
  globIdx:=0;
  for i:=1 to Length(imToPlace)-1 do begin
-  for j:=i+1 to Length(imToPlace)-1 do begin
+  for j:=i to Length(imToPlace)-1 do begin
    if imToPlace[i].ImgLength>imToPlace[j].ImgLength then begin
     tmpImg:=imToPlace[i];
     imToPlace[i]:=imToPlace[j];
@@ -1394,7 +1408,10 @@ begin
 //   FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[i].DataLength-Length(imArrayRepl[i].RAWData);
 //  end else begin
    FreeBlocks[Length(FreeBlocks)-1].Offset:=imArray[i].StartOffset;
-   FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[i].DataLength+11;
+   if imArray[i].imType=imBWI then
+    FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[i].DataLength+5
+   else
+    FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[i].DataLength+11;
 //  end;
  end;
  RealignFreeBlocks;
@@ -2311,6 +2328,10 @@ procedure TfmMain.JvFormStorage1AfterRestorePlacement(Sender: TObject);
 begin
 { if JvFormStorage1.ReadInteger('Version')<iVersion then
   sSkinManager1.SkinName:='Winter';}
+ if pnFilter.Visible then
+  sbHideFilter.Caption:='t'
+ else
+  sbHideFilter.Caption:='u';
 end;
 
 procedure TfmMain.JvFormStorage1AfterSavePlacement(Sender: TObject);
@@ -2906,19 +2927,44 @@ var
  tmpResSrc,tmpResDst:string;
  bSrc,bMod:byte;
  curAddr:LongInt;
+ lastImgIndex,lastImgOffset:integer;
 begin
- Len:=iLen-1;
+// Len:=iLen-1;
  Result:=TStringList.Create;
  pbProgress.Max:=100;
  pbProgress.Position:=0;
- oldPosition:=0;
- curAddr:=0;
+ curAddr:=offsettable;
  c:=0;
- for i:=0 to Len do begin
+ //Calc last image end
+ lastImgOffset:=imArray[0].orig_offset;
+ lastImgIndex:=0;
+ len:=Length(imArray)-1;
+ oldPosition:=0;
+ for i:=1 to len do begin
+  percent:=Round((i*100)/len);
+  if percent<>oldPosition then begin
+   oldPosition:=percent;
+   pbProgress.Position:=percent;
+   Application.ProcessMessages;
+  end;
+  if lastImgOffset<(imArray[i].orig_offset) then begin
+   lastImgOffset:=imArray[i].orig_offset;
+   lastImgIndex:=i;
+  end;
+ end;
+ GetImgFromArray(FData,imArray,lastImgIndex);
+ lastImgOffset:=lastImgOffset+imArray[lastImgIndex].DataLength+picbase;
+ //make patch data
+ for i:=offsettable to lastImgOffset do begin
+// curAddr:=0;
+// c:=0;
+// for i:=0 to Len do begin
   bSrc:=GetByte(fwSrc,i);
   bMod:=GetByte(fwMod,i);
   if bSrc=bMod then SameByte:=true
    else SameByte:=false;
+  if cbExpertMode.Checked then
+   if cbAllGraphicsInVKP.Checked then SameByte:=false;
   if not SameByte then
    c:=c+1;
   if not SameByte then begin
@@ -2949,78 +2995,6 @@ begin
 end;
 
 function TfmMain.GenerateVKP(const fwSrc: PByte): TStringList;
-(*var
- i,j,c:integer;
- tmpStr:string;
- curAddr:Cardinal;
- src,dst:string;
- newArOr,newAr:TimArray;
- tmpIm:TfnImage;
- strOffsets:TStringList;
- oftLines:TStringList;
-begin
- Result:=TStringList.Create;
- strOffsets:=TStringList.Create;
- for i:=0 to Length(imArrayRepl)-1 do begin
-  GetImgFromArray(FData,imArray,i);
-  if (imArrayRepl[i].empty) or (imArrayRepl[i].Replaced) then begin
-   if strOffsets.IndexOf(IntToHex(imArrayRepl[i].StartOffset,4))>=0 then continue;
-   strOffsets.Add(IntToHex(imArrayRepl[i].StartOffset,4));
-   SetLength(newAr,Length(newAr)+1);
-   newAr[Length(newAr)-1]:=imArrayRepl[i];
-   SetLength(newArOr,Length(newArOr)+1);
-   newArOr[Length(newArOr)-1]:=imArray[i];
-  end;
- end;
- for i:=0 to Length(newAr)-1 do begin
-  for j:=i to Length(newAr)-1 do begin
-   if newAr[i].StartOffset>newAr[j].StartOffset then begin
-    tmpIm:=newAr[i];
-    newAr[i]:=newAr[j];
-    newAr[j]:=tmpIm;
-    tmpIm:=newArOr[i];
-    newArOr[i]:=newArOr[j];
-    newArOr[j]:=tmpIm;
-   end;
-  end;
- end;
- oftLines:=TStringList.Create;
- for i:=0 to Length(newAr)-1 do begin
-  if newAr[i].StartOffset<>newArOr[i].StartOffset then begin
-   oftLines.Add(IntToHex(offsettable+i*3,8)+': '+
-               IntToHex(Get3Bytes(FData,offsettable+i*3),6)+' '+
-               IntToHex(newAr[i].StartOffset,6));
-  end;
- end;
- oftLines.Sort;
- Result.AddStrings(oftLines);
- oftLines.Free;
- for i:=0 to Length(newAr)-1 do begin
-   Result.Add(';replacing image '+newAr[i].name);
-   curAddr:=picbase+newAr[i].StartOffset;
-   c:=0;
-   src:='';dst:='';
-   tmpStr:=IntToHex(curAddr,8)+': ';
-   for j:=0 to newAr[i].DataLength-1 do begin
-    if c>15 then begin
-     c:=0;
-     Result.Add(tmpStr+src+' '+dst);
-     src:='';dst:='';
-     tmpStr:=IntToHex(curAddr,8)+': ';
-    end;
-    src:=src+IntToHex(GetByte(FData,curAddr),2);
-    if j<Length(newAr[i].RAWData) then
-     dst:=dst+IntToHex(newAr[i].RAWData[j],2)
-    else
-     dst:=dst+'00';
-    c:=c+1;
-    curAddr:=curAddr+1;
-   end;
-   if Length(src)>0 then
-    Result.Add(tmpStr+src+' '+dst);
-  end;
- newAr:=nil;
- newArOr:=nil;*)
 var
  oftLines:TStringList;
  i,j:integer;
@@ -3050,6 +3024,8 @@ begin
     imArrayRepl[j].StartOffset:=newAr[i].StartOffset;
   end;
  end;
+ GetMem(FNewData,iFileLen);
+ MoveMemory(FNewData,FData,iFileLen);
  for i:=0 to Length(imArrayRepl)-1 do begin
   if not imArrayRepl[i].Replaced then continue;
   if imArrayRepl[i].empty then
@@ -3079,23 +3055,16 @@ begin
    dst:=IntToHex(imArrayRepl[i].StartOffset,6);
    tmpStr:=tmpStr+Copy(dst,5,2)+Copy(dst,3,2)+Copy(dst,1,2);
    oftLines.Add(tmpStr);
+   SetByte(FNewData,offsettable+i*3,StrToInt('$'+Copy(dst,5,2)));
+   SetByte(FNewData,offsettable+i*3+1,StrToInt('$'+Copy(dst,3,2)));
+   SetByte(FNewData,offsettable+i*3+2,StrToInt('$'+Copy(dst,1,2)));
   end;
  end;
  {$ifndef debug}
- oftLines.Sort;
+// oftLines.Sort;
  {$endif}
- Result.AddStrings(oftLines);
+// Result.AddStrings(oftLines);
  oftLines.Free;
- GetMem(FNewData,iFileLen);
- MoveMemory(FNewData,FData,iFileLen);
-// for i:=0 to Length(imArrayRepl)-1 do begin
-//  if not (imArrayRepl[i].Replaced or imArrayRepl[i].empty) then continue;
-//  GetImgFromArray(FData,imArray,i);
-//  SetLength(newAr,Length(newAr)+1);
-//  newAr[Length(newAr)-1]:=imArrayRepl[i];
-//  if newAr[Length(newAr)-1].im_height<1 then
-//   ShowMessage('Error!');
-// end;
  for i:=1 to Length(newAr)-1 do begin
   for j:=i to Length(newAr)-1 do begin
    if (not newAr[i].empty) and (newAr[j].empty) then begin
@@ -3192,7 +3161,7 @@ begin
  GlobalDeletedIdx:=-1;
  replacedCount:=0;
  replacedSize:=0;
- RealignFreeBlocks;
+ RecalculateFreeBlocks;
 
  Stop:=false;
  DisableForm;
@@ -3265,10 +3234,11 @@ var
  im:TPNGObject;
  fim:TfnImage;
  Buf:TByteArray;
- i:integer;
+ i,ix:integer;
  ms:TStringStream;
  imEnd:integer;
  tmpName:string;
+ percent,oldPosition:integer;
 begin
  if Length(imArrayRepl)<1 then begin
   SetLength(imArrayRepl,numIcons);
@@ -3276,63 +3246,79 @@ begin
    imArrayRepl[i]:=imArray[i];
   end;
  end else begin
-  GetImgFromArray(FData,imArray,GetCurrentImg);
-  if imArrayRepl[GetCurrentImg].ImgLength=-1 then
-   imArrayRepl[GetCurrentImg]:=imArray[GetCurrentImg];
- end;
- fim:=imArrayRepl[GetCurrentImg];
- for i:=0 to Length(FreeBlocks)-1 do begin
-  imEnd:=FreeBlocks[i].Offset+FreeBlocks[i].Length;
-  if (fim.StartOffset>=FreeBlocks[i].Offset) and
-     (fim.StartOffset<=imEnd) then
-    Exit;
-  if fim.StartOffset=GlobalDeleted then
-    Exit;
- end;
- fim.imType:=imPKI;
- if GlobalDeleted>0 then begin
-  fim.StartOffset:=GlobalDeleted;
- end;
- im:=TPNGObject.CreateBlank(COLOR_RGBALPHA,8,1,1);
- Buf:=SavePacked(im);
- ms:=TStringStream.Create(String(Buf));
- Buf:=Zlib(ms);
- fim.Empty:=true;
- fim.Replaced:=true;
- fim.im_width:=1;
- fim.im_height:=1;
- fim.ImgLength:=Length(Buf);
- ms.Free;
- im.Free;
- SetRAWData(fim,Buf);
- if fim.Image<>nil then begin
-  fim.Image:=nil;
- end;
-// imArrayRepl[lbImages.ItemIndex]:=fim;
- SetLength(FreeBlocks,Length(FreeBlocks)+1);
-// if GlobalDeleted<1 then begin
-//  FreeBlocks[Length(FreeBlocks)-1].Offset:=imArray[lbImages.ItemIndex].StartOffset+Length(fim.RAWData);
-//  FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[lbImages.ItemIndex].DataLength-Length(fim.RAWData);
-// end else begin
-  FreeBlocks[Length(FreeBlocks)-1].Offset:=imArray[GetCurrentImg].StartOffset;
-  FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[GetCurrentImg].DataLength+11;
-// end;
- FreeBlocks[Length(FreeBlocks)-1].idx:=GetCurrentImg;
- if GlobalDeleted<0 then begin
-  GlobalDeleted:=fim.StartOffset;
-  GlobalDeletedIdx:=GetCurrentImg;
- end;
- for i:=0 to Length(imArrayRepl)-1 do begin
-  if fim.orig_offset=imArrayRepl[i].orig_offset then begin
-   GetImgFromArray(FData,imArray,i);
-   tmpName:=imArrayRepl[i].name;
-   imArrayRepl[i]:=fim;
-   imArrayRepl[i].name:=tmpName;
+  for i:=0 to lbImages.Count-1 do begin
+   if not lbImages.Selected[i] then continue;
+   GetImgFromArray(FData,imArray,GetCurrentImg(i));
+   if imArrayRepl[GetCurrentImg(i)].ImgLength=-1 then
+    imArrayRepl[GetCurrentImg(i)]:=imArray[GetCurrentImg(i)];
   end;
  end;
- lbImages.OnClick(Self);
- lbImages.Repaint;
- RealignFreeBlocks;
+ oldPosition:=0;
+ DisableForm;
+ sbStatus.Panels[0].Text:=_('Deleting images...');
+ Application.ProcessMessages;
+ for ix:=0 to lbImages.Count-1 do begin
+  if not lbImages.Selected[ix] then continue;
+  if imArrayRepl[GetCurrentImg(ix)].imType=imBWI then continue;
+  percent:=Round((ix*100)/lbImages.Count);
+  if percent<>oldPosition then begin
+   oldPosition:=percent;
+   pbProgress.Position:=percent;
+   Application.ProcessMessages;
+  end;
+  GetImgFromArray(FData,imArray,GetCurrentImg(ix));
+  fim:=imArrayRepl[GetCurrentImg(ix)];
+  for i:=0 to Length(FreeBlocks)-1 do begin
+   imEnd:=FreeBlocks[i].Offset+FreeBlocks[i].Length;
+   if (fim.StartOffset>=FreeBlocks[i].Offset) and
+      (fim.StartOffset<=imEnd) then
+     continue;
+   if fim.StartOffset=GlobalDeleted then
+     continue;
+  end;
+  fim.imType:=imPKI;
+  if GlobalDeleted>0 then begin
+   fim.StartOffset:=GlobalDeleted;
+  end;
+  im:=TPNGObject.CreateBlank(COLOR_RGBALPHA,8,1,1);
+  Buf:=SavePacked(im);
+  ms:=TStringStream.Create(String(Buf));
+  Buf:=Zlib(ms);
+  fim.Empty:=true;
+  fim.Replaced:=true;
+  fim.im_width:=1;
+  fim.im_height:=1;
+  fim.ImgLength:=Length(Buf);
+  ms.Free;
+  im.Free;
+  SetRAWData(fim,Buf);
+  if fim.Image<>nil then begin
+   fim.Image:=nil;
+  end;
+  SetLength(FreeBlocks,Length(FreeBlocks)+1);
+  FreeBlocks[Length(FreeBlocks)-1].Offset:=imArray[GetCurrentImg(ix)].StartOffset;
+  if imArray[GetCurrentImg(ix)].imType=imBWI then
+   FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[GetCurrentImg(ix)].DataLength+5
+  else
+   FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[GetCurrentImg(ix)].DataLength+11;
+  FreeBlocks[Length(FreeBlocks)-1].idx:=GetCurrentImg(ix);
+  if GlobalDeleted<0 then begin
+   GlobalDeleted:=fim.StartOffset;
+   GlobalDeletedIdx:=GetCurrentImg(ix);
+  end;
+  for i:=0 to Length(imArrayRepl)-1 do begin
+   if fim.orig_offset=imArrayRepl[i].orig_offset then begin
+    GetImgFromArray(FData,imArray,i);
+    tmpName:=imArrayRepl[i].name;
+    imArrayRepl[i]:=fim;
+    imArrayRepl[i].name:=tmpName;
+   end;
+  end;
+  lbImages.OnClick(Self);
+  lbImages.Repaint;
+ end;
+ RecalculateFreeBlocks;
+ EnableForm;
 end;
 
 procedure TfmMain.acReplaceImgExecute(Sender: TObject);
@@ -3460,7 +3446,7 @@ begin
   SetLength(FreeBlocks,Length(FreeBlocks)+1);
   FreeBlocks[Length(FreeBlocks)-1].Offset:=imArray[GetCurrentImg].StartOffset;
   FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[GetCurrentImg].DataLength+11;
-  RealignFreeBlocks;
+  RecalculateFreeBlocks;
  end;
  EnableForm;
  lbImages.OnClick(Self);
@@ -3477,6 +3463,7 @@ var
  fim:TfnImage;
  j:integer;
  tmpName:string;
+ old_pos,percent:integer;
 begin
  sbStatus.Panels[0].Text:=_('Generating patch...');
  if Length(imArrayRepl)<1 then begin
@@ -3547,8 +3534,16 @@ begin
  WriteLn(fVkp,'+44140000');
  //--------------------------
  Application.ProcessMessages;
- for i:=0 to tmpStrings.Count-1 do
+ old_pos:=0;
+ for i:=0 to tmpStrings.Count-1 do begin
   WriteLn(fVkp,tmpStrings[i]);
+  percent:=Round((i/(tmpStrings.Count))*100);
+  if old_pos<>percent then begin
+   pbProgress.Position:=percent;
+   old_pos:=percent;
+   Application.ProcessMessages;
+  end;
+ end;
  CloseFile(fVkp);
  //Create preview image
  sbStatus.Panels[0].Text:=_('Generating preview...');
@@ -3587,7 +3582,7 @@ begin
  replacedCount:=0;
  replacedSize:=0;
  lbImages.Repaint;
- RealignFreeBlocks;
+ RecalculateFreeBlocks;
  lbImages.OnClick(Self);
 end;
 
@@ -3805,7 +3800,7 @@ begin
  end;
  RecalculateFreeBlocks;
  lbImages.OnClick(Self);
- lbImages.RepaintItem(lbImages.ItemIndex);
+ lbImages.Repaint;
 end;
 
 procedure TfmMain.acAboutExecute(Sender: TObject);
@@ -3819,6 +3814,7 @@ begin
  pnDevControls.Visible:=cbExpertMode.Checked;
  sSplitter2.Visible:=cbExpertMode.Checked;
  sbStatus.Top:=fmMain.Height;
+ cbAllGraphicsInVKP.Visible:=cbExpertMode.Checked;
 end;
 
 procedure TfmMain.btShowImageAddressClick(Sender: TObject);
@@ -3831,22 +3827,32 @@ begin
  if (idx<0) or (idx>=lsImages.Count) then Exit;
  tmpStr:=IntToHex(imArray[idx].StartOffset,6);
  tmpStr2:=Copy(tmpStr,5,2)+Copy(tmpStr,3,2)+Copy(tmpStr,1,2);
- meLog.Lines.Add(Format('Image %s: offset=%s; length=%d bytes',[imArray[idx].name,tmpStr2,imArray[idx].DataLength]));
+// meLog.Lines.Add(Format('Image %s: offset (as in fw)=%s; offset (hex)=%s; length=%d bytes',[imArray[idx].name,tmpStr2,tmpStr,imArray[idx].DataLength]));
+ meLog.Lines.Add(Format('Image %s: offset=%s; length=%d bytes',[imArray[idx].name,tmpStr,imArray[idx].DataLength]));
 end;
 
 procedure TfmMain.ToolButton2Click(Sender: TObject);
 var
- i:integer;
+ i,j:integer;
  tmpStr,tmpStr2:string;
  totSize:integer;
+ tmpBlock:TFreeBlock;
 begin
- SortFreeBlocks(FreeBlocks);
+ for i:=0 to Length(FreeBlocks)-1 do begin
+  for j:=i to Length(FreeBlocks)-1 do begin
+   if FreeBlocks[i].Offset>FreeBlocks[j].Offset then begin
+    tmpBlock:=FreeBlocks[i];
+    FreeBlocks[i]:=FreeBlocks[j];
+    FreeBlocks[j]:=tmpBlock;
+   end;
+  end;
+ end;
  totSize:=0;
- meLog.Lines.Add('------------- Free blocks sorted by size -------------');
+ meLog.Lines.Add('----------- Free blocks sorted by offset -------------');
  for i:=0 to Length(FreeBlocks)-1 do begin
   tmpStr:=IntToHex(FreeBlocks[i].Offset,6);
   tmpStr2:=Copy(tmpStr,5,2)+Copy(tmpStr,3,2)+Copy(tmpStr,1,2);
-  meLog.Lines.Add(Format('Block %d: offset=%s, length=%d bytes',[i+1,tmpStr,FreeBlocks[i].Length]));
+  meLog.Lines.Add(Format('Block %d: offset=%s, end=%s, length=%d bytes',[i+1,tmpStr,IntToHex(FreeBlocks[i].Offset+FreeBlocks[i].Length,6),FreeBlocks[i].Length]));
   totSize:=totSize+FreeBlocks[i].Length;
  end;
  meLog.Lines.Add(Format('Total size: %d bytes in %d blocks',[totSize,Length(FreeBlocks)]));
@@ -3858,17 +3864,21 @@ begin
  meLog.Lines.Clear;
 end;
 
-function TfmMain.GetCurrentImg: integer;
+function TfmMain.GetCurrentImg(const index:integer=-2): integer;
+var
+ idx:integer;
 begin
- if lbImages.ItemIndex<0 then begin
+ idx:=index;
+ if idx=-2 then idx:=lbImages.ItemIndex;
+ if idx<0 then begin
   Result:=-1;
   Exit;
  end;
- if lbImages.ItemIndex>=lbImages.Count then begin
+ if idx>=lbImages.Count then begin
   Result:=-1;
   Exit;
  end;
- Result:=lsImages.IndexOf(lbImages.Items[lbImages.ItemIndex]);
+ Result:=lsImages.IndexOf(lbImages.Items[idx]);
 end;
 
 procedure TfmMain.cbDeletedClick(Sender: TObject);
@@ -3935,6 +3945,210 @@ begin
   if i>-1 then
    lbImages.ItemIndex:=i;
  end;
+end;
+
+procedure TfmMain.sbHideFilterClick(Sender: TObject);
+begin
+ pnFilter.Visible:=not pnFilter.Visible;
+ if pnFilter.Visible then
+  sbHideFilter.Caption:='t'
+ else
+  sbHideFilter.Caption:='u';
+end;
+
+procedure TfmMain.tbHueChange(Sender: TObject);
+begin
+ sSkinManager1.HueOffset:=tbHue.Position*10;
+end;
+
+procedure TfmMain.btRestoreGraphicsVKPClick(Sender: TObject);
+var
+ i:integer;
+ lastImgOffset,lastImgIndex:integer;
+ percent,old_pos,len:integer;
+ //vkp
+ c:LongInt;
+ tmpResSrc,tmpStr:string;
+ bSrc:byte;
+ curAddr:LongInt;
+ vkp:TStringList;
+ fVkp:System.text;
+begin
+ if Length(imArray)<1 then Exit;
+ DisableForm;
+ sbStatus.Panels[0].Text:=_('Generating patch...');
+ Application.ProcessMessages;
+ meLog.Lines.Add('-------------- Generating restore patch --------------');
+ meLog.Lines.Add('Table start: '+IntToHex(offsettable,8));
+ lastImgOffset:=imArray[0].orig_offset;
+ lastImgIndex:=0;
+ len:=Length(imArray)-1;
+ old_pos:=0;
+ for i:=1 to len do begin
+  percent:=Round((i*100)/len);
+  if percent<>old_pos then begin
+   old_pos:=percent;
+   pbProgress.Position:=percent;
+   Application.ProcessMessages;
+  end;
+  if lastImgOffset<(imArray[i].orig_offset) then begin
+   lastImgOffset:=imArray[i].orig_offset;
+   lastImgIndex:=i;
+  end;
+ end;
+ GetImgFromArray(FData,imArray,lastImgIndex);
+ lastImgOffset:=lastImgOffset+imArray[lastImgIndex].DataLength+picbase;
+ meLog.Lines.Add('Last image end: '+IntToHex(lastImgOffset,8));
+ //Generate VKP
+ vkp:=TStringList.Create;
+ pbProgress.Max:=100;
+ pbProgress.Position:=0;
+ old_pos:=0;
+ curAddr:=offsettable;
+ c:=0;
+ for i:=offsettable to lastImgOffset do begin
+  bSrc:=GetByte(FData,i);
+  c:=c+1;
+  tmpResSrc:=tmpResSrc+IntToHex(bSrc,2);
+  if c>15 then begin
+   vkp.Add(IntToHex(curAddr-c+1,8)+': '+tmpResSrc+' '+tmpResSrc);
+//   vkp.Add(IntToHex(curAddr-c+1,8)+': '+tmpResSrc);
+   c:=0;
+   tmpResSrc:='';
+  end;
+  curAddr:=curAddr+1;
+  percent:=Round((i/(lastImgOffset-offsettable))*100);
+  if old_pos<>percent then begin
+   pbProgress.Position:=percent;
+   old_pos:=percent;
+   Application.ProcessMessages;
+  end;
+ end;
+ if Length(tmpResSrc)>0 then begin
+//  vkp.Add(IntToHex(curAddr-c,8)+': '+tmpResSrc);
+  vkp.Add(IntToHex(curAddr-c,8)+': '+tmpResSrc+' '+tmpResSrc);
+  tmpResSrc:='';
+ end;
+ pbProgress.Position:=100;
+ tmpStr:=ExtractFileName(fwFileName);
+ if Pos('_MAIN',tmpStr)<1 then begin
+  if not InputQuery(_('Enter version'),_('Unable to guess firmware version'+#10#13+'Please enter it'),tmpStr) then Exit;
+ end else begin
+  tmpStr:=Copy(tmpStr,0,Pos('_MAIN',tmpStr)-1);
+ end;
+ SaveDialog1.Filter:=_('VKP files (*.vkp)|*.vkp');
+ SaveDialog1.FileName:='restore_'+tmpStr;
+ if not SaveDialog1.Execute then begin
+  EnableForm;
+  Exit;
+ end;
+ if FileExists(ChangeFileExt(SaveDialog1.FileName,'.vkp')) then begin
+  if MessageBox(Application.Handle, PChar(AnsiString(_('File already exists. Rewrite?'))), PChar(AnsiString(_('Rewrite?'))), MB_ICONQUESTION or MB_YESNO or MB_TASKMODAL)=IDNO then begin
+   EnableForm;
+   Exit;
+  end
+ end;
+ Application.ProcessMessages;
+ AssignFile(fVkp,ChangeFileExt(SaveDialog1.FileName,'.vkp'));
+ FileMode:=2;
+ Rewrite(fVkp);
+ WriteLn(fVkp,';'+tmpStr);
+ //Write subHeader
+ WriteLn(fVkp,';restore original graphics of db2020 phones');
+ WriteLn(fVkp,';automatically generated by');
+ WriteLn(fVkp,';SE db2020 Image Tool '+swversion);
+ WriteLn(fVkp,';---------------------------------------------');
+ WriteLn(fVkp,';восстановление графики телефонов на db2020');
+ WriteLn(fVkp,';автоматически сгенерирован программой');
+ WriteLn(fVkp,';SE db2020 Image Tool '+swversion);
+ WriteLn(fVkp,';---------------------------------------------');
+ WriteLn(fVkp,';відновлення графіки телефонів на db2020');
+ WriteLn(fVkp,';автоматично зґенерований програмою');
+ WriteLn(fVkp,';SE db2020 Image Tool '+swversion);
+ WriteLn(fVkp,';---------------------------------------------');
+ WriteLn(fVkp,'+44140000');
+ //--------------------------
+ sbStatus.Panels[0].Text:=_('Saving...');
+ Application.ProcessMessages;
+ len:=vkp.Count-1;
+ for i:=0 to len do begin
+  WriteLn(fVkp,vkp[i]);
+  percent:=Round((i/(len))*100);
+  if old_pos<>percent then begin
+   pbProgress.Position:=percent;
+   old_pos:=percent;
+   Application.ProcessMessages;
+  end;
+ end;
+ CloseFile(fVkp);
+ vkp.Free;
+ EnableForm;
+end;
+
+procedure TfmMain.btLinkImgClick(Sender: TObject);
+var
+ idx:integer;
+ tmpStr:string;
+ or_offset:integer;
+ or_name:string;
+ i,j,tmpInt:integer;
+ replaced:boolean;
+begin
+ replaced:=false;
+ if lbImages.Count<1 then Exit;
+ idx:=GetCurrentImg;
+ if (idx<0) or (idx>=lsImages.Count) then Exit;
+ if Length(imArrayRepl)<1 then begin
+  SetLength(imArrayRepl,numIcons);
+  for i:=0 to Length(imArray)-1 do begin
+   imArrayRepl[i]:=imArray[i];
+  end;
+ end;
+ GetImgFromArray(FData,imArray,idx);
+ tmpStr:=IntToHex(imArray[idx].StartOffset,6);
+ if not InputQuery(_('Enter address'),_('Enter the image address (in hex)'),tmpStr) then Exit;
+ or_offset:=imArrayRepl[idx].orig_offset;
+ or_name:=imArrayRepl[idx].name;
+ tmpInt:=StrToInt('$'+tmpStr);
+ for i:=0 to Length(imArrayRepl)-1 do begin
+  if imArrayRepl[i].StartOffset<>tmpInt then continue;
+  GetImgFromArray(FData,imArrayRepl,i);
+  imArrayRepl[idx]:=imArrayRepl[i];
+  imArrayRepl[idx].orig_offset:=or_offset;
+  imArrayRepl[idx].name:=or_name;
+  imArrayRepl[idx].Replaced:=true;
+  imArrayRepl[idx].Image:=nil;
+  SetLength(imArrayRepl[idx].RAWData,imArrayRepl[i].DataLength+12);
+  for j:=0 to imArrayRepl[i].DataLength+12 do begin
+   imArrayRepl[idx].RAWData[j]:=GetByte(FData,imArrayRepl[i].StartOffset+picbase+j);
+  end;
+  replaced:=true;
+//  for j:=0 to Length(imArrayRepl)-1 do begin
+//   if imArrayRepl[j].StartOffset=imArrayRepl[i].StartOffset then begin
+//    SetLength(FreeBlocks,Length(FreeBlocks)+1);
+//    FreeBlocks[Length(FreeBlocks)-1].Offset:=imArray[j].orig_offset;
+//    if imArray[j].imType=imBWI then
+//     FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[j].DataLength+5
+//    else
+//     FreeBlocks[Length(FreeBlocks)-1].Length:=imArray[j].DataLength+11;
+//    FreeBlocks[Length(FreeBlocks)-1].idx:=j;
+//    if GlobalDeleted<0 then begin
+//     GlobalDeleted:=imArray[j].orig_offset;
+//     GlobalDeletedIdx:=j;
+//    end;
+//   end;
+//  end;
+  break;
+ end;
+ if not replaced then
+  MessageBox(Application.Handle, PAnsiChar(AnsiString(_('There is no image at address you entered'+#10#13+'Maybe you entered absolute address, not offset?'))), PAnsiChar(AnsiString(_('Error'))), MB_ICONERROR or MB_OK or MB_TASKMODAL);
+ lbImages.OnClick(Self);
+ lbImages.Repaint;
+end;
+
+procedure TfmMain.ToolButton1Click(Sender: TObject);
+begin
+ fmEditIMT.ShowModal;
 end;
 
 end.
