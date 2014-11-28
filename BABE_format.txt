@@ -1,0 +1,50 @@
+struct BABEHDR 
+{ 
+WORD babefile; //0x0 
+BYTE x; //0x2 
+BYTE headerver; //0x3 
+DWORD colorfile; //0x4 
+DWORD platformfile; //0x8 
+DWORD bootrom; //0xc 
+DWORD cidfile; //0x10 
+DWORD x2; //0x14 
+DWORD x3[9]; //0x18 
+BYTE certplace[488]; //0x3C 
+DWORD prologuestart; //0x224 
+DWORD prologuesize1; //0x228 
+DWORD prologuesize2; //0x22C 
+DWORD x4[4]; //0x230 
+BYTE hash[128]; //0x240 
+DWORD x5[5]; //0x2C0 
+DWORD x6; //0x2D4 
+DWORD x7[3]; //0x2D8 
+DWORD payloadstart; //0x2E4 
+DWORD numblocks; //0x2E8 
+DWORD payloadsize2; //0x2EC 
+DWORD x8[4]; //0x2F0 
+BYTE hash2[128]; //0x300 
+}; 
+
+Вот структура от db2000/2010/2020, преобразование делается следующим образом... 
+
+// Это мы получаем адрес откуда начинается образ. 
+if (main.headerver == 4) fseek(mainfile, main.numblocks*20+0x380L, SEEK_SET); //для версии 4 (DB2020) 
+
+после этого идет по 4 байта адрес и длинна блока, вот эту длинну сливаем, переходим к следующиму блоку по и так далее numblocks раз.
+
+
+------------------------DB3150----------------------------
+по смещению 0х50 лежит дворд, это длина хедера+списка сертификатов+хешлиста. 
+
+он выровненный по границе 8, то есть для определения физического смещения в файле надо с ним провести такую операцию: 
+
+int paddedsize = headersize % 8; 
+if (paddedsize!=0) 
+{ 
+headersize += paddedsize; 
+} 
+
+получишь смещение на стандартный список 
+block_start_addr:dword 
+block_len:dword; 
+etc

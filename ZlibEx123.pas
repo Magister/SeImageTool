@@ -912,7 +912,7 @@ begin
 end;
 
 function ZMyDecompress(const inBuffer: Pointer; inSize: Integer;
-  out outBuffer: Pointer; out outSize: Integer; outEstimate: Integer=0):integer;
+  out outBuffer: Pointer; out outSize: Integer; outEstimate: Integer=0):LongInt;
 var
   zstream: TZStreamRec;
   delta: Integer;
@@ -956,7 +956,7 @@ begin
   end;
 end;
 
-function ZMyDecompressBufToStr(const Buf: Pointer; BufLen:integer; out len:integer): string;
+function ZMyDecompressBufToStr(const Buf: Pointer; BufLen:integer; out len:LongInt): string;
 var
   buffer: Pointer;
   size: Integer;

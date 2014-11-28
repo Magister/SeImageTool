@@ -3,18 +3,17 @@
 msgid ""
 msgstr "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2008-01-13 00:12\n"
-"PO-Revision-Date: 2008-01-18 23:57+0100\n"
-"Last-Translator: DJSuB <szabi87@kmf.uz.ua>\n"
+"PO-Revision-Date: 2008-01-13 15:40\n"
+"Last-Translator: Magister <misha.cn.ua@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: dxgettext 1.2.1\n"
-"Language-Team: \n"
 
 #. fmAbout..Caption
 #: uAbout.dfm:5
 msgid "About SE db2020 Image Tool"
-msgstr ""
+msgstr "О SE db2020 Image Tool"
 
 #. fmAbout..JvHTLabel1....Caption
 #: uAbout.dfm:33
@@ -30,62 +29,79 @@ msgid "<br>\n"
 "<br>\n"
 "A big THANKS to following people:<br></align>\n"
 "<br>"
-msgstr ""
+msgstr "<br>\n"
+"<align=center>Вы можете использовать и распространять программу "
+"бесплатно, но <b>НЕ ДОЛЖНЫ изменять её</b><br>\n"
+"Если программа Вам нравится, поддержите автора материально "
+"через один из кошельков WebMoney:<br>\n"
+"<b><font color=clRed>WMZ: Z006853598030 WMU: U778558752302 WMR: "
+"R428423234915 или EGold: 4952803</font></b><br>\n"
+"Если Вы найдете ошибку, или у Вас есть идеи касательно разработки "
+"пишите: <a href=mailto:misha.cn.ua@gmail.com>misha.cn.ua@gmail.com</a>"
+"<br>\n"
+"<br>\n"
+"Автор выражает свою благодарность следующим людям:<br></align>\n"
+"<br>"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:54
 msgid "<align=center><b>--Development--</b></align>"
-msgstr ""
+msgstr "<align=center><b>--Разработка--</b></align>"
 
 #. fmAbout..lbThanks......Items.Strings
 #: uAbout.dfm:57
 msgid "<b>Hussein</b> - for information on image table and B&W image "
 "format"
-msgstr ""
+msgstr "<b>Hussein</b> - за информацию про таблицу картинок та формат "
+"черно-белых изображений"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:58
 msgid "<b>ego</b> - for information on packed image "
 "format"
-msgstr ""
+msgstr "<b>ego</b> - за информацию про формат пакованых "
+"изображений"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:59
-msgid "<b>INFerno---</b> - for information on BABE "
+msgid "<b>INFerno-- (aka se-team)</b> - for information on BABE "
 "format"
-msgstr ""
+msgstr "<b>INFerno-- (aka se-team)</b> - за информацию про формат прошивок "
+"(BABE)"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:60
 msgid "<align=center><b>--Translations--</b></align>"
-msgstr ""
+msgstr "<align=center><b>--Переводы--</b></align>"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:61
 msgid "<b>Magister (it's me :) )</b> - Ukrainian and "
 "English"
-msgstr ""
+msgstr "<b>Magister (это я :) )</b> - Украинский и "
+"Английский"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:62
 msgid "<b>DJSuB</b> - Hungarian"
-msgstr ""
+msgstr "<b>DJSuB</b> - Венгерский"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:63
 msgid "<b>Adrian</b> - Spanish"
-msgstr ""
+msgstr "<b>Adrian</b> - Испанский"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:64
 msgid "<b>Blast Pit</b> - Russian"
-msgstr ""
+msgstr "<b>Blast Pit</b> - Русский"
 
 #. fmAbout..lbThanks......Items.Strings
 #: uAbout.dfm:67
 msgid "<align=center><b><a href=http://magister.ipsys.net>Visit my site for "
 "new versions</a></b></align>"
-msgstr ""
+msgstr "<align=center><b><a href=http://magister.ipsys.net>Посетите мой сайт "
+"для получения новый версий</a></b></align>"
 
 #. fmAbout..lbThanks....Items.Strings
 #: uAbout.dfm:68
@@ -113,7 +129,7 @@ msgstr ""
 #. fmMain..sbStatus......Text
 #: uMain.dfm:43
 msgid "Waiting"
-msgstr "Várakozás"
+msgstr "Ожидание"
 
 #. fmMain..sbStatus..SkinData.SkinSection
 #: uMain.dfm:50
@@ -142,17 +158,17 @@ msgstr ""
 #. fmMain..sPanel1..sLabel1..Caption
 #: uMain.dfm:84
 msgid "Thumnail size:"
-msgstr "Előkép mérete:"
+msgstr "Размер эскизов:"
 
 #. fmMain..sPanel1..sLabel4..Caption
 #: uMain.dfm:98
 msgid "Look&&feel:"
-msgstr "Felhasználói felület:"
+msgstr "Внешний вид:"
 
 #. fmMain..sPanel1..sLabel5..Caption
 #: uMain.dfm:139
 msgid "Language:"
-msgstr "Nyelv:"
+msgstr "Язык:"
 
 #. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel6..lbImages..SkinData.SkinSection
@@ -165,7 +181,7 @@ msgstr ""
 #. fmMain..sPanel1..cbStretchPreview..Caption
 #: uMain.dfm:198
 msgid "Stretch preview"
-msgstr "Előkép széthúzása"
+msgstr "Растянуть просмотр"
 
 #. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
 #. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
@@ -181,7 +197,7 @@ msgstr ""
 #. fmMain..sPanel1..cbFixColors..Caption
 #: uMain.dfm:211
 msgid "Fix colors and optimize image"
-msgstr "A kép és a színek optimalizálása"
+msgstr "Исправить цвета и оптимизировать изображение"
 
 #. fmMain..sPanel1..cbSkins..SkinData.SkinSection
 #. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
@@ -227,7 +243,7 @@ msgstr ""
 #. fmMain..sPanel1..cbExpertMode..Caption
 #: uMain.dfm:392
 msgid "Expert mode"
-msgstr ""
+msgstr "Экспертный режим"
 
 #. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
 #: uMain.dfm:511
@@ -240,7 +256,8 @@ msgid "By using this software You agree that THE ENTIRE RISK AS TO THE "
 "QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE "
 "PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY "
 "SERVICING, REPAIR OR CORRECTION"
-msgstr ""
+msgstr "Используйте эту программу на свой страх и риск, за любое повреждение "
+"телефона автор ответственности не несет"
 
 #. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
@@ -256,32 +273,32 @@ msgstr ""
 #. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton2..Caption
 #: uMain.dfm:888
 msgid "Free space log"
-msgstr ""
+msgstr "Журнал свободного места"
 
 #. fmMain..sPanel2..sPanel3..pnDevControls..btShowImageAddress..Caption
 #: uMain.dfm:896
 msgid "Show image address"
-msgstr ""
+msgstr "Показать адрес изображения"
 
 #. fmMain..sPanel2..sPanel6..sPanel7..cbDeleted..Caption
 #: uMain.dfm:969
 msgid "Deleted"
-msgstr ""
+msgstr "Удалённые"
 
 #. fmMain..sPanel2..sPanel6..sPanel7..cbReplaced..Caption
 #: uMain.dfm:983
 msgid "Replaced"
-msgstr ""
+msgstr "Заменённые"
 
 #. fmMain..sPanel2..sPanel6..sPanel7..cbUnchanged..Caption
 #: uMain.dfm:997
 msgid "Unchanged"
-msgstr ""
+msgstr "Неизменные"
 
 #. fmMain..sPanel2..sPanel6..sPanel7..edFilterName..BoundLabel.Caption
 #: uMain.dfm:1023
 msgid "Filter by"
-msgstr ""
+msgstr "Фильтровать по"
 
 #. fmMain..pnLog..SkinData.SkinSection
 #: uMain.dfm:1045
@@ -303,14 +320,14 @@ msgstr ""
 #: uMain.dfm:1108  uMain.pas:3180
 msgid "All supported files|*.mbn;*.raw|MBN files (*.mbn)|*.mbn|RAW files "
 "(*.raw)|*.raw|All files (*.*)|*.*"
-msgstr ""
+msgstr "Все поддерживаемые|*.mbn;*.raw|Файлы MBN (*.mbn)|*.mbn|Файлы RAW "
+"(*.raw)|*.raw|Все файлы (*.*)|*.*"
 
 #. fmMain..SaveDialog1..Filter
 #: uMain.dfm:1113  uMain.pas:2764 uMain.pas:2776 uMain.pas:2791
 #: uMain.pas:2804
 msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
-msgstr "RAW fájlok (*.raw)|*.raw|Minden fájl "
-"(*.*)|*.*"
+msgstr "Файлы RAW (*.raw)|*.raw|Все файлы (*.*)|*.*"
 
 #. fmMain..OpenPictureDialog1..Filter
 #. fmMain..SavePictureDialog1..Filter
@@ -332,7 +349,7 @@ msgstr ""
 #. fmMain..PopupMenu1..N1..Caption
 #: uMain.dfm:1609
 msgid "Copy to clipboard"
-msgstr "Másolás vágólapra"
+msgstr "Копировать в буфер обмена"
 
 #. fmMain..PopupMenu1..N49528031..Caption
 #: uMain.dfm:1625
@@ -342,7 +359,7 @@ msgstr ""
 #. fmMain..PopupMenu1..N2..Caption
 #: uMain.dfm:1633
 msgid "Write email to author"
-msgstr "E-mail írása a készítőnek"
+msgstr "Написать письмо автору"
 
 #. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
 #: uMain.dfm:1638
@@ -388,141 +405,147 @@ msgstr ""
 #. btOpenFw.Caption:=_('Open');
 #: uMain.dfm:2397  uMain.pas:2009
 msgid "Open RAW file"
-msgstr "RAW-fájl megnyitása"
+msgstr "Открыть RAW-файл"
 
 #. fmMain..ActionList1..acSaveImg..Hint
 #: uMain.dfm:2404
 msgid "Save selected image to disk"
-msgstr "Kijelölt kép mentése lemezre"
+msgstr "Сохранить выбраное изображение на диск"
 
 #. fmMain..ActionList1..acDeleteImg..Hint
 #: uMain.dfm:2411
 msgid "Delete image"
-msgstr ""
+msgstr "Удалить изображение"
 
 #. fmMain..ActionList1..acReplaceImg..Hint
 #: uMain.dfm:2418
 msgid "Replace selected image"
-msgstr "Kijelölt kép cseréje"
+msgstr "Заменить выбраное изображение"
 
 #. fmMain..ActionList1..acMakeVKP..Hint
 #: uMain.dfm:2425
 msgid "Make .vkp patch"
-msgstr "VKP patch készítése"
+msgstr "Создать .vkp патч"
 
 #. fmMain..ActionList1..acClearFW..Hint
 #: uMain.dfm:2432
 msgid "Restore RAW"
-msgstr "RAW visszaállítása"
+msgstr "Восстановить RAW"
 
 #. fmMain..ActionList1..acLoadProject..Hint
 #: uMain.dfm:2438
 msgid "Load project"
-msgstr ""
+msgstr "Загрузить проект"
 
 #. fmMain..ActionList1..acSaveProject..Hint
 #: uMain.dfm:2445
 msgid "Save project"
-msgstr ""
+msgstr "Сохранить проект"
 
 #. fmMain..ActionList1..acRestoreOriginal..Hint
 #: uMain.dfm:2452
 msgid "Restore original image"
-msgstr "Eredeti kép visszaállítása"
+msgstr "Восстановить оригинальное изображение"
 
 #. fmMain..ActionList1..acAbout..Hint
 #: uMain.dfm:2458
 msgid "About..."
-msgstr ""
+msgstr "О программе..."
 
 #. fmMain..ActionList1..acClearLog..Hint
 #: uMain.dfm:2463
 msgid "Clear log"
-msgstr ""
+msgstr "Очистить протокол"
 
 #. fmWait..Caption
 #: uWaitForm.dfm:5
 msgid "Wait..."
-msgstr "Kérem várjon..."
+msgstr "Ждите..."
 
 #. fmWait..sLabelFX1..Caption
 #: uWaitForm.dfm:30
 msgid "Please wait..."
-msgstr "Kérem várjon..."
+msgstr "Пожалуйста подождите..."
 
 #: uMain.pas:421
 msgid "Free space: %d bytes in %d blocks"
-msgstr ""
+msgstr "Свободное место: %d байт в %d блоках"
 
 #: uMain.pas:422
 msgid "Largest block: %d bytes; Smallest block: %d "
 "bytes"
-msgstr ""
+msgstr "Наибольший блок: %d байт; Наименьший блок: %d "
+"байт"
 
 #: uMain.pas:423
 msgid "Need to replace: %d images consuming %d "
 "bytes"
-msgstr ""
+msgstr "Подготовлено для замены: %d изображений общим размером %d "
+"байт"
 
 #. fmMain.meLog.Lines.Add('Block after: Start: '+IntToHex(picbase+tmpBlocks[j].Offset,8)+'; End: '+IntToHex(picbase+tmpBlocks[j].Offset+tmpBlocks[j].Length,8));
 #: uMain.pas:1057
 msgid "There is no enough free space to replace all images.\n"
 "Either cancel some of the replacements, or delete one or more images "
 "to get free space."
-msgstr ""
+msgstr "Не хватает свободного места для замены изображений.\n"
+"Или оптимизируйте замену некоторых изображений, или удалите одно или "
+"несколько других изображений, чтобы освободить "
+"место."
 
 #: uMain.pas:1057
 msgid "Not enough free blocks"
-msgstr ""
+msgstr "Не хватает свободных блоков"
 
 #: uMain.pas:1190  uMain.pas:1841
 msgid "Error loading image"
-msgstr ""
+msgstr "Ошибка при загрузке изображения"
 
 #: uMain.pas:1229  uMain.pas:1233
 msgid "Failed to open RAW file"
-msgstr ""
+msgstr "Не возможно открыть RAW-файл"
 
 #: uMain.pas:1239
 msgid "Cannot read MBN file"
-msgstr ""
+msgstr "Не могу прочитать файл MBN"
 
 #: uMain.pas:1316
 msgid "It's not a BABE file or it is corrupted, cannot "
 "open!"
-msgstr ""
+msgstr "Это не файл BABE, либо файл повреждён, не могу "
+"открыть!"
 
 #: uMain.pas:1316  uMain.pas:1340 uMain.pas:1814 uMain.pas:3385
 #: uMain.pas:3406 uMain.pas:3428 uMain.pas:3615 uMain.pas:3622
 msgid "Error"
-msgstr "Hiba"
+msgstr "Ошибка"
 
 #: uMain.pas:1340
 msgid "Not supported BABE version: %d"
-msgstr ""
+msgstr "Версия %d формата BABE не поддерживается"
 
 #: uMain.pas:1349
 msgid "Cannot read RAW file"
-msgstr ""
+msgstr "Невозможно прочитать RAW-файл"
 
 #: uMain.pas:1410
 msgid "Reading file..."
-msgstr "Fájl olvasása..."
+msgstr "Чтение файла..."
 
 #. TP_Ignore(Self,'cbSkins');
 #: uMain.pas:1461  uMain.pas:2322 uMain.pas:2575
 msgid "No skin"
-msgstr ""
+msgstr "Без оформления"
 
 #: uMain.pas:1500
 msgid "Saving file..."
-msgstr "Fájl mentése..."
+msgstr "Сохранение файла..."
 
 #. btDelImg.Enabled:=false;
 #. aImg:=imArrayRepl[lbImages.ItemIndex];
 #: uMain.pas:1663  uMain.pas:1691
 msgid "Image type: "
-msgstr "Kép típusa: "
+msgstr "Тип изображения: "
 
 #: uMain.pas:1665  uMain.pas:1693
 msgid "PNG"
@@ -530,221 +553,232 @@ msgstr "PNG"
 
 #: uMain.pas:1667  uMain.pas:1695
 msgid "packed"
-msgstr "csomagolt"
+msgstr "запакованое"
 
 #: uMain.pas:1669  uMain.pas:1697
 msgid "Black&&White"
-msgstr ""
+msgstr "Черно-белое"
 
 #: uMain.pas:1670  uMain.pas:1698
 msgid "Pixels size: "
-msgstr "Képméret pixelben: "
+msgstr "Разрешение: "
 
 #: uMain.pas:1671  uMain.pas:1699
 msgid "Bytes size: "
-msgstr "Méret bájtokban: "
+msgstr "Размер в байтах: "
 
 #: uMain.pas:1672  uMain.pas:1700
 msgid "Space for image: "
-msgstr ""
+msgstr "Место для изображения: "
 
 #: uMain.pas:1673
 msgid "Image address: "
-msgstr ""
+msgstr "Адрес изображения: "
 
 #. UpdateSize(fw);
 #. Replaced:=false;
 #: uMain.pas:1814  uMain.pas:3385
 msgid "Error while working with image!\n"
 "Looks like it's broken"
-msgstr "Hiba a képpel való munka közben!\n"
-"Nem támogatott formátum"
+msgstr "Ошибка при работе с изображением!\n"
+"Возможно оно имеет неверный формат"
 
 #: uMain.pas:1814  uMain.pas:2240 uMain.pas:2244 uMain.pas:2890
 #: uMain.pas:3385
 msgid "Message: "
-msgstr "Üzenet: "
+msgstr "Сообщение: "
 
 #: uMain.pas:1855  uMain.pas:1857
 msgid "Looks like this file is for newer version of "
 "software"
-msgstr ""
+msgstr "Возможно этот файл для новой версии "
+"программы"
 
 #. imgLen:=EndAddress-StartAddress;
 #: uMain.pas:1949
 msgid "New image size differs from original, but cannot be safely saved!\n"
 "Replace anyway?"
-msgstr "Az új kép mérete eltér az eredetitől.\n"
-" Biztos cseréli?"
+msgstr "Размер изображения отличается от оригинального, а новый размер "
+"невозможно корректно сохранить!\n"
+"Заменить все равно?"
 
 #: uMain.pas:1949
 msgid "Warning!"
-msgstr "Figyelmeztetés!"
+msgstr "Предупреждение!"
 
 #. btOpenFw.Caption:=_('Stop');
 #: uMain.pas:1993
 msgid "Stop processing"
-msgstr "Feldolgozás leállítása"
+msgstr "Остановить обработку"
 
 #: uMain.pas:2012
 msgid "Finished in %s milliseconds, now waiting"
-msgstr ""
+msgstr "Загружено за %s мс, ожидание"
 
 #. Now try PngOptimizerCL.exe
 #: uMain.pas:2240  uMain.pas:2244
 msgid "Error while optimizing image!\n"
 "Error code: "
-msgstr "Hiba a kép optimalizálása közben!\n"
-"Hibakód: "
+msgstr "Ошибка при оптимизации изображения!\n"
+"Код ошибки: "
 
 #: uMain.pas:2240  uMain.pas:2244 uMain.pas:2890
 msgid "Error!"
-msgstr "Hiba!"
+msgstr "Ошибка!"
 
 #: uMain.pas:2282
 msgid "Processing colors..."
-msgstr "Színek feldolgozása..."
+msgstr "Обработка цветов..."
 
 #: uMain.pas:2295
 msgid " images processed"
-msgstr " feldolgozott kép"
+msgstr " изображение обработанно"
 
 #: uMain.pas:2522  uMain.pas:3682
 msgid " images found"
-msgstr " megtalált kép"
+msgstr " изображений найдено"
 
 #: uMain.pas:2672
 msgid "The .vkp is ready, now it's time to create a preview.\n"
 "But patch preview image size is large (%dx%d pixels), and software "
 "can crash while generating it.\n"
 "Generate preview anyway?"
-msgstr "A .vkp fájl készen áll az előkép generálására.\n"
-"Viszont az előnézeti kép nagy (%dx%d képpont), amitől a program "
-"hibákat okozhat.\n"
-"Folytatja a műveletet?"
+msgstr "Патч .vkp готов, теперь время для построения предосмотра.\n"
+"Но разрешение предосмотра слишком велико (%dx%d точок), і прогамма "
+"может вызвать ошибку при генерации.\n"
+"Продолжить?"
 
 #: uMain.pas:2672
 msgid "Too big preview"
-msgstr "Túl nagy előkép"
+msgstr "Слишком большой предосмотр"
 
 #. fwIm:TfwImage;
 #: uMain.pas:2767  uMain.pas:2779 uMain.pas:3223 uMain.pas:3520
 #: uMain.pas:3703
 msgid "File already exists. Rewrite?"
-msgstr "Már van ilyen fájl. Felülírja?"
+msgstr "Файл уже существует. Заменить?"
 
 #: uMain.pas:2767  uMain.pas:2779 uMain.pas:3223 uMain.pas:3520
 #: uMain.pas:3703
 msgid "Rewrite?"
-msgstr "Felülírja?"
+msgstr "Заменить?"
 
 #. Now try pngcrush
 #: uMain.pas:2890
 msgid "Error while converting image to RGBA!\n"
 "Error code: "
-msgstr ""
+msgstr "Ошибка при конвертации изображения в RGBA!\n"
+"Код ошибки: "
 
 #: uMain.pas:3402
 msgid "Replacing image..."
-msgstr "Kép cserélése..."
+msgstr "Замена изображения..."
 
 #. SetPicture(FNewData,fim,Buf,im_width,im_height);
 #: uMain.pas:3406  uMain.pas:3428
 msgid "Image is too big, can't replace\n"
 "Image size: "
-msgstr "A kép túl nagy, nem lehet cserélni\n"
-"Kép mérete: "
+msgstr "Изображение велико, невозможно заменить\n"
+"Размер изображения: "
 
 #: uMain.pas:3406  uMain.pas:3428
 msgid "Allowed size: "
-msgstr "Megengedett méret: "
+msgstr "Допустимый размер: "
 
 #. patch preview
 #: uMain.pas:3478
 msgid "Generating patch..."
-msgstr "Patch készítése..."
+msgstr "Генерируется патч..."
 
 #: uMain.pas:3481  uMain.pas:3505
 msgid "No images changed or images are equal!\n"
 "Will not create empty file"
-msgstr "Nincs módosított kép vagy a cserélt kép egyezik az eredetivel!\n"
-"Nem szükséges patch létrehozása"
+msgstr "Нет замененных изображений!\n"
+"Невозможно создать пустой файл"
 
 #: uMain.pas:3481  uMain.pas:3505
 msgid "Nothing to write"
-msgstr "Írás szükségtelen"
+msgstr "Нечего записывать"
 
 #: uMain.pas:3510
 msgid "Enter version"
-msgstr "Írja be a verziót"
+msgstr "Введите версию"
 
 #: uMain.pas:3510
 msgid "Unable to guess firmware version\n"
 "Please enter it"
-msgstr "Firmware verzió felmérése nem lehetséges\n"
-"Kérem adja meg a firmware verziót"
+msgstr "Невозможно автоматически определить версию прошивки телефона\n"
+"Пожалуйста введите ее"
 
 #: uMain.pas:3514
 msgid "VKP files (*.vkp)|*.vkp"
-msgstr "VKP fájlok (*.vkp)|*.vkp"
+msgstr "Файлы VKP (*.vkp)|*.vkp"
 
 #. Create preview image
 #: uMain.pas:3551
 msgid "Generating preview..."
-msgstr "Előnézet készítése..."
+msgstr "Создание предосмотра..."
 
 #: uMain.pas:3601
 msgid "Loading project..."
-msgstr ""
+msgstr "Загрузка проекта..."
 
 #: uMain.pas:3602  uMain.pas:3700
 msgid "IMT files (*.imt)|*.imt|All files (*.*)|*.*"
-msgstr ""
+msgstr "Файлы IMT (*.imt)|*.imt|Все файлы (*.*)|*.*"
 
 #: uMain.pas:3615
 msgid "This project was created with version %f of software which has bugs "
 "that prevent it's normal usage. Load "
 "anyway?"
-msgstr ""
+msgstr "Этот проект создан версией %f программы, в которой есть ошибки мешающие "
+"нормальному использованию проекта. Всё равно "
+"загрузить?"
 
 #: uMain.pas:3622
 msgid "This project was created with version %f of software which is newer "
 "than current software and thus cannot be loaded.\n"
 "Please download new version from http://magister.ipsys.net"
-msgstr ""
+msgstr "Этот проект создан версией %f программы, которая новее текущей и "
+"потому не может быть загружен. Получите последнюю версию на "
+"http://magister.ipsys.net"
 
 #: uMain.pas:3636
 msgid "Cannot load firmware file: %s\n"
 "Open it manually and then load project"
-msgstr ""
+msgstr "Не могу открыть файл: %s\n"
+"Откройте его вручную, а потом загрузите "
+"проект"
 
 #: uMain.pas:3642
 msgid "Loaded firmware file is not the same the project was created\n"
 "Loading rhis project with incorrect firmware can crash program. Load "
 "anyway?"
-msgstr ""
+msgstr "Проект был создан с другим RAW-файлом\n"
+"это может вызвать фатальную ошибку Открыть?"
 
 #: uMain.pas:3642
 msgid "Different firmware file"
-msgstr ""
+msgstr "Неверный RAW-файл"
 
 #: uMain.pas:3699
 msgid "Saving project..."
-msgstr ""
+msgstr "Сохраняется проект..."
 
 #. end;
 #: uMain.pas:3792
 msgid "This image is used as global deleted picture and can be restored only "
 "via full undo"
-msgstr ""
+msgstr "Это изображение было удалено и может быть восстановлено только полным "
+"восстановлением RAW (кнопка на панели)"
 
 #: uMain.pas:3792
 msgid "Cannot restore"
-msgstr ""
+msgstr "Невозможно восстановить"
 
 #: uMain.pas:3928
 msgid "Images shown: %d"
-msgstr ""
+msgstr "Показано %d изображений"
 
 #. Programmer's name: EMPTYPNG PNG1
 #: empty.rc:1

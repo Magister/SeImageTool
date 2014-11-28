@@ -10,381 +10,453 @@ msgstr "Project-Id-Version: PACKAGE VERSION\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: dxgettext 1.2.1\n"
 
+#. fmAbout..Caption
+#: uAbout.dfm:5
+msgid "About SE db2020 Image Tool"
+msgstr "Про SE db2020 Image Tool"
+
+#. fmAbout..JvHTLabel1....Caption
+#: uAbout.dfm:33
+msgid "<br>\n"
+"<align=center>You can use and distribute software for free, but you "
+"<b>SHOULD NOT modify it</b><br>\n"
+"If you like this software, support author by sending some money to "
+"one of WebMoney wallets:<br>\n"
+"<b><font color=clRed>WMZ: Z006853598030 WMU: U778558752302 WMR: "
+"R428423234915 або EGold: 4952803</font></b><br>\n"
+"If you find some bug, or have ideas on program development write me: "
+"<a href=mailto:misha.cn.ua@gmail.com>misha.cn.ua@gmail.com</a><br>\n"
+"<br>\n"
+"A big THANKS to following people:<br></align>\n"
+"<br>"
+msgstr "<br>\n"
+"<align=center>Ви можете використовувати та розповсюджувати програму  "
+"безкоштовно, але <b>НЕ ПОВИННІ змінювати</b><br>\n"
+"Якщо програма вам подобається, підтримайте автора переказавши грошей на "
+"один з гаманців WebMoney:<br>\n"
+"<b><font color=clRed>WMZ: Z006853598030 WMU: U778558752302 WMR: "
+"R428423234915 or EGold: 4952803</font></b><br>\n"
+"Якщо ви знайдете помилку, або маєте поради щодо розробки програми пишіть: "
+"<a href=mailto:misha.cn.ua@gmail.com>misha.cn.ua@gmail.com</a><br>\n"
+"<br>\n"
+"Автор висловлює подяку наступним людям:<br></align>\n"
+"<br>"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:54
+msgid "<align=center><b>--Development--</b></align>"
+msgstr "<align=center><b>--Розробка--</b></align>"
+
+#. fmAbout..lbThanks......Items.Strings
+#: uAbout.dfm:57
+msgid "<b>Hussein</b> - for information on image table and B&W image "
+"format"
+msgstr "<b>Hussein</b> - за інформацію щодо таблиці картинок та формат "
+"чорно-білих зображень"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:58
+msgid "<b>ego</b> - for information on packed image "
+"format"
+msgstr "<b>ego</b> - за інформацію щодо формату "
+"пакованих зображень"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:59
+msgid "<b>INFerno-- (aka se-team)</b> - for information on BABE "
+"format"
+msgstr "<b>INFerno-- (aka se-team)</b> - за інформацію про формат прошивок (BABE)"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:60
+msgid "<align=center><b>--Translations--</b></align>"
+msgstr "<align=center><b>--Переклади--</b></align>"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:61
+msgid "<b>Magister (it's me :) )</b> - Ukrainian and "
+"English"
+msgstr "<b>Magister (це я :) )</b> - Українська та "
+"Англійська"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:62
+msgid "<b>DJSuB</b> - Hungarian"
+msgstr "<b>DJSuB</b> - Угорська"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:63
+msgid "<b>Adrian</b> - Spanish"
+msgstr "<b>Adrian</b> - Іспанська"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:64
+msgid "<b>Blast Pit</b> - Russian"
+msgstr "<b>Blast Pit</b> - Російська"
+
+#. fmAbout..lbThanks......Items.Strings
+#: uAbout.dfm:67
+msgid "<align=center><b><a href=http://magister.ipsys.net>Visit my site for "
+"new versions</a></b></align>"
+msgstr "<align=center><b><a href=http://magister.ipsys.net>Відвідайте мій сайт "
+"для отримання нових версій</a></b></align>"
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:68
+msgid "<align=center><b>---------------------------</b></align>"
+msgstr ""
+
+#. fmAbout..sSkinProvider1..SkinData.SkinSection
+#. fmMain..sSkinProvider1..SkinData.SkinSection
+#. fmWait..sSkinProvider1..SkinData.SkinSection
+#: uAbout.dfm:72  uMain.dfm:1555 uWaitForm.dfm:41
+msgid "FORM"
+msgstr ""
+
 #. fmMain..Caption
 #: uMain.dfm:6
 msgid "SE db2020 Image Tool"
 msgstr ""
 
+#. fmMain..sSplitter2..SkinData.SkinSection
+#. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
+#: uMain.dfm:34  uMain.dfm:416
+msgid "SPLITTER"
+msgstr ""
+
 #. fmMain..sbStatus......Text
-#: uMain.dfm:34
-#: uMain.pas:892
-#: uMain.pas:1321
+#: uMain.dfm:43
 msgid "Waiting"
 msgstr "Очікування"
 
 #. fmMain..sbStatus..SkinData.SkinSection
-#: uMain.dfm:41
+#: uMain.dfm:50
 msgid "STATUSBAR"
 msgstr ""
 
 #. fmMain..sbStatus..pbProgress..SkinData.SkinSection
-#: uMain.dfm:54
+#: uMain.dfm:63
 msgid "GAUGE"
 msgstr ""
 
 #. fmMain..sPanel1..SkinData.SkinSection
-#: uMain.dfm:65
 #. fmMain..sPanel2..SkinData.SkinSection
-#: uMain.dfm:1150
 #. fmMain..sPanel2..sPanel3..SkinData.SkinSection
-#: uMain.dfm:1196
 #. fmMain..sPanel2..sPanel3..pnAbout..SkinData.SkinSection
-#: uMain.dfm:1291
+#. fmMain..sPanel2..sPanel3..sPanel5..SkinData.SkinSection
 #. fmMain..sPanel2..sPanel3..pnDevControls..SkinData.SkinSection
-#: uMain.dfm:1733
+#. fmMain..sPanel2..sPanel6..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..SkinData.SkinSection
 #. fmMain..sSkinManager1..MenuSupport.IcoLineSkin
-#: uMain.dfm:4416
+#: uMain.dfm:74  uMain.dfm:409 uMain.dfm:426 uMain.dfm:521 uMain.dfm:856
+#: uMain.dfm:883 uMain.dfm:909 uMain.dfm:960 uMain.dfm:1541
 msgid "ICOLINE"
 msgstr ""
 
 #. fmMain..sPanel1..sLabel1..Caption
-#: uMain.dfm:75
+#: uMain.dfm:84
 msgid "Thumnail size:"
 msgstr "Розмір ескізів:"
 
-#. fmMain..sPanel1..sLabel2..Caption
-#: uMain.dfm:89
-msgid "Scan images between"
-msgstr "Діапазон обробки зображень"
-
 #. fmMain..sPanel1..sLabel4..Caption
-#: uMain.dfm:103
+#: uMain.dfm:98
 msgid "Look&&feel:"
 msgstr "Зовнішній вигляд:"
 
-#. fmMain..sPanel1..sLabel3..Caption
-#: uMain.dfm:117
-msgid "—"
-msgstr ""
-
 #. fmMain..sPanel1..sLabel5..Caption
-#: uMain.dfm:158
+#: uMain.dfm:139
 msgid "Language:"
 msgstr "Мова:"
 
-#. fmMain..sPanel1..btOpenFw..Hint
-#: uMain.dfm:187
-#: uMain.pas:1318
-msgid "Open RAW file"
-msgstr "Відкрити RAW-файл"
-
-#. fmMain..sPanel1..btOpenFw..Caption
-#: uMain.dfm:188
-#. fmMain.Enabled:=true;
-#: uMain.pas:1317
-msgid "Open"
-msgstr "Відкрити"
-
-#. fmMain..sPanel1..btOpenFw..SkinData.SkinSection
-#: uMain.dfm:290
-#. fmMain..sPanel1..btReplaceImg..SkinData.SkinSection
-#: uMain.dfm:402
-#. fmMain..sPanel1..btSaveImg..SkinData.SkinSection
-#: uMain.dfm:514
-#. fmMain..sPanel1..btMakeVKP..SkinData.SkinSection
-#: uMain.dfm:626
-#. fmMain..sPanel1..btClearFW..SkinData.SkinSection
-#: uMain.dfm:915
-#. fmMain..sPanel1..btLoadProject..SkinData.SkinSection
-#: uMain.dfm:1026
-#. fmMain..sPanel1..btSaveProject..SkinData.SkinSection
-#: uMain.dfm:1138
-#. fmMain..sPanel2..sPanel3..gbOriginal..btSaveOrig..SkinData.SkinSection
-#: uMain.dfm:1420
-#. fmMain..sPanel2..sPanel3..gbOriginal..btOpenOrig..SkinData.SkinSection
-#: uMain.dfm:1473
-#. fmMain..sPanel2..sPanel3..gbPreview..btSaveRepl..SkinData.SkinSection
-#: uMain.dfm:1557
-#. fmMain..sPanel2..sPanel3..gbPreview..btOpenRepl..SkinData.SkinSection
-#: uMain.dfm:1610
-#. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
-#: uMain.dfm:1722
-#. fmMain..sPanel2..sPanel3..pnDevControls..btTest..SkinData.SkinSection
-#: uMain.dfm:1747
-#. fmMain..sPanel2..sPanel3..pnDevControls..btSaveFw..SkinData.SkinSection
-#: uMain.dfm:1759
-#. fmMain..sPanel2..sPanel3..pnDevControls..btFreeSpaceLog..SkinData.SkinSection
-#: uMain.dfm:1771
-msgid "BUTTON"
-msgstr ""
-
-#. fmMain..sPanel1..btReplaceImg..Hint
-#: uMain.dfm:298
-msgid "Replace selected image"
-msgstr "Замінити вибране зображення іншим"
-
-#. fmMain..sPanel1..btReplaceImg..Caption
-#: uMain.dfm:299
-msgid "Replace"
-msgstr "Замінити"
-
-#. fmMain..sPanel1..btSaveImg..Hint
-#: uMain.dfm:410
-msgid "Save selected image to disk"
-msgstr "Зберегти вибране зображення на диск"
-
-#. fmMain..sPanel1..btSaveImg..Caption
-#: uMain.dfm:411
-msgid "Save to disk"
-msgstr "Зберегти на диск"
-
-#. fmMain..sPanel1..btMakeVKP..Hint
-#: uMain.dfm:522
-msgid "Make .vkp patch"
-msgstr "Зробити патч формату .vkp для заміни "
-"зображення"
-
-#. fmMain..sPanel1..btMakeVKP..Caption
-#: uMain.dfm:523
-msgid "Make .vkp"
-msgstr "Зробити .vkp"
-
 #. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
-#: uMain.dfm:645
-#. fmMain..sPanel1..seLoadFrom..SkinData.SkinSection
-#: uMain.dfm:729
-#. fmMain..sPanel1..seLoadTo..SkinData.SkinSection
-#: uMain.dfm:758
-#. fmMain..sPanel2..lbImages..SkinData.SkinSection
-#: uMain.dfm:1173
+#. fmMain..sPanel2..sPanel6..lbImages..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..edFilterName..SkinData.SkinSection
+#. fmMain..pnLog..meLog..SkinData.SkinSection
+#: uMain.dfm:179  uMain.dfm:938 uMain.dfm:1021 uMain.dfm:1088
 msgid "EDIT"
 msgstr ""
 
 #. fmMain..sPanel1..cbStretchPreview..Caption
-#: uMain.dfm:664
+#: uMain.dfm:198
 msgid "Stretch preview"
 msgstr "Розтягнути перегляд"
 
 #. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
-#: uMain.dfm:667
 #. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
-#: uMain.dfm:680
+#. fmMain..sPanel1..cbExpertMode..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..cbDeleted..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..cbReplaced..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..cbUnchanged..SkinData.SkinSection
+#: uMain.dfm:202  uMain.dfm:216 uMain.dfm:396 uMain.dfm:974 uMain.dfm:988
+#: uMain.dfm:1002
 msgid "CHECKBOX"
 msgstr ""
 
 #. fmMain..sPanel1..cbFixColors..Caption
-#: uMain.dfm:676
+#: uMain.dfm:211
 msgid "Fix colors and optimize image"
 msgstr "Виправити кольори та оптимізувати зображення"
 
 #. fmMain..sPanel1..cbSkins..SkinData.SkinSection
-#: uMain.dfm:699
 #. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
-#: uMain.dfm:787
+#: uMain.dfm:235  uMain.dfm:265
 msgid "COMBOBOX"
 msgstr ""
 
 #. fmMain..sPanel1..cbLanguage....Items.Strings
-#: uMain.dfm:802
+#: uMain.dfm:280
 msgid "English"
 msgstr ""
 
 #. fmMain..sPanel1..cbLanguage....Items.Strings
-#: uMain.dfm:803
+#: uMain.dfm:281
 msgid "Українська"
 msgstr ""
 
 #. fmMain..sPanel1..cbLanguage....Items.Strings
-#: uMain.dfm:804
+#: uMain.dfm:282
 msgid "Hungarian"
 msgstr ""
 
-#. fmMain..sPanel1..btClearFW..Hint
-#: uMain.dfm:811
-msgid "Restore RAW"
-msgstr "Відновити RAW"
-
-#. fmMain..sPanel1..btClearFW..Caption
-#: uMain.dfm:812
-#. fmMain..sPanel2..sPanel3..btRestoreOriginal..Caption
-#: uMain.dfm:1619
-msgid "Restore"
-msgstr "Відновити"
-
-#. fmMain..sPanel1..btLoadProject..Hint
-#: uMain.dfm:923
-#. fmMain..sPanel1..btLoadProject..Caption
-#: uMain.dfm:924
-msgid "Load project"
-msgstr "Відкрити проект"
-
-#. fmMain..sPanel1..btSaveProject..Hint
-#: uMain.dfm:1034
-#. fmMain..sPanel1..btSaveProject..Caption
-#: uMain.dfm:1035
-msgid "Save project"
-msgstr "Зберегти проект"
-
-#. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
-#: uMain.dfm:1156
-msgid "SPLITTER"
+#. fmMain..sPanel1..btLoadProject..SkinData.SkinSection
+#. fmMain..sPanel1..btSaveProject..SkinData.SkinSection
+#. fmMain..sPanel1..btOpenFw..SkinData.SkinSection
+#. fmMain..sPanel1..btSaveImg..SkinData.SkinSection
+#. fmMain..sPanel1..btDelImg..SkinData.SkinSection
+#. fmMain..sPanel1..btReplaceImg..SkinData.SkinSection
+#. fmMain..sPanel1..btMakeVKP..SkinData.SkinSection
+#. fmMain..sPanel1..btClearFW..SkinData.SkinSection
+#. fmMain..sPanel1..btAbout..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..btSaveOrig..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..btOpenOrig..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..btSaveRepl..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..btOpenRepl..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
+#: uMain.dfm:291  uMain.dfm:303 uMain.dfm:315 uMain.dfm:326 uMain.dfm:337
+#: uMain.dfm:348 uMain.dfm:359 uMain.dfm:370 uMain.dfm:382 uMain.dfm:644
+#: uMain.dfm:697 uMain.dfm:781 uMain.dfm:834 uMain.dfm:844
+msgid "BUTTON"
 msgstr ""
 
+#. fmMain..sPanel1..cbExpertMode..Caption
+#: uMain.dfm:392
+msgid "Expert mode"
+msgstr "Експертний режим"
+
 #. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
-#: uMain.dfm:1281
+#: uMain.dfm:511
 msgid "BARPANEL"
 msgstr ""
 
-#. fmMain..sPanel2..sPanel3..pnAbout..lbAbout....Caption
-#: uMain.dfm:1306
-msgid "You can use and distribute software for free, but you SHOULD NOT \n"
-"modify it If you like this software, support author by sending some "
-"money to one of WebMoney wallets:\n"
-"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 or EGold: "
-"4952803\n"
-"If you find some bug, or have ideas on program development write me: "
-"misha.cn.ua@gmail.com\n"
-"A big THANKS to ego and Hussein for providing information on phone "
-"image format and location.\n"
-" "
-msgstr "Ви можете розповсюджувати та використовувати програму безкоштовно, "
-"але НЕ МАЄТЕ права вносити зміни, В ТОМУ ЧИСЛІ перекладати її іншими "
-"мовами.\n"
-"Якщо програма вам сподобалася, підтримайте автора переказавши "
-"будь-яку суму на один з гаманців WebMoney:\n"
-"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 або EGold: "
-"4952803\n"
-"Про всі знайдені помилки, а також побажання щодо розвитку програми "
-"пишіть:misha.cn.ua@gmail.com\n"
-"Автор висловлює свою подяку ego та Hussein за інформацію щодо способу "
-"збереження зображень в телефонах.\n"
-" "
+#. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty....Caption
+#: uMain.dfm:533
+msgid "By using this software You agree that THE ENTIRE RISK AS TO THE "
+"QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE "
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY "
+"SERVICING, REPAIR OR CORRECTION"
+msgstr "Використовуючи цю програму, Ви погоджуєтеся що весь ризик щодо якості "
+"та працездатності програми лежить тільки на Вас. Якщо програма "
+"виявиться дефектною, ви приймаєте на себе всі заходи щодо необхідного "
+"обслуговування, ремонту або відновлення"
 
 #. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
-#: uMain.dfm:1347
 #. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
-#: uMain.dfm:1484
+#: uMain.dfm:571  uMain.dfm:708
 msgid "GROUPBOX"
 msgstr ""
 
-#. fmMain..sPanel2..sPanel3..btRestoreOriginal..Hint
-#: uMain.dfm:1618
-msgid "Restore original image"
-msgstr "Відновити ориґінальне зображення"
+#. fmMain..sPanel2..sPanel3..pnDevControls..Caption
+#: uMain.dfm:876
+msgid "pnDevControls"
+msgstr ""
 
-#. fmMain..sPanel2..sPanel3..pnDevControls..btTest..Caption
-#: uMain.dfm:1743
-msgid "Testing"
-msgstr "Тестування"
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..btSaveFw..Caption
-#: uMain.dfm:1755
-msgid "Write file"
-msgstr "Записати файл"
-
-#. fmMain..sPanel2..sPanel3..pnDevControls..btFreeSpaceLog..Caption
-#: uMain.dfm:1767
+#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton2..Caption
+#: uMain.dfm:888
 msgid "Free space log"
 msgstr "Журнал вільного місця"
 
-#. fmMain..OpenDialog1..Filter
-#: uMain.dfm:1777
+#. fmMain..sPanel2..sPanel3..pnDevControls..btShowImageAddress..Caption
+#: uMain.dfm:896
+msgid "Show image address"
+msgstr "Показати адресу зображення"
+
+#. fmMain..sPanel2..sPanel6..sPanel7..cbDeleted..Caption
+#: uMain.dfm:969
+msgid "Deleted"
+msgstr "Видалені"
+
+#. fmMain..sPanel2..sPanel6..sPanel7..cbReplaced..Caption
+#: uMain.dfm:983
+msgid "Replaced"
+msgstr "Замінені"
+
+#. fmMain..sPanel2..sPanel6..sPanel7..cbUnchanged..Caption
+#: uMain.dfm:997
+msgid "Unchanged"
+msgstr "Не змінені"
+
+#. fmMain..sPanel2..sPanel6..sPanel7..edFilterName..BoundLabel.Caption
+#: uMain.dfm:1023
+msgid "Filter by"
+msgstr "Фільтрувати за"
+
+#. fmMain..pnLog..SkinData.SkinSection
+#: uMain.dfm:1045
+msgid "PANEL"
+msgstr ""
+
+#. fmMain..pnLog..lbData..Caption
+#: uMain.dfm:1055
+msgid " \n"
+" "
+msgstr ""
+
+#. fmMain..pnLog..btClearLog..SkinData.SkinSection
+#: uMain.dfm:1099
+msgid "SPEEDBUTTON_SMALL"
+msgstr ""
+
+#. fmMain..OpenDialog1....Filter
+#: uMain.dfm:1108  uMain.pas:3180
+msgid "All supported files|*.mbn;*.raw|MBN files (*.mbn)|*.mbn|RAW files "
+"(*.raw)|*.raw|All files (*.*)|*.*"
+msgstr "Всі підтримувані|*.mbn;*.raw|Файли MBN (*.mbn)|*.mbn|Файли RAW "
+"(*.raw)|*.raw|Всі файли (*.*)|*.*"
+
 #. fmMain..SaveDialog1..Filter
-#: uMain.dfm:1782
-#: uMain.pas:678
-#: uMain.pas:1017
-#: uMain.pas:2244
-#: uMain.pas:2256
-#: uMain.pas:2271
-#: uMain.pas:2284
+#: uMain.dfm:1113  uMain.pas:2764 uMain.pas:2776 uMain.pas:2791
+#: uMain.pas:2804
 msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
 msgstr "Файли RAW (*.raw)|*.raw|Всі файли (*.*)|*.*"
 
 #. fmMain..OpenPictureDialog1..Filter
-#: uMain.dfm:1787
 #. fmMain..SavePictureDialog1..Filter
-#: uMain.dfm:1792
+#: uMain.dfm:1118  uMain.dfm:1123
 msgid "Portable Network Graphics (*.png)|*.png"
 msgstr ""
 
 #. fmMain..sSkinManager1......Name
-#: uMain.dfm:1808
 #. fmMain..sSkinManager1..SkinName
-#: uMain.dfm:4423
+#: uMain.dfm:1139  uMain.dfm:1548
 msgid "BlueGauze"
 msgstr ""
 
 #. fmMain..sSkinManager1..SkinDirectory
-#: uMain.dfm:4422
+#: uMain.dfm:1547
 msgid "c:\\Skins"
 msgstr ""
 
-#. fmMain..sSkinProvider1..SkinData.SkinSection
-#: uMain.dfm:4430
-#. fmWait..sSkinProvider1..SkinData.SkinSection
-#: uWaitForm.dfm:41
-msgid "FORM"
-msgstr ""
-
 #. fmMain..PopupMenu1..N1..Caption
-#: uMain.dfm:4484
+#: uMain.dfm:1609
 msgid "Copy to clipboard"
 msgstr "Копіювати в буфер"
 
 #. fmMain..PopupMenu1..N49528031..Caption
-#: uMain.dfm:4500
+#: uMain.dfm:1625
 msgid "EGold 4952803"
 msgstr ""
 
 #. fmMain..PopupMenu1..N2..Caption
-#: uMain.dfm:4508
+#: uMain.dfm:1633
 msgid "Write email to author"
 msgstr "Написати листа автору"
 
 #. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
-#: uMain.dfm:4513
+#: uMain.dfm:1638
 msgid "TRUE, YES, Y"
 msgstr ""
 
 #. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
-#: uMain.dfm:4514
+#: uMain.dfm:1639
 msgid "FALSE, NO, N"
 msgstr ""
 
 #. fmMain..JvFormStorage1..AppStoragePath
-#: uMain.dfm:4523
+#: uMain.dfm:1648
 msgid "fmMain\\"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:4533
+#: uMain.dfm:1658
 msgid "cbStretchPreview.Checked"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:4534
+#: uMain.dfm:1659
 msgid "seThumbHeight.Value"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:4536
+#: uMain.dfm:1661
 msgid "cbFixColors.Checked"
 msgstr ""
 
 #. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:4537
-msgid "seLoadFrom.Value"
-msgstr ""
-
-#. fmMain..JvFormStorage1....StoredProps.Strings
-#: uMain.dfm:4538
-msgid "seLoadTo.Value"
+#: uMain.dfm:1663
+msgid "cbExpertMode.Checked"
 msgstr ""
 
 #. fmMain..sHintManager1..SkinSection
-#: uMain.dfm:4571
+#: uMain.dfm:1696
 msgid "HINT"
 msgstr ""
+
+#. fmMain..ActionList1..acOpen..Hint
+#. btOpenFw.Caption:=_('Open');
+#: uMain.dfm:2397  uMain.pas:2009
+msgid "Open RAW file"
+msgstr "Відкрити RAW-файл"
+
+#. fmMain..ActionList1..acSaveImg..Hint
+#: uMain.dfm:2404
+msgid "Save selected image to disk"
+msgstr "Зберегти вибране зображення на диск"
+
+#. fmMain..ActionList1..acDeleteImg..Hint
+#: uMain.dfm:2411
+msgid "Delete image"
+msgstr "Видалити зображення"
+
+#. fmMain..ActionList1..acReplaceImg..Hint
+#: uMain.dfm:2418
+msgid "Replace selected image"
+msgstr "Замінити вибране зображення іншим"
+
+#. fmMain..ActionList1..acMakeVKP..Hint
+#: uMain.dfm:2425
+msgid "Make .vkp patch"
+msgstr "Зробити патч формату .vkp для заміни "
+"зображення"
+
+#. fmMain..ActionList1..acClearFW..Hint
+#: uMain.dfm:2432
+msgid "Restore RAW"
+msgstr "Відновити RAW"
+
+#. fmMain..ActionList1..acLoadProject..Hint
+#: uMain.dfm:2438
+msgid "Load project"
+msgstr "Відкрити проект"
+
+#. fmMain..ActionList1..acSaveProject..Hint
+#: uMain.dfm:2445
+msgid "Save project"
+msgstr "Зберегти проект"
+
+#. fmMain..ActionList1..acRestoreOriginal..Hint
+#: uMain.dfm:2452
+msgid "Restore original image"
+msgstr "Відновити ориґінальне зображення"
+
+#. fmMain..ActionList1..acAbout..Hint
+#: uMain.dfm:2458
+msgid "About..."
+msgstr "Про програму..."
+
+#. fmMain..ActionList1..acClearLog..Hint
+#: uMain.dfm:2463
+msgid "Clear log"
+msgstr "Очистити протокол"
 
 #. fmWait..Caption
 #: uWaitForm.dfm:5
@@ -396,234 +468,176 @@ msgstr "Зачекайте..."
 msgid "Please wait..."
 msgstr "Зачекайте, будь ласка..."
 
-#. img.Draw(im.Canvas,im.Canvas.ClipRect);
-#: uMain.pas:554
-msgid "Transparency is supported only for color types \"RGBALPHA\" and "
-"\"GRAYSCALEALPHA\"\n"
-"Image will be saved as non-transparent"
-msgstr "Прозорість підтримується лише в зображеннях типу \"RGBALPHA\" та "
-"\"GRAYSCALEALPHA\"\n"
-"Зображення буде збережено непрозорим"
+#: uMain.pas:421
+msgid "Free space: %d bytes in %d blocks"
+msgstr "Вільне місце: %d байт у %d блоках"
 
-#: uMain.pas:554
-msgid "Transparency is not supported"
-msgstr "Прозорість не підтримується"
+#: uMain.pas:422
+msgid "Largest block: %d bytes; Smallest block: %d "
+"bytes"
+msgstr "Найбільший блок: %d байт; Найменший блок: %d "
+"байт"
 
-#: uMain.pas:641
-msgid "Reading file..."
-msgstr "Читання файлу..."
+#: uMain.pas:423
+msgid "Need to replace: %d images consuming %d "
+"bytes"
+msgstr "Підготовано для заміни: %d зображень загальним розміром %d "
+"байт"
 
-#. SearchForPNGs(fw);
-#: uMain.pas:706
-msgid "Can't found any image!\n"
-"Maybe it's not db2020 RAW firmware file?"
-msgstr "Не знайдено жодного зображення!\n"
-"Можливо це не RAW-файл програмного забезпечення?"
+#. fmMain.meLog.Lines.Add('Block after: Start: '+IntToHex(picbase+tmpBlocks[j].Offset,8)+'; End: '+IntToHex(picbase+tmpBlocks[j].Offset+tmpBlocks[j].Length,8));
+#: uMain.pas:1057
+msgid "There is no enough free space to replace all images.\n"
+"Either cancel some of the replacements, or delete one or more images "
+"to get free space."
+msgstr "Не вистачає вільного місця для заміни обраних зображень.\n"
+"Або скасуйте заміну деяких зображень, або видаліть одне або декілька "
+"інших зображень щоб звільнити місце."
 
-#: uMain.pas:706
-#: uMain.pas:888
-#: uMain.pas:994
-#: uMain.pas:1063
-#: uMain.pas:1083
-#: uMain.pas:1106
+#: uMain.pas:1057
+msgid "Not enough free blocks"
+msgstr "Не вистачає вільних блоків"
+
+#: uMain.pas:1190  uMain.pas:1841
+msgid "Error loading image"
+msgstr "Помилка відкриття зображення"
+
+#: uMain.pas:1229  uMain.pas:1233
+msgid "Failed to open RAW file"
+msgstr "Помилка при відкритті RAW-файлу"
+
+#: uMain.pas:1239
+msgid "Cannot read MBN file"
+msgstr "Не можу прочитати файл MBN"
+
+#: uMain.pas:1316
+msgid "It's not a BABE file or it is corrupted, cannot "
+"open!"
+msgstr "Це не файл BABE, або файл пошкоджено, не можу відкрити!"
+
+#: uMain.pas:1316  uMain.pas:1340 uMain.pas:1814 uMain.pas:3385
+#: uMain.pas:3406 uMain.pas:3428 uMain.pas:3615 uMain.pas:3622
 msgid "Error"
 msgstr "Помилка"
 
-#: uMain.pas:708
-#. Read changed images
-#: uMain.pas:2523
-msgid " images found"
-msgstr " зображень знайдено"
+#: uMain.pas:1340
+msgid "Not supported BABE version: %d"
+msgstr "Версія %d формату BABE не підтримується"
 
-#: uMain.pas:753
+#: uMain.pas:1349
+msgid "Cannot read RAW file"
+msgstr "Не можу прочитати RAW-файл"
+
+#: uMain.pas:1410
+msgid "Reading file..."
+msgstr "Читання файлу..."
+
+#. TP_Ignore(Self,'cbSkins');
+#: uMain.pas:1461  uMain.pas:2322 uMain.pas:2575
+msgid "No skin"
+msgstr "Без оболонки"
+
+#: uMain.pas:1500
 msgid "Saving file..."
 msgstr "Збереження файлу..."
 
-#: uMain.pas:842
-msgid "Opening image..."
-msgstr "Відкриття зображення..."
-
-#. TfwImage(fwImages[lbImages.ItemIndex]).SaveRAW(fw,'c:\1.zlib');
-#: uMain.pas:859
-#: uMain.pas:878
-#. imPreview5.Picture.Assign(im);
-#: uMain.pas:1118
+#. btDelImg.Enabled:=false;
+#. aImg:=imArrayRepl[lbImages.ItemIndex];
+#: uMain.pas:1663  uMain.pas:1691
 msgid "Image type: "
 msgstr "Тип зображення: "
 
-#: uMain.pas:861
-#: uMain.pas:880
-#: uMain.pas:1120
+#: uMain.pas:1665  uMain.pas:1693
 msgid "PNG"
 msgstr "PNG"
 
-#: uMain.pas:863
-#: uMain.pas:882
-#: uMain.pas:1122
+#: uMain.pas:1667  uMain.pas:1695
 msgid "packed"
 msgstr "паковане"
 
-#: uMain.pas:864
-#: uMain.pas:883
-#: uMain.pas:1123
+#: uMain.pas:1669  uMain.pas:1697
+msgid "Black&&White"
+msgstr "Чорно-біле"
+
+#: uMain.pas:1670  uMain.pas:1698
 msgid "Pixels size: "
 msgstr "Розмір в точках: "
 
-#: uMain.pas:865
-#: uMain.pas:884
-#: uMain.pas:1124
+#: uMain.pas:1671  uMain.pas:1699
 msgid "Bytes size: "
 msgstr "Розмір в байтах: "
 
-#: uMain.pas:888
+#: uMain.pas:1672  uMain.pas:1700
+msgid "Space for image: "
+msgstr "Місце під зображення: "
+
+#: uMain.pas:1673
+msgid "Image address: "
+msgstr "Адреса зображення: "
+
 #. UpdateSize(fw);
-#: uMain.pas:994
-#. Buf2:TByteArray;
-#: uMain.pas:1063
+#. Replaced:=false;
+#: uMain.pas:1814  uMain.pas:3385
 msgid "Error while working with image!\n"
 "Looks like it's broken"
 msgstr "Помилка при роботі з зображенням!\n"
 "Можливо, воно має невірний формат"
 
-#: uMain.pas:888
-#: uMain.pas:994
-#: uMain.pas:1063
-#: uMain.pas:1596
-#: uMain.pas:1600
-#: uMain.pas:2416
+#: uMain.pas:1814  uMain.pas:2240 uMain.pas:2244 uMain.pas:2890
+#: uMain.pas:3385
 msgid "Message: "
 msgstr "Повідомлення: "
 
-#: uMain.pas:1020
-#. im:TPNGObject;
-#: uMain.pas:1138
-#: uMain.pas:1376
-#: uMain.pas:2247
-#: uMain.pas:2259
-#: uMain.pas:2435
-msgid "File already exists. Rewrite?"
-msgstr "Файл вже існує. Перезаписати?"
-
-#: uMain.pas:1020
-#: uMain.pas:1138
-#: uMain.pas:1376
-#: uMain.pas:2247
-#: uMain.pas:2259
-#: uMain.pas:2435
-msgid "Rewrite?"
-msgstr "Перезаписати?"
-
-#: uMain.pas:1080
-msgid "Replacing image..."
-msgstr "Заміна зображення..."
-
-#: uMain.pas:1083
-#. WriteMemToFile('c:\1.zlib',Buf);
-#: uMain.pas:1106
-msgid "Image is too big, can't replace\n"
-"Image size: "
-msgstr "Зображення завелике, неможливо замінити\n"
-"Розмір зображення: "
-
-#: uMain.pas:1083
-#: uMain.pas:1106
-msgid "Allowed size: "
-msgstr "Допустимий розмір: "
-
-#: uMain.pas:1157
-msgid "Error loading image"
-msgstr "Помилка відкриття зображення"
-
-#: uMain.pas:1171
+#: uMain.pas:1855  uMain.pas:1857
 msgid "Looks like this file is for newer version of "
 "software"
-msgstr "Схоже цей файл створений новішою версією програми"
+msgstr "Схоже цей файл створений новішою версією "
+"програми"
 
 #. imgLen:=EndAddress-StartAddress;
-#: uMain.pas:1259
+#: uMain.pas:1949
 msgid "New image size differs from original, but cannot be safely saved!\n"
 "Replace anyway?"
 msgstr "Розмір зображення відрізняється від ориґінального, а новий розмір "
 "неможливо коректно зберегти!\n"
 "Замінити все одно?"
 
-#: uMain.pas:1259
+#: uMain.pas:1949
 msgid "Warning!"
 msgstr "Попередження!"
 
-#. fmMain.Enabled:=false;
-#: uMain.pas:1302
-msgid "Stop"
-msgstr "Зупинити"
-
-#: uMain.pas:1303
+#. btOpenFw.Caption:=_('Stop');
+#: uMain.pas:1993
 msgid "Stop processing"
 msgstr "Зупинити обробку"
 
-#. patch preview
-#: uMain.pas:1357
-msgid "Generating patch..."
-msgstr "Ґенерація патчу..."
-
-#: uMain.pas:1361
-msgid "No images changed or images are equal!\n"
-"Will not create empty file"
-msgstr "Жодного зображення не змінено, або зображення ідентичні!\n"
-"Не хочу створювати порожній файл"
-
-#: uMain.pas:1361
-msgid "Nothing to write"
-msgstr "Нема чого записувати"
-
-#: uMain.pas:1366
-msgid "Enter version"
-msgstr "Введіть версію"
-
-#: uMain.pas:1366
-msgid "Unable to guess firmware version\n"
-"Please enter it"
-msgstr "Неможливо автоматично визначити версію програмного забезпечення "
-"телефону\n"
-"Введіть версію вручну"
-
-#: uMain.pas:1370
-msgid "VKP files (*.vkp)|*.vkp"
-msgstr "Файли VKP (*.vkp)|*.vkp"
-
-#. Create preview image
-#: uMain.pas:1407
-msgid "Generating preview..."
-msgstr "Ґенерація попереднього перегляду..."
+#: uMain.pas:2012
+msgid "Finished in %s milliseconds, now waiting"
+msgstr "Оброблено за %s мілісекунд, очікування"
 
 #. Now try PngOptimizerCL.exe
-#: uMain.pas:1596
-#: uMain.pas:1600
+#: uMain.pas:2240  uMain.pas:2244
 msgid "Error while optimizing image!\n"
 "Error code: "
 msgstr "Помилка при оптимізації зображення!\n"
 "Код помилки: "
 
-#: uMain.pas:1596
-#: uMain.pas:1600
-#: uMain.pas:2416
+#: uMain.pas:2240  uMain.pas:2244 uMain.pas:2890
 msgid "Error!"
 msgstr "Помилка!"
 
-#: uMain.pas:1673
+#: uMain.pas:2282
 msgid "Processing colors..."
 msgstr "Обробка кольорів зображень..."
 
-#: uMain.pas:1686
-#. for i:=0 to 100 do begin
-#: uMain.pas:1786
+#: uMain.pas:2295
 msgid " images processed"
 msgstr " зображень оброблено"
 
-#: uMain.pas:1753
-msgid "Calculating sizes of images..."
-msgstr "Обчислення розмірів зображень..."
+#: uMain.pas:2522  uMain.pas:3682
+msgid " images found"
+msgstr " зображень знайдено"
 
-#: uMain.pas:2074
+#: uMain.pas:2672
 msgid "The .vkp is ready, now it's time to create a preview.\n"
 "But patch preview image size is large (%dx%d pixels), and software "
 "can crash while generating it.\n"
@@ -634,32 +648,145 @@ msgstr "Патч .vkp готовий, тепер час створити поп�
 "Все одно спробувати створити попередній "
 "перегляд?"
 
-#: uMain.pas:2074
+#: uMain.pas:2672
 msgid "Too big preview"
 msgstr "Завеликий попередній перегляд"
 
+#. fwIm:TfwImage;
+#: uMain.pas:2767  uMain.pas:2779 uMain.pas:3223 uMain.pas:3520
+#: uMain.pas:3703
+msgid "File already exists. Rewrite?"
+msgstr "Файл вже існує. Перезаписати?"
+
+#: uMain.pas:2767  uMain.pas:2779 uMain.pas:3223 uMain.pas:3520
+#: uMain.pas:3703
+msgid "Rewrite?"
+msgstr "Перезаписати?"
+
 #. Now try pngcrush
-#: uMain.pas:2416
+#: uMain.pas:2890
 msgid "Error while converting image to RGBA!\n"
 "Error code: "
 msgstr "Помилка при перетворенні зображення в RGBA!\n"
 "Код помилки: "
 
-#: uMain.pas:2431
-msgid "Saving project..."
-msgstr "Зберігаю проект..."
+#: uMain.pas:3402
+msgid "Replacing image..."
+msgstr "Заміна зображення..."
 
-#: uMain.pas:2432
-#: uMain.pas:2475
-msgid "IMT files (*.imt)|*.imt|All files (*.*)|*.*"
-msgstr "Файли IMT (*.imt)|*.imt|Всі файли (*.*)|*.*"
+#. SetPicture(FNewData,fim,Buf,im_width,im_height);
+#: uMain.pas:3406  uMain.pas:3428
+msgid "Image is too big, can't replace\n"
+"Image size: "
+msgstr "Зображення завелике, неможливо замінити\n"
+"Розмір зображення: "
 
-#: uMain.pas:2474
+#: uMain.pas:3406  uMain.pas:3428
+msgid "Allowed size: "
+msgstr "Допустимий розмір: "
+
+#. patch preview
+#: uMain.pas:3478
+msgid "Generating patch..."
+msgstr "Ґенерація патчу..."
+
+#: uMain.pas:3481  uMain.pas:3505
+msgid "No images changed or images are equal!\n"
+"Will not create empty file"
+msgstr "Жодного зображення не змінено, або зображення ідентичні!\n"
+"Не хочу створювати порожній файл"
+
+#: uMain.pas:3481  uMain.pas:3505
+msgid "Nothing to write"
+msgstr "Нема чого записувати"
+
+#: uMain.pas:3510
+msgid "Enter version"
+msgstr "Введіть версію"
+
+#: uMain.pas:3510
+msgid "Unable to guess firmware version\n"
+"Please enter it"
+msgstr "Неможливо автоматично визначити версію програмного забезпечення "
+"телефону\n"
+"Введіть версію вручну"
+
+#: uMain.pas:3514
+msgid "VKP files (*.vkp)|*.vkp"
+msgstr "Файли VKP (*.vkp)|*.vkp"
+
+#. Create preview image
+#: uMain.pas:3551
+msgid "Generating preview..."
+msgstr "Ґенерація попереднього перегляду..."
+
+#: uMain.pas:3601
 msgid "Loading project..."
 msgstr "Відкриття проекту..."
 
-#. Programmer's name: PNGOUTEXE EXE1
-#: pngout.rc:1
-msgid "pngout.exe"
+#: uMain.pas:3602  uMain.pas:3700
+msgid "IMT files (*.imt)|*.imt|All files (*.*)|*.*"
+msgstr "Файли IMT (*.imt)|*.imt|Всі файли (*.*)|*.*"
+
+#: uMain.pas:3615
+msgid "This project was created with version %f of software which has bugs "
+"that prevent it's normal usage. Load "
+"anyway?"
+msgstr "Цей проект створено версією %f програми, яка має помилки що заважають нормальному"
+"використанню проекту. Завантажити все одно?"
+
+#: uMain.pas:3622
+msgid "This project was created with version %f of software which is newer "
+"than current software and thus cannot be loaded.\n"
+"Please download new version from http://magister.ipsys.net"
+msgstr "Цей проект створено версією %f програми, яка новіша за дану "
+"і тому не може бути завантажено. Отримайте останню версію на http://magister.ipsys.net"
+
+#: uMain.pas:3636
+msgid "Cannot load firmware file: %s\n"
+"Open it manually and then load project"
+msgstr "Не можу відкрити файл: %s\n"
+"Відкрийте його вручну а потім завантажте проект"
+
+#: uMain.pas:3642
+msgid "Loaded firmware file is not the same the project was created\n"
+"Loading rhis project with incorrect firmware can crash program. Load "
+"anyway?"
+msgstr "Проект було створено з іншим RAW-файлом\n"
+"Відкриття проекту з невірним RAW-файлом може спричинити збій в роботі "
+"програми. Все одно відкрити?"
+
+#: uMain.pas:3642
+msgid "Different firmware file"
+msgstr "Інший RAW-файл"
+
+#: uMain.pas:3699
+msgid "Saving project..."
+msgstr "Зберігаю проект..."
+
+#. end;
+#: uMain.pas:3792
+msgid "This image is used as global deleted picture and can be restored only "
+"via full undo"
+msgstr "Це зображення використано як місце для всіх видалених зображень і "
+"може бути відновлено лише повним скиданням "
+"змін"
+
+#: uMain.pas:3792
+msgid "Cannot restore"
+msgstr "Неможливо відновити"
+
+#: uMain.pas:3928
+msgid "Images shown: %d"
+msgstr "Показано %d зображень"
+
+#. Programmer's name: EMPTYPNG PNG1
+#: empty.rc:1
+msgid "empty.png"
+msgstr ""
+
+#. Programmer's name: DELETEDPNG PNG2
+#: empty.rc:2
+msgid "deleted.png"
 msgstr ""
 

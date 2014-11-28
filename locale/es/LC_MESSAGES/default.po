@@ -1,6 +1,7 @@
+#
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+msgstr "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2008-01-13 00:12\n"
 "PO-Revision-Date: 2008-01-13 15:40\n"
 "Last-Translator: Adrian <adrian@topsony.com>\n"
@@ -9,258 +10,749 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: dxgettext 1.2.1\n"
 
-msgid " images found"
-msgstr " imagenes encontradas"
-
-msgid " images processed"
-msgstr " imagenes procesadas"
-
-msgid "Allowed size: "
-msgstr "Tamaсo permitido: "
-
-msgid "Bytes size: "
-msgstr "Tamaсo: "
-
-msgid "Calculating sizes of images..."
-msgstr "Calculando tamaсo de las imagenes..."
-
-msgid ""
-"Can't found any image!\n"
-"Maybe it's not db2020 RAW firmware file?"
+#. fmAbout..Caption
+#: uAbout.dfm:5
+msgid "About SE db2020 Image Tool"
 msgstr ""
-"No se pudo encontrar imagenes!\n"
-"Este no es un firmware de DB2020 en formato raw"
 
-msgid "Copy to clipboard"
-msgstr "Copiar al portapapeles"
-
-msgid "Enter version"
-msgstr "Version"
-
-msgid "Error"
-msgstr "Error"
-
-msgid ""
-"Error while optimizing image!\n"
-"Error code: "
+#. fmAbout..JvHTLabel1....Caption
+#: uAbout.dfm:33
+msgid "<br>\n"
+"<align=center>You can use and distribute software for free, but you "
+"<b>SHOULD NOT modify it</b><br>\n"
+"If you like this software, support author by sending some money to "
+"one of WebMoney wallets:<br>\n"
+"<b><font color=clRed>WMZ: Z006853598030 WMU: U778558752302 WMR: "
+"R428423234915 or EGold: 4952803</font></b><br>\n"
+"If you find some bug, or have ideas on program development write me: "
+"<a href=mailto:misha.cn.ua@gmail.com>misha.cn.ua@gmail.com</a><br>\n"
+"<br>\n"
+"A big THANKS to following people:<br></align>\n"
+"<br>"
 msgstr ""
-"Error al optimazar imagenes!\n"
-"Codigo de Error: "
 
-msgid ""
-"Error while working with image!\n"
-"Looks like it's broken"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:54
+msgid "<align=center><b>--Development--</b></align>"
 msgstr ""
-"Error al trabajar con las imagenes!\n"
-"Parece que esta daсado"
 
-msgid "Error!"
-msgstr "Error!"
-
-msgid "File already exists. Rewrite?"
-msgstr "El archivo ya existe. їSobreescribir?"
-
-msgid "Fix colors and optimize image"
-msgstr "Arreglar colores y optimazar imagenes"
-
-msgid "Generating patch..."
-msgstr "Generando Parche..."
-
-msgid "Generating preview..."
-msgstr "Generando vista previa..."
-
-msgid ""
-"Image is too big, can't replace\n"
-"Image size: "
+#. fmAbout..lbThanks......Items.Strings
+#: uAbout.dfm:57
+msgid "<b>Hussein</b> - for information on image table and B&W image "
+"format"
 msgstr ""
-"La imagenes e muy grande, no se puede reemplazar\n"
-"Tamaсo de imagen: "
 
-msgid "Image type: "
-msgstr "Tipo de imagen: "
-
-msgid "Language:"
-msgstr "Idioma:"
-
-msgid "Look&&feel:"
-msgstr "Ver:"
-
-msgid "Make .vkp"
-msgstr "Armar .vkp"
-
-msgid "Make .vkp patch"
-msgstr "Armar un parche .vkp"
-
-msgid "Message: "
-msgstr "Mensaje: "
-
-msgid ""
-"New image size differs from original, but cannot be safely saved!\n"
-"Replace anyway?"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:58
+msgid "<b>ego</b> - for information on packed image "
+"format"
 msgstr ""
-"El tamaсo de la nueva imagen difiere del original"
-"pero no s seguro guardarla!\n"
-"їReemplazar Igual?"
 
-msgid ""
-"No images changed or images are equal!\n"
-"Will not create empty file"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:59
+msgid "<b>INFerno---</b> - for information on BABE "
+"format"
 msgstr ""
-"Imagenes no cambiadas!\n"
-"No se cresra un archivo vacio"
 
-msgid "Nothing to write"
-msgstr "Nada para escribir"
-
-msgid "Open"
-msgstr "Abrir"
-
-msgid "Open RAW file"
-msgstr "Abrir archivo .RAW"
-
-msgid "Opening image..."
-msgstr "Abriendo imagenes..."
-
-msgid "PNG"
-msgstr "PNG"
-
-msgid "Pixels size: "
-msgstr "Tamaсo de Pixeles: "
-
-msgid "Please wait..."
-msgstr "Espere..."
-
-msgid "Processing colors..."
-msgstr "Procesando colores..."
-
-msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
-msgstr "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
-
-msgid "Reading file..."
-msgstr "Leyendo archivo..."
-
-msgid "Replace"
-msgstr "Remplazar"
-
-msgid "Replace selected image"
-msgstr "Remplazar imagen seleccionada"
-
-msgid "Replacing image..."
-msgstr "Remplazando imagen..."
-
-msgid "Restore"
-msgstr "Restaurar"
-
-msgid "Restore RAW"
-msgstr "Restaurar RAW"
-
-msgid "Restore original image"
-msgstr "REstaurar imagen original"
-
-msgid "Rewrite?"
-msgstr "їReescribir?"
-
-msgid "Save selected image to disk"
-msgstr "Guardar imagen seleccionada al disco"
-
-msgid "Save to disk"
-msgstr "Guardar al disco"
-
-msgid "Saving file..."
-msgstr "Guardando archivo..."
-
-msgid "Scan images between"
-msgstr "Escanear imagenes entre"
-
-msgid "Stop"
-msgstr "Cancelar"
-
-msgid "Stop processing"
-msgstr "Cancelando Proceso"
-
-msgid "Stretch preview"
-msgstr "Stretch Vista Previa"
-
-msgid "Testing"
-msgstr "Testeando"
-
-msgid ""
-"The .vkp is ready, now it's time to create a preview.\n"
-"But patch preview image size is large (%dx%d pixels), and software can crash "
-"while generating it.\n"
-"Generate preview anyway?"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:60
+msgid "<align=center><b>--Translations--</b></align>"
 msgstr ""
-"El .vkp esta listo, ahora es tiempo de crear la vista previa.\n"
-"Pero el tamaсo de la imagen de la vista previa del parches es larga (%dx%d pixeles), y el programa podria daсarse "
-"mientras se genera este.\n"
-"їGenerar vista previa igual?"
 
-msgid "Thumnail size:"
-msgstr "Tamaсo Thumnail:"
-
-msgid "Too big preview"
-msgstr "Vista previa demasiado grande"
-
-msgid "Transparency is not supported"
-msgstr "Transparencia no es soportada"
-
-msgid ""
-"Transparency is supported only for color types \"RGBALPHA\" and "
-"\"GRAYSCALEALPHA\"\n"
-"Image will be saved as non-transparent"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:61
+msgid "<b>Magister (it's me :) )</b> - Ukrainian and "
+"English"
 msgstr ""
-"Transparencia es solo soportada para colores \"RGBALPHA\" and "
-"\"GRAYSCALEALPHA\"\n"
-"La imagen sera guardada sin transparencia"
 
-msgid "Ukrainian"
-msgstr "Ucraniano"
-
-msgid ""
-"Unable to guess firmware version\n"
-"Please enter it"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:62
+msgid "<b>DJSuB</b> - Hungarian"
 msgstr ""
-"Imposible encontrar version de Firmware"
-"Por favor ingrese este"
 
-msgid "VKP files (*.vkp)|*.vkp"
-msgstr "VKP files (*.vkp)|*.vkp"
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:63
+msgid "<b>Adrian</b> - Spanish"
+msgstr ""
 
-msgid "Wait..."
-msgstr "Espere..."
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:64
+msgid "<b>Blast Pit</b> - Russian"
+msgstr ""
 
+#. fmAbout..lbThanks......Items.Strings
+#: uAbout.dfm:67
+msgid "<align=center><b><a href=http://magister.ipsys.net>Visit my site for "
+"new versions</a></b></align>"
+msgstr ""
+
+#. fmAbout..lbThanks....Items.Strings
+#: uAbout.dfm:68
+msgid "<align=center><b>---------------------------</b></align>"
+msgstr ""
+
+#. fmAbout..sSkinProvider1..SkinData.SkinSection
+#. fmMain..sSkinProvider1..SkinData.SkinSection
+#. fmWait..sSkinProvider1..SkinData.SkinSection
+#: uAbout.dfm:72  uMain.dfm:1555 uWaitForm.dfm:41
+msgid "FORM"
+msgstr ""
+
+#. fmMain..Caption
+#: uMain.dfm:6
+msgid "SE db2020 Image Tool"
+msgstr ""
+
+#. fmMain..sSplitter2..SkinData.SkinSection
+#. fmMain..sPanel2..sSplitter1..SkinData.SkinSection
+#: uMain.dfm:34  uMain.dfm:416
+msgid "SPLITTER"
+msgstr ""
+
+#. fmMain..sbStatus......Text
+#: uMain.dfm:43
 msgid "Waiting"
 msgstr "Esperando"
 
-msgid "Warning!"
-msgstr "Advertencia!"
+#. fmMain..sbStatus..SkinData.SkinSection
+#: uMain.dfm:50
+msgid "STATUSBAR"
+msgstr ""
 
+#. fmMain..sbStatus..pbProgress..SkinData.SkinSection
+#: uMain.dfm:63
+msgid "GAUGE"
+msgstr ""
+
+#. fmMain..sPanel1..SkinData.SkinSection
+#. fmMain..sPanel2..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..pnAbout..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..sPanel5..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..pnDevControls..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..SkinData.SkinSection
+#. fmMain..sSkinManager1..MenuSupport.IcoLineSkin
+#: uMain.dfm:74  uMain.dfm:409 uMain.dfm:426 uMain.dfm:521 uMain.dfm:856
+#: uMain.dfm:883 uMain.dfm:909 uMain.dfm:960 uMain.dfm:1541
+msgid "ICOLINE"
+msgstr ""
+
+#. fmMain..sPanel1..sLabel1..Caption
+#: uMain.dfm:84
+msgid "Thumnail size:"
+msgstr "Tamaсo Thumnail:"
+
+#. fmMain..sPanel1..sLabel4..Caption
+#: uMain.dfm:98
+msgid "Look&&feel:"
+msgstr "Ver:"
+
+#. fmMain..sPanel1..sLabel5..Caption
+#: uMain.dfm:139
+msgid "Language:"
+msgstr "Idioma:"
+
+#. fmMain..sPanel1..seThumbHeight..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..lbImages..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..edFilterName..SkinData.SkinSection
+#. fmMain..pnLog..meLog..SkinData.SkinSection
+#: uMain.dfm:179  uMain.dfm:938 uMain.dfm:1021 uMain.dfm:1088
+msgid "EDIT"
+msgstr ""
+
+#. fmMain..sPanel1..cbStretchPreview..Caption
+#: uMain.dfm:198
+msgid "Stretch preview"
+msgstr "Stretch Vista Previa"
+
+#. fmMain..sPanel1..cbStretchPreview..SkinData.SkinSection
+#. fmMain..sPanel1..cbFixColors..SkinData.SkinSection
+#. fmMain..sPanel1..cbExpertMode..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..cbDeleted..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..cbReplaced..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel6..sPanel7..cbUnchanged..SkinData.SkinSection
+#: uMain.dfm:202  uMain.dfm:216 uMain.dfm:396 uMain.dfm:974 uMain.dfm:988
+#: uMain.dfm:1002
+msgid "CHECKBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbFixColors..Caption
+#: uMain.dfm:211
+msgid "Fix colors and optimize image"
+msgstr "Arreglar colores y optimazar imagenes"
+
+#. fmMain..sPanel1..cbSkins..SkinData.SkinSection
+#. fmMain..sPanel1..cbLanguage..SkinData.SkinSection
+#: uMain.dfm:235  uMain.dfm:265
+msgid "COMBOBOX"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:280
+msgid "English"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:281
+msgid "Українська"
+msgstr ""
+
+#. fmMain..sPanel1..cbLanguage....Items.Strings
+#: uMain.dfm:282
+msgid "Hungarian"
+msgstr ""
+
+#. fmMain..sPanel1..btLoadProject..SkinData.SkinSection
+#. fmMain..sPanel1..btSaveProject..SkinData.SkinSection
+#. fmMain..sPanel1..btOpenFw..SkinData.SkinSection
+#. fmMain..sPanel1..btSaveImg..SkinData.SkinSection
+#. fmMain..sPanel1..btDelImg..SkinData.SkinSection
+#. fmMain..sPanel1..btReplaceImg..SkinData.SkinSection
+#. fmMain..sPanel1..btMakeVKP..SkinData.SkinSection
+#. fmMain..sPanel1..btClearFW..SkinData.SkinSection
+#. fmMain..sPanel1..btAbout..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..btSaveOrig..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbOriginal..btOpenOrig..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..btSaveRepl..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..btOpenRepl..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..btRestoreOriginal..SkinData.SkinSection
+#: uMain.dfm:291  uMain.dfm:303 uMain.dfm:315 uMain.dfm:326 uMain.dfm:337
+#: uMain.dfm:348 uMain.dfm:359 uMain.dfm:370 uMain.dfm:382 uMain.dfm:644
+#: uMain.dfm:697 uMain.dfm:781 uMain.dfm:834 uMain.dfm:844
+msgid "BUTTON"
+msgstr ""
+
+#. fmMain..sPanel1..cbExpertMode..Caption
+#: uMain.dfm:392
+msgid "Expert mode"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..sPanel4..SkinData.SkinSection
+#: uMain.dfm:511
+msgid "BARPANEL"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnAbout..lbNoWarranty....Caption
+#: uMain.dfm:533
+msgid "By using this software You agree that THE ENTIRE RISK AS TO THE "
+"QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE "
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY "
+"SERVICING, REPAIR OR CORRECTION"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..gbOriginal..SkinData.SkinSection
+#. fmMain..sPanel2..sPanel3..gbPreview..SkinData.SkinSection
+#: uMain.dfm:571  uMain.dfm:708
+msgid "GROUPBOX"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..Caption
+#: uMain.dfm:876
+msgid "pnDevControls"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..ToolButton2..Caption
+#: uMain.dfm:888
+msgid "Free space log"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel3..pnDevControls..btShowImageAddress..Caption
+#: uMain.dfm:896
+msgid "Show image address"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..sPanel7..cbDeleted..Caption
+#: uMain.dfm:969
+msgid "Deleted"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..sPanel7..cbReplaced..Caption
+#: uMain.dfm:983
+msgid "Replaced"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..sPanel7..cbUnchanged..Caption
+#: uMain.dfm:997
+msgid "Unchanged"
+msgstr ""
+
+#. fmMain..sPanel2..sPanel6..sPanel7..edFilterName..BoundLabel.Caption
+#: uMain.dfm:1023
+msgid "Filter by"
+msgstr ""
+
+#. fmMain..pnLog..SkinData.SkinSection
+#: uMain.dfm:1045
+msgid "PANEL"
+msgstr ""
+
+#. fmMain..pnLog..lbData..Caption
+#: uMain.dfm:1055
+msgid " \n"
+" "
+msgstr ""
+
+#. fmMain..pnLog..btClearLog..SkinData.SkinSection
+#: uMain.dfm:1099
+msgid "SPEEDBUTTON_SMALL"
+msgstr ""
+
+#. fmMain..OpenDialog1....Filter
+#: uMain.dfm:1108  uMain.pas:3180
+msgid "All supported files|*.mbn;*.raw|MBN files (*.mbn)|*.mbn|RAW files "
+"(*.raw)|*.raw|All files (*.*)|*.*"
+msgstr ""
+
+#. fmMain..SaveDialog1..Filter
+#: uMain.dfm:1113  uMain.pas:2764 uMain.pas:2776 uMain.pas:2791
+#: uMain.pas:2804
+msgid "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+msgstr "RAW files (*.raw)|*.raw|All files (*.*)|*.*"
+
+#. fmMain..OpenPictureDialog1..Filter
+#. fmMain..SavePictureDialog1..Filter
+#: uMain.dfm:1118  uMain.dfm:1123
+msgid "Portable Network Graphics (*.png)|*.png"
+msgstr ""
+
+#. fmMain..sSkinManager1......Name
+#. fmMain..sSkinManager1..SkinName
+#: uMain.dfm:1139  uMain.dfm:1548
+msgid "BlueGauze"
+msgstr ""
+
+#. fmMain..sSkinManager1..SkinDirectory
+#: uMain.dfm:1547
+msgid "c:\\Skins"
+msgstr ""
+
+#. fmMain..PopupMenu1..N1..Caption
+#: uMain.dfm:1609
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#. fmMain..PopupMenu1..N49528031..Caption
+#: uMain.dfm:1625
+msgid "EGold 4952803"
+msgstr ""
+
+#. fmMain..PopupMenu1..N2..Caption
+#: uMain.dfm:1633
 msgid "Write email to author"
 msgstr "Escribir email al autor"
 
-msgid "Write file"
-msgstr "Escribir Archivo"
-
-msgid ""
-"You can use and distribute software for free, but you SHOULD NOT \n"
-"modify it If you like this software, support author by sending some money to "
-"one of WebMoney wallets:\n"
-"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 or EGold: 4952803\n"
-"If you find some bug, or have ideas on program development write me: misha."
-"cn.ua@gmail.com\n"
-"A big THANKS to ego and Hussein for providing information on phone image "
-"format and location.\n"
-" "
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringTrueValues
+#: uMain.dfm:1638
+msgid "TRUE, YES, Y"
 msgstr ""
-"Puedes usar y distribuir gratuitamente el software, pero no debes \n"
-"modificar este. Si te gusta este programa, envia dinero al autor "
-"a una cuenta de WebMoney:\n"
-"WMZ: Z006853598030 WMU: U778558752302 WMR: R428423234915 Р°Р±Рѕ EGold: 4952803\n"
-"Si encuentrar algun bug, o tienes ideas para el desarrollo del programa esbribime a:"
-"adrian@topsony.com\n"
-"Un gran agradecimiento a ego y Hussein por la informacion sobre el formato de "
-"las imagenes y su ubicacion.\n"
-" "
 
+#. fmMain..JvAppRegistryStorage1..StorageOptions.BooleanStringFalseValues
+#: uMain.dfm:1639
+msgid "FALSE, NO, N"
+msgstr ""
+
+#. fmMain..JvFormStorage1..AppStoragePath
+#: uMain.dfm:1648
+msgid "fmMain\\"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1658
+msgid "cbStretchPreview.Checked"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1659
+msgid "seThumbHeight.Value"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1661
+msgid "cbFixColors.Checked"
+msgstr ""
+
+#. fmMain..JvFormStorage1....StoredProps.Strings
+#: uMain.dfm:1663
+msgid "cbExpertMode.Checked"
+msgstr ""
+
+#. fmMain..sHintManager1..SkinSection
+#: uMain.dfm:1696
+msgid "HINT"
+msgstr ""
+
+#. fmMain..ActionList1..acOpen..Hint
+#. btOpenFw.Caption:=_('Open');
+#: uMain.dfm:2397  uMain.pas:2009
+msgid "Open RAW file"
+msgstr "Abrir archivo .RAW"
+
+#. fmMain..ActionList1..acSaveImg..Hint
+#: uMain.dfm:2404
+msgid "Save selected image to disk"
+msgstr "Guardar imagen seleccionada al disco"
+
+#. fmMain..ActionList1..acDeleteImg..Hint
+#: uMain.dfm:2411
+msgid "Delete image"
+msgstr ""
+
+#. fmMain..ActionList1..acReplaceImg..Hint
+#: uMain.dfm:2418
+msgid "Replace selected image"
+msgstr "Remplazar imagen seleccionada"
+
+#. fmMain..ActionList1..acMakeVKP..Hint
+#: uMain.dfm:2425
+msgid "Make .vkp patch"
+msgstr "Armar un parche .vkp"
+
+#. fmMain..ActionList1..acClearFW..Hint
+#: uMain.dfm:2432
+msgid "Restore RAW"
+msgstr "Restaurar RAW"
+
+#. fmMain..ActionList1..acLoadProject..Hint
+#: uMain.dfm:2438
+msgid "Load project"
+msgstr ""
+
+#. fmMain..ActionList1..acSaveProject..Hint
+#: uMain.dfm:2445
+msgid "Save project"
+msgstr ""
+
+#. fmMain..ActionList1..acRestoreOriginal..Hint
+#: uMain.dfm:2452
+msgid "Restore original image"
+msgstr "REstaurar imagen original"
+
+#. fmMain..ActionList1..acAbout..Hint
+#: uMain.dfm:2458
+msgid "About..."
+msgstr ""
+
+#. fmMain..ActionList1..acClearLog..Hint
+#: uMain.dfm:2463
+msgid "Clear log"
+msgstr ""
+
+#. fmWait..Caption
+#: uWaitForm.dfm:5
+msgid "Wait..."
+msgstr "Espere..."
+
+#. fmWait..sLabelFX1..Caption
+#: uWaitForm.dfm:30
+msgid "Please wait..."
+msgstr "Espere..."
+
+#: uMain.pas:421
+msgid "Free space: %d bytes in %d blocks"
+msgstr ""
+
+#: uMain.pas:422
+msgid "Largest block: %d bytes; Smallest block: %d "
+"bytes"
+msgstr ""
+
+#: uMain.pas:423
+msgid "Need to replace: %d images consuming %d "
+"bytes"
+msgstr ""
+
+#. fmMain.meLog.Lines.Add('Block after: Start: '+IntToHex(picbase+tmpBlocks[j].Offset,8)+'; End: '+IntToHex(picbase+tmpBlocks[j].Offset+tmpBlocks[j].Length,8));
+#: uMain.pas:1057
+msgid "There is no enough free space to replace all images.\n"
+"Either cancel some of the replacements, or delete one or more images "
+"to get free space."
+msgstr ""
+
+#: uMain.pas:1057
+msgid "Not enough free blocks"
+msgstr ""
+
+#: uMain.pas:1190  uMain.pas:1841
+msgid "Error loading image"
+msgstr ""
+
+#: uMain.pas:1229  uMain.pas:1233
+msgid "Failed to open RAW file"
+msgstr ""
+
+#: uMain.pas:1239
+msgid "Cannot read MBN file"
+msgstr ""
+
+#: uMain.pas:1316
+msgid "It's not a BABE file or it is corrupted, cannot "
+"open!"
+msgstr ""
+
+#: uMain.pas:1316  uMain.pas:1340 uMain.pas:1814 uMain.pas:3385
+#: uMain.pas:3406 uMain.pas:3428 uMain.pas:3615 uMain.pas:3622
+msgid "Error"
+msgstr "Error"
+
+#: uMain.pas:1340
+msgid "Not supported BABE version: %d"
+msgstr ""
+
+#: uMain.pas:1349
+msgid "Cannot read RAW file"
+msgstr ""
+
+#: uMain.pas:1410
+msgid "Reading file..."
+msgstr "Leyendo archivo..."
+
+#. TP_Ignore(Self,'cbSkins');
+#: uMain.pas:1461  uMain.pas:2322 uMain.pas:2575
+msgid "No skin"
+msgstr ""
+
+#: uMain.pas:1500
+msgid "Saving file..."
+msgstr "Guardando archivo..."
+
+#. btDelImg.Enabled:=false;
+#. aImg:=imArrayRepl[lbImages.ItemIndex];
+#: uMain.pas:1663  uMain.pas:1691
+msgid "Image type: "
+msgstr "Tipo de imagen: "
+
+#: uMain.pas:1665  uMain.pas:1693
+msgid "PNG"
+msgstr "PNG"
+
+#: uMain.pas:1667  uMain.pas:1695
 msgid "packed"
 msgstr "packed"
+
+#: uMain.pas:1669  uMain.pas:1697
+msgid "Black&&White"
+msgstr ""
+
+#: uMain.pas:1670  uMain.pas:1698
+msgid "Pixels size: "
+msgstr "Tamaсo de Pixeles: "
+
+#: uMain.pas:1671  uMain.pas:1699
+msgid "Bytes size: "
+msgstr "Tamaсo: "
+
+#: uMain.pas:1672  uMain.pas:1700
+msgid "Space for image: "
+msgstr ""
+
+#: uMain.pas:1673
+msgid "Image address: "
+msgstr ""
+
+#. UpdateSize(fw);
+#. Replaced:=false;
+#: uMain.pas:1814  uMain.pas:3385
+msgid "Error while working with image!\n"
+"Looks like it's broken"
+msgstr "Error al trabajar con las imagenes!\n"
+"Parece que esta daсado"
+
+#: uMain.pas:1814  uMain.pas:2240 uMain.pas:2244 uMain.pas:2890
+#: uMain.pas:3385
+msgid "Message: "
+msgstr "Mensaje: "
+
+#: uMain.pas:1855  uMain.pas:1857
+msgid "Looks like this file is for newer version of "
+"software"
+msgstr ""
+
+#. imgLen:=EndAddress-StartAddress;
+#: uMain.pas:1949
+msgid "New image size differs from original, but cannot be safely saved!\n"
+"Replace anyway?"
+msgstr "El tamaсo de la nueva imagen difiere del originalpero no s seguro "
+"guardarla!\n"
+"їReemplazar Igual?"
+
+#: uMain.pas:1949
+msgid "Warning!"
+msgstr "Advertencia!"
+
+#. btOpenFw.Caption:=_('Stop');
+#: uMain.pas:1993
+msgid "Stop processing"
+msgstr "Cancelando Proceso"
+
+#: uMain.pas:2012
+msgid "Finished in %s milliseconds, now waiting"
+msgstr ""
+
+#. Now try PngOptimizerCL.exe
+#: uMain.pas:2240  uMain.pas:2244
+msgid "Error while optimizing image!\n"
+"Error code: "
+msgstr "Error al optimazar imagenes!\n"
+"Codigo de Error: "
+
+#: uMain.pas:2240  uMain.pas:2244 uMain.pas:2890
+msgid "Error!"
+msgstr "Error!"
+
+#: uMain.pas:2282
+msgid "Processing colors..."
+msgstr "Procesando colores..."
+
+#: uMain.pas:2295
+msgid " images processed"
+msgstr " imagenes procesadas"
+
+#: uMain.pas:2522  uMain.pas:3682
+msgid " images found"
+msgstr " imagenes encontradas"
+
+#: uMain.pas:2672
+msgid "The .vkp is ready, now it's time to create a preview.\n"
+"But patch preview image size is large (%dx%d pixels), and software "
+"can crash while generating it.\n"
+"Generate preview anyway?"
+msgstr "El .vkp esta listo, ahora es tiempo de crear la vista previa.\n"
+"Pero el tamaсo de la imagen de la vista previa del parches es larga "
+"(%dx%d pixeles), y el programa podria daсarse mientras se genera "
+"este.\n"
+"їGenerar vista previa igual?"
+
+#: uMain.pas:2672
+msgid "Too big preview"
+msgstr "Vista previa demasiado grande"
+
+#. fwIm:TfwImage;
+#: uMain.pas:2767  uMain.pas:2779 uMain.pas:3223 uMain.pas:3520
+#: uMain.pas:3703
+msgid "File already exists. Rewrite?"
+msgstr "El archivo ya existe. їSobreescribir?"
+
+#: uMain.pas:2767  uMain.pas:2779 uMain.pas:3223 uMain.pas:3520
+#: uMain.pas:3703
+msgid "Rewrite?"
+msgstr "їReescribir?"
+
+#. Now try pngcrush
+#: uMain.pas:2890
+msgid "Error while converting image to RGBA!\n"
+"Error code: "
+msgstr ""
+
+#: uMain.pas:3402
+msgid "Replacing image..."
+msgstr "Remplazando imagen..."
+
+#. SetPicture(FNewData,fim,Buf,im_width,im_height);
+#: uMain.pas:3406  uMain.pas:3428
+msgid "Image is too big, can't replace\n"
+"Image size: "
+msgstr "La imagenes e muy grande, no se puede reemplazar\n"
+"Tamaсo de imagen: "
+
+#: uMain.pas:3406  uMain.pas:3428
+msgid "Allowed size: "
+msgstr "Tamaсo permitido: "
+
+#. patch preview
+#: uMain.pas:3478
+msgid "Generating patch..."
+msgstr "Generando Parche..."
+
+#: uMain.pas:3481  uMain.pas:3505
+msgid "No images changed or images are equal!\n"
+"Will not create empty file"
+msgstr "Imagenes no cambiadas!\n"
+"No se cresra un archivo vacio"
+
+#: uMain.pas:3481  uMain.pas:3505
+msgid "Nothing to write"
+msgstr "Nada para escribir"
+
+#: uMain.pas:3510
+msgid "Enter version"
+msgstr "Version"
+
+#: uMain.pas:3510
+msgid "Unable to guess firmware version\n"
+"Please enter it"
+msgstr "Imposible encontrar version de FirmwarePor favor ingrese "
+"este"
+
+#: uMain.pas:3514
+msgid "VKP files (*.vkp)|*.vkp"
+msgstr "VKP files (*.vkp)|*.vkp"
+
+#. Create preview image
+#: uMain.pas:3551
+msgid "Generating preview..."
+msgstr "Generando vista previa..."
+
+#: uMain.pas:3601
+msgid "Loading project..."
+msgstr ""
+
+#: uMain.pas:3602  uMain.pas:3700
+msgid "IMT files (*.imt)|*.imt|All files (*.*)|*.*"
+msgstr ""
+
+#: uMain.pas:3615
+msgid "This project was created with version %f of software which has bugs "
+"that prevent it's normal usage. Load "
+"anyway?"
+msgstr ""
+
+#: uMain.pas:3622
+msgid "This project was created with version %f of software which is newer "
+"than current software and thus cannot be loaded.\n"
+"Please download new version from http://magister.ipsys.net"
+msgstr ""
+
+#: uMain.pas:3636
+msgid "Cannot load firmware file: %s\n"
+"Open it manually and then load project"
+msgstr ""
+
+#: uMain.pas:3642
+msgid "Loaded firmware file is not the same the project was created\n"
+"Loading rhis project with incorrect firmware can crash program. Load "
+"anyway?"
+msgstr ""
+
+#: uMain.pas:3642
+msgid "Different firmware file"
+msgstr ""
+
+#: uMain.pas:3699
+msgid "Saving project..."
+msgstr ""
+
+#. end;
+#: uMain.pas:3792
+msgid "This image is used as global deleted picture and can be restored only "
+"via full undo"
+msgstr ""
+
+#: uMain.pas:3792
+msgid "Cannot restore"
+msgstr ""
+
+#: uMain.pas:3928
+msgid "Images shown: %d"
+msgstr ""
+
+#. Programmer's name: EMPTYPNG PNG1
+#: empty.rc:1
+msgid "empty.png"
+msgstr ""
+
+#. Programmer's name: DELETEDPNG PNG2
+#: empty.rc:2
+msgid "deleted.png"
+msgstr ""
+
